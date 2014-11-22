@@ -4,15 +4,17 @@ require.config({
 		'jquery': 'bower_components/jquery/dist/jquery',
 		'classie': 'js/lib/classie',
 		'bootstrapValidation': 'js/lib/jqBootstrapValidation',
-		'bootstrap': 'js/lib/bootstrap.min'
+		'bootstrap': 'js/lib/bootstrap.min',
+		'skippr': 'js/lib/jquery.skippr'
 	}
 });
 
 require([
 	'jquery',
-	'bower_components/jquery.easing/js/jquery.easing',
-	'js/contact_me',
-	'js/cbpAnimatedHeader',
+	'js/lib/jquery.easing',
+	'skippr',
+	'js/dev/contact_me',
+	'js/dev/cbpAnimatedHeader',
 	'bootstrap'
 ], function(){
 	/*!
@@ -30,6 +32,12 @@ require([
 	        }, 1500, 'easeInOutExpo');
 	        event.preventDefault();
 	    });
+
+        $("#skippr").skippr({
+        	autoPlay: true,
+        	keyboardOnAlways: false,
+        	autoPlayDuration: 4000
+        });
 	});
 
 	// Highlight the top nav as scrolling occurs

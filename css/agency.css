@@ -1,4 +1,5 @@
 @import 'bootstrap.min.css';
+@import '../bower_components/skippr/css/jquery.skippr.css';
 
 body {
     overflow-x: hidden;
@@ -262,14 +263,7 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
-    background-attachment: scroll;
-    background-image: url('../img/header-bg.jpg');
-    background-position: center -26px;
-    background-repeat: no-repeat;
-    /*-webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;*/
+    position: relative;
 }
 
 header .intro-text {
@@ -295,8 +289,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 570px;
-        padding-bottom: 130px;
+        padding-top: 536px;
     }
 
     header .intro-text .intro-lead-in {
@@ -931,4 +924,13 @@ body {
 .modal-body h3{
     color: #0E1F5C;
     margin-top: 0;
+}
+.skippr-fix{
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#skippr {
+    height: 680px!important
 }
