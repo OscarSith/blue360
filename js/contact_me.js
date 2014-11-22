@@ -1,5 +1,4 @@
-$(function() {
-
+define(['bootstrapValidation'], function(jqBootstrapValidation) {
     $("input,textarea").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function($form, event, errors) {
@@ -50,7 +49,7 @@ $(function() {
                     //clear all fields
                     $('#contactForm').trigger("reset");
                 },
-            })
+            });
         },
         filter: function() {
             return $(this).is(":visible");
@@ -61,10 +60,9 @@ $(function() {
         e.preventDefault();
         $(this).tab("show");
     });
-});
 
-
-/*When clicking on Full hide fail/success boxes */
-$('#name').focus(function() {
-    $('#success').html('');
+    /*When clicking on Full hide fail/success boxes */
+    $('#name').focus(function() {
+        $('#success').html('');
+    });
 });
