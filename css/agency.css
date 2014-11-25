@@ -197,30 +197,41 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .nav li a {
-    text-transform: uppercase;
+    border: 1px solid transparent;
+    color: #fff;
+    font-size: .9em;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
-    border: 1px solid transparent;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-transform: uppercase;
 }
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #fed136;
+    background-color: #1D256E;
+    color: #fff
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
     background-color: #1D256E;
-    border-color: #5C5C5C;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
     background-color: #131A5A;
+}
+@media(max-width: 480px) {
+    .pa-left-90{
+        padding-left: 30px !important;
+    }
+    .pa-right-90{
+        padding-right: 30px !important;
+    }
 }
 
 @media(min-width:768px) {
@@ -319,7 +330,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 100px 0;
     }
 }
 
@@ -789,7 +800,8 @@ ul.social-buttons li a:active {
     right: 25px;
     width: 75px;
     height: 75px;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.21);
+    z-index: 9999;
     cursor: pointer;
 }
 
@@ -861,6 +873,7 @@ body {
     color: #1E130F;
 }
 .services-info td{
+    vertical-align: top;
     width: 294px;
 }
 .icon {
@@ -868,6 +881,7 @@ body {
     background-repeat: no-repeat;
     display: block;
     margin: 0 auto;
+    margin-bottom: 6px;
     height: 96px;
     width: 96px;
 }
@@ -900,11 +914,20 @@ body {
     padding-right: 30px;
 }
 .img-modal-serv{
-    width: 360px;
+    width: 320px;
 }
 .modal-body h3{
     color: #0E1F5C;
     margin-top: 0;
+}
+.modal-body {
+    margin-bottom: 20px
+}
+.modal-body p{
+    text-align: justify;
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .skippr-fix{
     left: 0;
