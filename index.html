@@ -9,8 +9,8 @@
 
     <title>Blue360</title>
 
-    <link href="css/main.css" rel="stylesheet">
-    <!-- <link href="css/agency.css" rel="stylesheet"> -->
+    <!-- <link href="css/main.css" rel="stylesheet"> -->
+    <link href="css/agency.css" rel="stylesheet">
 
     <!-- Custom Fonts FuturaStd -->
     <!--<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">-->
@@ -92,10 +92,10 @@
                 <table align="center" class="services-info">
                     <tr>
                         <td colspan="2">
-                            <a href="#">
+                            <a href="#id-corp" data-toggle="modal">
                                 <i class="icon" id="id-corporative"></i>
                                 <span>
-                                    IDENTIDAD CORPORATIVA<br>
+                                    <span class="title-produts">IDENTIDAD CORPORATIVA</span>
                                     <small class="hidden-xs">Identidad - Logotipo - Atributos - papeleria</small>
                                 </span>
                             </a>
@@ -104,7 +104,7 @@
                             <a href="#creacion-web" data-toggle="modal">
                                 <i class="icon" id="web-creation"></i>
                                 <span>
-                                    CREACIÓN WEB<br>
+                                    <span class="title-produts">CREACIÓN WEB</span>
                                     <small class="hidden-xs">Diseño web - Programación web</small>
                                 </span>
                             </a>
@@ -113,7 +113,7 @@
                             <a href="#marketing-digital" data-toggle="modal">
                                 <i class="icon" id="mark-digital"></i>
                                 <span>
-                                    MARKETING DIGITAL<br>
+                                    <span class="title-produts">MARKETING DIGITAL</span>
                                     <small class="hidden-xs">Redes sociales - Estrategias - Posicionamiento web</small>
                                 </span>
                             </a>
@@ -124,16 +124,16 @@
                             <a href="#marketing-audiovisual" data-toggle="modal">
                                 <i class="icon" id="mark-audio"></i>
                                 <span>
-                                    MARKETING AUDIOVISUAL<br>
+                                    <span class="title-produts">MARKETING AUDIOVISUAL</span>
                                     <small class="hidden-xs">Videos corporativos - Institucionales - Tutoriales</small>
                                 </span>
                             </a>
                         </td>
                         <td colspan="3" class="pa-right-90">
-                            <a href="#">
+                            <a href="#marketing-promo" data-toggle="modal">
                                 <i class="icon" id="mark-promo"></i>
                                 <span>
-                                    MARKETING PROMOCIAL<br>
+                                    <span class="title-produts">MARKETING PROMOCIAL</span>
                                     <small class="hidden-xs">Actividades promocionales - Activaciones - Btl</small>
                                 </span>
                             </a>
@@ -238,7 +238,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-6 futurastd-book">
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec.
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
                 </div>
@@ -371,6 +371,24 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
         </div>
     </footer>
 
+    <div class="modal fade text-center" id="id-corp">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title">IDENTIDAD CORPORATIVA</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="img/servicios/marketing-promo.jpg" alt="Imac, pantalla y diseño" class="img-modal-serv">
+                    <p>Servicio brindado para todo tipo de empresas gracias a que se logra llegar al público que usted desea, el mensaje se difunde de  manera acelerada y podrá seguir y analizar en tiempo real la campaña que se realiza.</p>
+                    <p>Con el marketing digital se desea  promover y posicionar negocios de todo tamaño, teniendo como objetivo fidelizar a los clientes y así facilitar la venta de productos y/o servicios.</p>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="modal fade text-center" id="marketing-digital">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -383,69 +401,59 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
                 <p>Servicio brindado para todo tipo de empresas gracias a que se logra llegar al público que usted desea, el mensaje se difunde de  manera acelerada y podrá seguir y analizar en tiempo real la campaña que se realiza.</p>
                 <p>Con el marketing digital se desea  promover y posicionar negocios de todo tamaño, teniendo como objetivo fidelizar a los clientes y así facilitar la venta de productos y/o servicios.</p>
               </div>
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div>
-    <!-- <div class="modal fade" id="marketing-digital" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <img src="img/servicios/marketing-digital.png" alt="Planeta tierra" class="img-modal-serv">
-                            <h3>MARKETING DIGITAL</h3>
-                            <p>Servicio brindado para todo tipo de empresas gracias a que se logra llegar al público que usted desea, el mensaje se difunde de  manera acelerada y podrá seguir y analizar en tiempo real la campaña que se realiza.</p>
-                            <p>Con el marketing digital se desea  promover y posicionar negocios de todo tamaño, teniendo como objetivo fidelizar a los clientes y así facilitar la venta de productos y/o servicios.</p>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
-    </div> -->
-    <div class="portfolio-modal modal fade" id="creacion-web" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
+    </div>
+    <div class="modal fade text-center" id="creacion-web">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title">CREACIÓN WEB</h4>
                 </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <img src="img/servicios/creacion_web.png" alt="Imac, pantalla y diseño" class="img-modal-serv">
-                            <h3>CREACIÓN WEB</h3>
-                            <p>De todos los medios de comunicación, internet ha superado a todas y cambio la forma de hacer negocios en todo el mundo. Si usted tiene un sitio web, tiene un local trabajando para usted las 24 horas del día y esto generará alcance mundial, competir con los más grandes y una imagen profesional.</p>
-                        </div>
-                    </div>
+                <div class="modal-body">
+                    <img src="img/servicios/creacion_web.png" alt="Imac, pantalla y diseño" class="img-modal-serv">
+                    <p>Servicio brindado para todo tipo de empresas gracias a que se logra llegar al público que usted desea, el mensaje se difunde de  manera acelerada y podrá seguir y analizar en tiempo real la campaña que se realiza.</p>
+                    <p>Con el marketing digital se desea  promover y posicionar negocios de todo tamaño, teniendo como objetivo fidelizar a los clientes y así facilitar la venta de productos y/o servicios.</p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="marketing-audiovisual" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
+    <div class="modal fade text-center" id="marketing-audiovisual">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title">MARKETING AUDIOVISUAL</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="img/servicios/audiovisual.png" alt="Imac, pantalla y diseño" class="img-modal-serv">
+                    <p>Servicio brindado para todo tipo de empresas gracias a que se logra llegar al público que usted desea, el mensaje se difunde de  manera acelerada y podrá seguir y analizar en tiempo real la campaña que se realiza.</p>
+                    <p>Con el marketing digital se desea  promover y posicionar negocios de todo tamaño, teniendo como objetivo fidelizar a los clientes y así facilitar la venta de productos y/o servicios.</p>
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <img src="img/servicios/audiovisual.png" alt="Imac, pantalla y diseño" class="img-modal-serv">
-                            <h3>CREACIÓN WEB</h3>
-                            <p>De todos los medios de comunicación, internet ha superado a todas y cambio la forma de hacer negocios en todo el mundo. Si usted tiene un sitio web, tiene un local trabajando para usted las 24 horas del día y esto generará alcance mundial, competir con los más grandes y una imagen profesional.</p>
-                        </div>
-                    </div>
+        </div>
+    </div>
+    <div class="modal fade text-center" id="marketing-promo">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title">MARKETING PROMOCIONAL</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="img/servicios/marketing-promo.jpg" alt="Imac, pantalla y diseño" class="img-modal-serv">
+                    <p>Servicio brindado para todo tipo de empresas gracias a que se logra llegar al público que usted desea, el mensaje se difunde de  manera acelerada y podrá seguir y analizar en tiempo real la campaña que se realiza.</p>
+                    <p>Con el marketing digital se desea  promover y posicionar negocios de todo tamaño, teniendo como objetivo fidelizar a los clientes y así facilitar la venta de productos y/o servicios.</p>
                 </div>
             </div>
         </div>
