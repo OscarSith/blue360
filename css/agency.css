@@ -1,4 +1,5 @@
 @import 'bootstrap.min.css';
+@import 'font-awesome.css';
 @import '../bower_components/skippr/css/jquery.skippr.css';
 
 @font-face {
@@ -31,6 +32,10 @@
        url('../fonts/FuturaStd-Medium.svg#FuturaStd-Medium') format('svg');
   font-weight: normal;
   font-style: normal;
+}
+
+html, body, header, #skippr{
+    height: 100%
 }
 
 body {
@@ -314,7 +319,7 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
+    padding-top: 45%;
     padding-bottom: 50px;
 }
 
@@ -333,9 +338,6 @@ header .intro-text .intro-heading {
 }
 
 @media(min-width:768px) {
-    header .intro-text {
-        padding-top: 536px;
-    }
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
@@ -358,7 +360,7 @@ section {
 
 section h2.section-heading {
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
     font-size: 40px;
 }
 
@@ -667,9 +669,7 @@ section h3.section-subheading {
 
 .team-member img {
     margin: 0 auto;
-    border: 10px solid #0E1F5C;
     width: 85%;
-    background-color: #0E1F5C;
 }
 
 .team-member h4 {
@@ -693,6 +693,12 @@ section#contact {
     background-repeat: no-repeat;
 }
 
+.form-group input, textarea {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: #666 !important;
+    color: #fff;
+}
+
 section#contact .section-heading {
     color: #fff;
 }
@@ -712,10 +718,11 @@ section#contact .form-group input.form-control {
 
 section#contact .form-group textarea.form-control {
     height: 236px;
+    background: rgba(255, 255, 255, 0.1)
 }
 
 section#contact .form-control:focus {
-    border-color: #fed136;
+    border-color: #5890FF !important;
     box-shadow: none;
 }
 
@@ -787,10 +794,20 @@ ul.social-buttons li a {
     transition: all .3s;
 }
 
-ul.social-buttons li a:hover,
-ul.social-buttons li a:focus,
-ul.social-buttons li a:active {
-    background-color: #fed136;
+#fb:hover {
+    background-color: #3A5795;
+}
+
+#tw:hover {
+    background-color: #55ACEE;
+}
+
+#in:hover {
+    background-color: #287BBC
+}
+
+#yt:hover {
+    background-color: #CC181E
 }
 
 .btn:focus,
@@ -880,7 +897,7 @@ ul.social-buttons li a:active {
 
 ::selection {
     text-shadow: none;
-    background: #fed136;
+    background: #EAE9E9;
 }
 
 img::selection {
@@ -958,6 +975,7 @@ body {
 }
 .img-modal-serv{
     width: 320px;
+    margin-bottom: 26px
 }
 .modal-body h3{
     color: #0E1F5C;
@@ -978,9 +996,9 @@ body {
     right: 0;
     top: 0;
 }
-#skippr {
+/*#skippr {
     height: 680px!important
-}
+}*/
 .title-produts{
     display: block;
     font-family: 'FuturaStd-Heavy'
