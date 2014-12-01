@@ -228,19 +228,19 @@ fieldset[disabled] .btn-xl.active {
     border-color: rgba(255,255,255,.02);
 }
 
-.navbar-default .navbar-toggle {
+/*.navbar-default .navbar-toggle {
     border-color: #fed136;
     background-color: #fed136;
-}
+}*/
 
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
 }
 
-.navbar-default .navbar-toggle:hover,
+/*.navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
     background-color: #fed136;
-}
+}*/
 
 .navbar-default .nav li a {
     border: 1px solid transparent;
@@ -959,10 +959,6 @@ body {
 }
 #mark-promo{
     background-position: -2px -301px;
-}
-#about p{
-    font-size: 1.3em;
-    text-align: justify;
 }
 #img-about-us{
     width: 80%;
