@@ -213,10 +213,6 @@ fieldset[disabled] .btn-xl.active {
     background-color: #222;
 }
 
-.navbar-default .navbar-brand {
-    color: #fed136;
-}
-
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
@@ -228,19 +224,9 @@ fieldset[disabled] .btn-xl.active {
     border-color: rgba(255,255,255,.02);
 }
 
-/*.navbar-default .navbar-toggle {
-    border-color: #fed136;
-    background-color: #fed136;
-}*/
-
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
 }
-
-/*.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-    background-color: #fed136;
-}*/
 
 .navbar-default .nav li a {
     border: 1px solid transparent;
@@ -278,6 +264,13 @@ fieldset[disabled] .btn-xl.active {
     }
     .pa-right-90{
         padding-right: 30px !important;
+    }
+}
+
+@media(max-width: 768px) {
+    a.navbar-brand.page-scroll img {
+        margin-top: 3px!important;
+        width: 45px!important
     }
 }
 
@@ -992,10 +985,10 @@ body {
     right: 0;
     top: 0;
 }
-/*#skippr {
-    height: 680px!important
-}*/
 .title-produts{
     display: block;
     font-family: 'FuturaStd-Heavy'
+}
+a.navbar-brand.page-scroll {
+    padding: 0!important
 }
