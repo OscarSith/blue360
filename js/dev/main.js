@@ -7,10 +7,12 @@ require.config({
 		'bootstrap': 'js/lib/bootstrap.min',
 		'skippr': 'js/lib/jquery.skippr',
 		'BlackAndWhite': 'bower_components/jquery.BlackAndWhite/src/jquery.BlackAndWhite',
+		'BnWWorker': 'bower_components/jquery.BlackAndWhite/src/BnWWorker'
 	}
 });
 
 require([
+	'BnWWorker',
 	'jquery',
 	'js/lib/jquery.easing',
 	'skippr',
@@ -18,7 +20,7 @@ require([
 	'js/dev/contact_me',
 	'js/dev/cbpAnimatedHeader',
 	'bootstrap'
-], function(){
+], function(BnWWorker){
 	/*!
 	 * Start Bootstrap - Agnecy Bootstrap Theme (http://startbootstrap.com)
 	 * Code licensed under the Apache License v2.0.
@@ -58,11 +60,9 @@ require([
 		$(".cover", this).stop().animate({top:'240px'},{queue:false,duration:160});
 	});
 
-	require(['bower_components/jquery.BlackAndWhite/src/BnWWorker.js'], function(worker) {
-		$('.boxgrid').BlackAndWhite({
-			hoverEffect:true,
-			webworkerPath: worker,
-			speed: 500
-		});
+	$('.boxgrid').BlackAndWhite({
+		hoverEffect:true,
+		webworkerPath: BnWWorker,
+		speed: 500
 	});
 });
