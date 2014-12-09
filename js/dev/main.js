@@ -5,7 +5,8 @@ require.config({
 		'classie': 'js/lib/classie',
 		'bootstrapValidation': 'js/lib/jqBootstrapValidation',
 		'bootstrap': 'js/lib/bootstrap.min',
-		'skippr': 'js/lib/jquery.skippr'
+		'skippr': 'js/lib/jquery.skippr',
+		'BlackAndWhite': 'bower_components/jquery.BlackAndWhite/src/jquery.BlackAndWhite',
 	}
 });
 
@@ -13,6 +14,7 @@ require([
 	'jquery',
 	'js/lib/jquery.easing',
 	'skippr',
+	'BlackAndWhite',
 	'js/dev/contact_me',
 	'js/dev/cbpAnimatedHeader',
 	'bootstrap'
@@ -48,5 +50,19 @@ require([
 	// Closes the Responsive Menu on Menu Item Click
 	$('.navbar-collapse ul li a').click(function() {
 	    $('.navbar-toggle:visible').click();
+	});
+
+	$('.boxgrid.captionfull').hover(function(){
+		$(".cover", this).stop().animate({top:'182px'},{queue:false,duration:160});
+	}, function() {
+		$(".cover", this).stop().animate({top:'240px'},{queue:false,duration:160});
+	});
+
+	require(['bower_components/jquery.BlackAndWhite/src/BnWWorker.js'], function(worker) {
+		$('.boxgrid').BlackAndWhite({
+			hoverEffect:true,
+			webworkerPath: worker,
+			speed: 500
+		});
 	});
 });

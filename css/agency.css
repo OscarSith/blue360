@@ -654,10 +654,6 @@ section h3.section-subheading {
 
 .team-member {
     color: #0E1F5C;
-    display: inline-block;
-    margin-bottom: 50px;
-    text-align: center;
-    width: 60%;
 }
 
 .team-member img {
@@ -687,7 +683,7 @@ section#contact {
 }
 
 .form-group input, textarea {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.21);
     border-color: #666 !important;
     color: #fff;
 }
@@ -711,7 +707,7 @@ section#contact .form-group input.form-control {
 
 section#contact .form-group textarea.form-control {
     height: 236px;
-    background: rgba(255, 255, 255, 0.1)
+    background: rgba(255, 255, 255, 0.21)
 }
 
 section#contact .form-control:focus {
@@ -975,7 +971,7 @@ body {
 }
 .modal-body p{
     text-align: justify;
-    width: 420px;
+    width: 450px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -991,4 +987,33 @@ body {
 }
 a.navbar-brand.page-scroll {
     padding: 0!important
+}
+.team-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 0;
+}
+.boxgrid{ 
+    width: 325px;
+    height: 236px;
+    margin:4px;
+    display:inline-block;
+    background-color:#fff;
+    overflow: hidden;
+    position: relative;
+}
+.boxgrid h4 {
+    margin-bottom: 0
+}
+.boxcaption{
+    float: left;
+    position: absolute;
+    background-color: #fff;
+    height: 100px;
+    width: 100%;
+    opacity: .8;
+}
+.captionfull .boxcaption {
+    top: 240px;
+    left: 0;
 }
