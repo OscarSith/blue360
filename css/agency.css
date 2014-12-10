@@ -43,6 +43,13 @@ body {
     font-family: 'FuturaStd-Book';
 }
 
+#content {
+    height: 480px;
+}
+#about {
+    padding-bottom: 20px!important
+}
+
 .text-muted {
     color: #777;
 }
@@ -684,7 +691,7 @@ section#contact {
     color: #fff;
 }
 
-section#contact .section-heading {
+section#contact .section-heading, #content {
     color: #fff;
 }
 
@@ -1022,4 +1029,8 @@ a.navbar-brand.page-scroll {
 }
 #portafolio-content img {
     width: 100%
+}
+#content p {
+    font-size: 1.1em !important;
+    line-height: 1.6;
 }

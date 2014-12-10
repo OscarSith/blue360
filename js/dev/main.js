@@ -7,7 +7,8 @@ require.config({
 		'bootstrap': 'js/lib/bootstrap.min',
 		'BlackAndWhite': 'bower_components/jquery.BlackAndWhite/src/jquery.BlackAndWhite',
 		'BnWWorker': 'bower_components/jquery.BlackAndWhite/src/BnWWorker',
-		'slider': 'js/lib/plugin'
+		'slider': 'js/lib/plugin',
+		'stellar': 'js/lib/jquery.stellar.min'
 	}
 });
 
@@ -19,7 +20,8 @@ require([
 	'js/dev/contact_me',
 	'js/dev/cbpAnimatedHeader',
 	'bootstrap',
-	'slider'
+	'slider',
+	'stellar'
 ], function(BnWWorker){
 	/*!
 	 * Start Bootstrap - Agnecy Bootstrap Theme (http://startbootstrap.com)
@@ -43,6 +45,8 @@ require([
             pauseOnHover: false,
             swipeNavigation: false
         });
+
+        $(window).stellar();
 	});
 
 	// Highlight the top nav as scrolling occurs
