@@ -5,9 +5,9 @@ require.config({
 		'classie': 'js/lib/classie',
 		'bootstrapValidation': 'js/lib/jqBootstrapValidation',
 		'bootstrap': 'js/lib/bootstrap.min',
-		'skippr': 'js/lib/jquery.skippr',
 		'BlackAndWhite': 'bower_components/jquery.BlackAndWhite/src/jquery.BlackAndWhite',
-		'BnWWorker': 'bower_components/jquery.BlackAndWhite/src/BnWWorker'
+		'BnWWorker': 'bower_components/jquery.BlackAndWhite/src/BnWWorker',
+		'slider': 'js/lib/plugin'
 	}
 });
 
@@ -15,11 +15,11 @@ require([
 	'BnWWorker',
 	'jquery',
 	'js/lib/jquery.easing',
-	'skippr',
 	'BlackAndWhite',
 	'js/dev/contact_me',
 	'js/dev/cbpAnimatedHeader',
-	'bootstrap'
+	'bootstrap',
+	'slider'
 ], function(BnWWorker){
 	/*!
 	 * Start Bootstrap - Agnecy Bootstrap Theme (http://startbootstrap.com)
@@ -37,10 +37,11 @@ require([
 	        event.preventDefault();
 	    });
 
-        $("#skippr").skippr({
-        	autoPlay: true,
-        	keyboardOnAlways: false,
-        	autoPlayDuration: 4000
+	    $('#skippr img').slideShow({
+            timeOut: 3500,
+            showNavigation: true,
+            pauseOnHover: false,
+            swipeNavigation: false
         });
 	});
 
