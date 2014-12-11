@@ -44,7 +44,7 @@ body {
 }
 
 #content {
-    height: 480px;
+    height: 560px;
 }
 #about {
     padding-bottom: 20px!important
@@ -1030,6 +1030,7 @@ a.navbar-brand.page-scroll {
 #portafolio-content img {
     width: 100%
 }
+
 #content p {
     font-size: 1.1em !important;
     line-height: 1.6;

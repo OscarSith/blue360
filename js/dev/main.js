@@ -30,24 +30,15 @@ require([
 	 */
 
 	// jQuery for page scrolling feature - requires jQuery Easing plugin
-	$(function() {
-	    $('a.page-scroll').bind('click', function(event) {
-	        var $anchor = $(this);
-	        $('html, body').stop().animate({
-	            scrollTop: $($anchor.attr('href')).offset().top
-	        }, 1500, 'easeInOutExpo');
-	        event.preventDefault();
-	    });
+    $('a.page-scroll').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+    });
 
-	    $('#skippr img').slideShow({
-            timeOut: 3500,
-            showNavigation: true,
-            pauseOnHover: false,
-            swipeNavigation: false
-        });
-
-        $(window).stellar();
-	});
+    $(window).stellar();
 
 	// Highlight the top nav as scrolling occurs
 	$('body').scrollspy({
@@ -70,4 +61,33 @@ require([
 		webworkerPath: BnWWorker,
 		speed: 500
 	});
+
+	var $windows = $(window);
+	showImagesByResolution($windows.width());
+
+	$windows.resize(function() {
+		showImagesByResolution($(this).width());
+	});
+	$('header img').slideShow({
+        timeOut: 3500,
+        showNavigation: true,
+        pauseOnHover: false,
+        swipeNavigation: false
+    });
+
+    function showImagesByResolution (width) {
+    	if (width > 768 && width <= 991) {
+			$('#skippr').addClass('hidden');
+			$('#skippr_t').removeClass('hidden').children().css({width:'1440px', height:'720px'});
+			$('#skippr_m').addClass('hidden');
+		} else if(width <= 768) {
+			$('#skippr').addClass('hidden');
+			$('#skippr_t').addClass('hidden');
+			$('#skippr_m').removeClass('hidden').children().css({width:'1440px', height:'720px'});
+		} else {
+			$('#skippr').removeClass('hidden').children().css({width:'1440px', height:'720px'});
+			$('#skippr_t').addClass('hidden');
+			$('#skippr_m').addClass('hidden');
+		}
+    }
 });
