@@ -4,6 +4,7 @@
 .slideshow {
     position: relative;
     max-width: 100%;
+    margin: 0 auto
 }
 
 /*Slideshow images*/
