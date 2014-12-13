@@ -45,6 +45,7 @@ body {
 
 #content {
     height: 560px;
+    background-position-x: 50% !important;
 }
 #about {
     padding-bottom: 20px!important

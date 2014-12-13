@@ -8,7 +8,7 @@ require.config({
 		'BlackAndWhite': 'bower_components/jquery.BlackAndWhite/src/jquery.BlackAndWhite',
 		'BnWWorker': 'bower_components/jquery.BlackAndWhite/src/BnWWorker',
 		'slider': 'js/lib/plugin',
-		'stellar': 'js/lib/jquery.stellar.min'
+		'stellar': 'bower_components/stellar.js/jquery.stellar'
 	}
 });
 
@@ -38,7 +38,9 @@ require([
         event.preventDefault();
     });
 
-    $(window).stellar();
+    $.stellar({
+    	positionProperty: 'position'
+    });
 
 	// Highlight the top nav as scrolling occurs
 	$('body').scrollspy({
