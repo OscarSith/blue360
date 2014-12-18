@@ -34,23 +34,23 @@ else
 	//$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
 	try {
-		$mail->isSMTP();                                      // Set mailer to use SMTP
-		$mail->SMTPAuth = true;                               // Enable SMTP authentication
+		$mail->isSMTP();
+		$mail->SMTPAuth = true;
 		$mail->Host = 'smtp.mandrillapp.com';
-		$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
-		$mail->Username = 'blue360peru@gmail.com';// 'blue360peru@gmail.com';                 // SMTP username
-		$mail->Password = 'pass';                           // SMTP password
-		$mail->Port = 587;                                    // TCP port to connect to
+		$mail->SMTPSecure = 'tls';
+		$mail->Username = 'blue360peru@gmail.com';
+		$mail->Password = 'pass';
+		$mail->Port = 587;
 
 		$mail->From = $values['email'];
 		$mail->FromName = $values['name'];
-		$mail->addAddress('blue360peru@gmail.com', 'Blue360');     // Add a recipient
+		$mail->addAddress('blue360peru@gmail.com', 'Blue360');
 		$mail->addReplyTo('no-reply@blue360.com', 'Blue360');
 
-		$mail->isHTML(true);                                  // Set email format to HTML
+		$mail->isHTML(true);
 
 		$mail->Subject = 'Enviado desde la web de Blue360';
-		$mail->Body    = nl2br('<br>Teléfono: </b>'$values['phone'].'<br><br><hr>'.$values['message']);
+		$mail->Body    = nl2br('<br>Teléfono: </b>'.$values['phone'].'<br><br><hr>'.$values['message']);
 		$mail->AltBody = $values['message'];
 
 		if(!$mail->send()) {
