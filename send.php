@@ -46,8 +46,6 @@ else
 		$mail->FromName = $values['name'];
 		$mail->addAddress('blue360peru@gmail.com', 'Blue360');     // Add a recipient
 		$mail->addReplyTo('no-reply@blue360.com', 'Blue360');
-		// $mail->addCC('cc@example.com');
-		// $mail->addBCC('bcc@example.com');
 
 		$mail->isHTML(true);                                  // Set email format to HTML
 
