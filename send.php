@@ -36,9 +36,9 @@ else
 	try {
 		$mail->isSMTP();                                      // Set mailer to use SMTP
 		$mail->SMTPAuth = true;                               // Enable SMTP authentication
-		$mail->Host = 'smtp.gmail.com';
+		$mail->Host = 'smtp.mandrillapp.com';
 		$mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
-		$mail->Username = 'fsuarez89@gmail.com';// 'blue360peru@gmail.com';                 // SMTP username
+		$mail->Username = 'blue360peru@gmail.com';// 'blue360peru@gmail.com';                 // SMTP username
 		$mail->Password = 'pass';                           // SMTP password
 		$mail->Port = 587;                                    // TCP port to connect to
 
