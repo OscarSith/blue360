@@ -37,9 +37,9 @@ else
 		$mail->isSMTP();                                      // Set mailer to use SMTP
 		$mail->SMTPAuth = true;                               // Enable SMTP authentication
 		$mail->Host = 'smtp.gmail.com';
-		$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
-		$mail->Username = 'blue360peru@gmail.com';                 // SMTP username
-		$mail->Password = 'somosequipo@';                           // SMTP password
+		$mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
+		$mail->Username = 'fsuarez89@gmail.com';// 'blue360peru@gmail.com';                 // SMTP username
+		$mail->Password = 'smallvillekalel21';                           // SMTP password
 		$mail->Port = 587;                                    // TCP port to connect to
 
 		$mail->From = $values['email'];
