@@ -37,7 +37,7 @@ else
 		$mail->isSMTP();                                      // Set mailer to use SMTP
 		$mail->SMTPAuth = true;                               // Enable SMTP authentication
 		$mail->Host = 'smtp.mandrillapp.com';
-		$mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
+		$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 		$mail->Username = 'blue360peru@gmail.com';// 'blue360peru@gmail.com';                 // SMTP username
 		$mail->Password = 'pass';                           // SMTP password
 		$mail->Port = 587;                                    // TCP port to connect to
@@ -50,7 +50,7 @@ else
 		$mail->isHTML(true);                                  // Set email format to HTML
 
 		$mail->Subject = 'Enviado desde la web de Blue360';
-		$mail->Body    = nl2br($values['message']);
+		$mail->Body    = nl2br('<br>Teléfono: </b>'$values['phone'].'<br><br><hr>'.$values['message']);
 		$mail->AltBody = $values['message'];
 
 		if(!$mail->send()) {
