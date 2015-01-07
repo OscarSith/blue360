@@ -1015,3 +1015,9 @@ a.navbar-brand.page-scroll {
 .mb150 {
     margin-bottom: 150px
 }
+.mb4 {
+    margin-bottom: 4px !important
+}
+.bor-double {
+    border: double #ccc 4px;
+}
