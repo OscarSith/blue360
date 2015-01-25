@@ -41,6 +41,7 @@ else
 		$mail->Username = 'blue360peru@gmail.com';
 		$mail->Password = 'pass';
 		$mail->Port = 587;
+		$mail->CharSet = 'UTF-8';
 
 		$mail->From = $values['email'];
 		$mail->FromName = $values['name'];
