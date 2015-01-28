@@ -546,7 +546,7 @@ section h3.section-subheading {
 }
 
 @media(min-width:768px) {
-    .timeline:before {
+    /*.timeline:before {
         left: 50%;
     }
 
@@ -579,10 +579,17 @@ section h3.section-subheading {
         float: right;
         padding: 0 30px 20px 20px;
         text-align: left;
+    }*/
+    #social-left ul {
+        text-align: right;
+        margin-bottom: 20px
+    }
+    #social-right ul {
+        text-align: left;
     }
 }
 
-@media(min-width:992px) {
+/*@media(min-width:992px) {
     .timeline>li {
         min-height: 150px;
     }
@@ -606,9 +613,9 @@ section h3.section-subheading {
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 20px 20px;
     }
-}
+}*/
 
-@media(min-width:1200px) {
+/*@media(min-width:1200px) {
     .timeline>li {
         min-height: 170px;
     }
@@ -630,7 +637,7 @@ section h3.section-subheading {
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 100px 20px 20px;
     }
-}
+}*/
 
 .team-member {
     color: #0E1F5C;
@@ -745,10 +752,6 @@ footer ul.quicklinks {
     line-height: 40px;
 }
 
-ul.social-buttons {
-    margin-bottom: 0;
-}
-
 ul.social-buttons li a {
     display: block;
     width: 40px;
@@ -773,11 +776,26 @@ ul.social-buttons li a {
 }
 
 #in:hover {
-    background-color: #287BBC
+    background-color: #287BBC;
 }
 
 #yt:hover {
-    background-color: #CC181E
+    background-color: #CC181E;
+}
+
+#ins:hover {
+    background-color: #4D7A9F;
+}
+
+#vim:hover {
+    background-color: #2AB7E7;
+}
+#gp:hover {
+    background-color: #DD4B39;
+}
+#carousel-ara {
+    position: inherit;
+    width: 400px;
 }
 
 .btn:focus,
@@ -817,10 +835,6 @@ ul.social-buttons li a {
 
 .portfolio-modal .modal-content ul.list-inline {
     margin-top: 0;
-    margin-bottom: 30px;
-}
-
-.portfolio-modal .modal-content img {
     margin-bottom: 30px;
 }
 
@@ -1020,4 +1034,10 @@ a.navbar-brand.page-scroll {
 }
 .bor-double {
     border: double #ccc 4px;
+}
+.lcoist-inline>li {
+    text-align: center;
+}
+.mt25 {
+    margin-top: 25px !important
 }
