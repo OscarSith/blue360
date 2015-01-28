@@ -20,8 +20,10 @@ module.exports = function(grunt) {
 				files: {
 					'css/main.css': [
 						'css/bootstrap.min.css',
+						'css/font-awesome.css',
+						'bower_components/skippr/css/jquery.skippr.css',
+						'css/plugin.css',
 						'css/agency.css',
-						'bower_components/skippr/css/jquery.skippr.css'
 					]
 				}
 			}
