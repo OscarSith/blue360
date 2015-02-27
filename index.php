@@ -53,7 +53,44 @@
                 </div>
                 <div class="item" style="background-image: url(img/skippr/home_020.jpg)">
                     <div class="caption">
-                        <p class="animated fadeInRightBig">REDES SOCIALES</p>
+                        <div class="animated fadeInRightBig">
+                            <div class="row">
+                            <div class="col-sm-6" id="social-left">
+                                <ul class="list-inline social-buttons">
+                                    <li>
+                                        <a href="https://www.facebook.com/pages/Blue-360/824952017567637" target="_blank" id="fb"><i class="fa fa-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/blue360peru" target="_blank" id="tw"><i class="fa fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/profile/view?id=388517954&amp;trk=nav_responsive_tab_profile" target="_blank" id="in"><i class="fa fa-linkedin"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.youtube.com/channel/UCQ0l1VibZWhjmk9B83MWxtg" target="_blank" id="yt"><i class="fa fa-youtube-square"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6" id="social-right">
+                                <ul class="list-inline social-buttons">
+                                    <li>
+                                        <a href="https://plus.google.com/u/0/103514686876234909711/posts" target="_blank" id="gp"><i class="fa fa-google-plus"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="http://instagram.com/blue360peru/" target="_blank" id="ins"><i class="fa fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://vimeo.com/blue360peru" target="_blank" id="vim"><i class="fa fa-vimeo-square"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.dailymotion.com/blue360peru" target="_blank">
+                                            <img src="img/daily_motion.png" alt="Logo daily Motion">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        </div>
                         <a data-scroll class="btn btn-start animated fadeInUpBig" href="#contact">CONTACTO</a>
                     </div>
                 </div>
@@ -99,10 +136,16 @@
           </div> 
         </div>
         <div class="text-center our-services">
-          <div class="row color-products">
+          <div class="row">
             <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                <a href="#id-corp" data-toggle="modal" class="color-products">
-                    <i class="icon" id="id-corporative"></i>
+                <a href="#id-corp" data-toggle="modal">
+                    <!-- <i class="icon" id="id-corporative"></i> -->
+                    <div class="center-block">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle-thin fa-stack-2x"></i>
+                            <i class="fa fa-desktop fa-stack-1x" style="top: 6px"></i>
+                        </span>
+                    </div>
                     <span>
                         <span class="title-produts">IDENTIDAD CORPORATIVA</span><br>
                         <small class="hidden-xs">Identidad - Logotipo - Atributos - papeleria</small>
@@ -110,8 +153,13 @@
                 </a>
             </div>
             <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
-                <a href="#creacion-web" data-toggle="modal" class="color-products">
-                    <i class="icon" id="web-creation"></i>
+                <a href="#creacion-web" data-toggle="modal">
+                    <div class="center-block">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle-thin fa-stack-2x"></i>
+                            <i class="fa fa-wifi fa-stack-1x" style="top: 6px"></i>
+                        </span>
+                    </div>
                     <span>
                         <span class="title-produts">CREACIÓN WEB</span><br>
                         <small class="hidden-xs">Diseño web - Programación web</small>
@@ -119,8 +167,13 @@
                 </a>
             </div>
             <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
-                <a href="#marketing-digital" data-toggle="modal" class="color-products">
-                    <i class="icon" id="mark-digital"></i>
+                <a href="#marketing-digital" data-toggle="modal">
+                    <div class="center-block">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle-thin fa-stack-2x"></i>
+                            <i class="fa fa-support fa-stack-1x"></i>
+                        </span>
+                    </div>
                     <span>
                         <span class="title-produts">MARKETING DIGITAL</span><br>
                         <small class="hidden-xs">Redes sociales - Estrategias - Posicionamiento web</small>
@@ -128,8 +181,13 @@
                 </a>
             </div>
             <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="650ms">
-                <a href="#marketing-audiovisual" data-toggle="modal" class="color-products">
-                    <i class="icon" id="mark-audio"></i>
+                <a href="#marketing-audiovisual" data-toggle="modal">
+                    <div class="center-block">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle-thin fa-stack-2x"></i>
+                            <i class="fa fa-video-camera fa-stack-1x"></i>
+                        </span>
+                    </div>
                     <span>
                         <span class="title-produts">MARKETING AUDIOVISUAL</span><br>
                         <small class="hidden-xs">Videos corporativos - Institucionales - Tutoriales</small>
@@ -137,8 +195,13 @@
                 </a>
             </div>
             <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="750ms">
-                <a href="#marketing-promo" data-toggle="modal" class="color-products">
-                    <i class="icon" id="mark-promo"></i>
+                <a href="#marketing-promo" data-toggle="modal">
+                    <div class="center-block">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle-thin fa-stack-2x"></i>
+                            <i class="fa fa-bar-chart fa-stack-1x"></i>
+                        </span>
+                    </div>
                     <span>
                         <span class="title-produts">MARKETING PROMOCIAL</span><br>
                         <small class="hidden-xs">Actividades promocionales - Activaciones - Btl</small>
@@ -146,11 +209,16 @@
                 </a>
             </div>
             <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="850ms">
-                <a href="#gestion-legal" data-toggle="modal" class="color-products">
-                    <i class="icon" id="gestion"></i>
+                <a href="#gestion-legal" data-toggle="modal">
+                    <div class="center-block">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle-thin fa-stack-2x"></i>
+                            <i class="fa fa-legal fa-stack-1x" style="top: 6px"></i>
+                        </span>
+                    </div>
                     <span>
-                        <span class="title-produts">MARKETING PROMOCIAL</span><br>
-                        <small class="hidden-xs">Actividades promocionales - Activaciones - Btl</small>
+                        <span class="title-produts">GESTION LEGAL MKT & MEDIOS</span><br>
+                        <small class="hidden-xs">Seguridad legal - marcas - patentes</small>
                     </span>
                 </a>
             </div>
@@ -588,7 +656,7 @@
       </div>
     </section> -->
 
-    <section id="twitter" class="parallax">
+    <!-- <section id="twitter" class="parallax">
       <div>
         <div class="container">
           <div class="row">
@@ -621,7 +689,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section id="contact">
       <div id="google-map" style="height:350px" class="wow fadeIn" data-latitude="52.365629" data-longitude="4.871331" data-wow-duration="1000ms" data-wow-delay="400ms"></div>
@@ -644,12 +712,12 @@
                     </div>
                     <div class="col-sm-6">
                       <div class="form-group">
-                        <input type="email" name="email" class="form-control" placeholder="Correo" required="required">
+                        <input type="text" name="phone" class="form-control" placeholder="Teléfono" required="required">
                       </div>
                     </div>
                   </div>
                   <div class="form-group">
-                    <input type="text" name="phone" class="form-control" placeholder="Teléfono" required="required">
+                    <input type="email" name="email" class="form-control" placeholder="Correo" required="required">
                   </div>
                   <div class="form-group">
                     <textarea name="message" id="message" class="form-control" rows="4" placeholder="Escriba su mensaje..." required="required"></textarea>
@@ -660,14 +728,14 @@
                 </form>   
               </div>
               <div class="col-sm-6">
-                <div class="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <!-- <div class="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
                   <ul class="address">
                     <li><i class="fa fa-map-marker"></i> <span> Address:</span> 2400 South Avenue A </li>
                     <li><i class="fa fa-phone"></i> <span> Phone:</span> +928 336 2000  </li>
                     <li><i class="fa fa-envelope"></i> <span> Email:</span><a href="mailto:someone@yoursite.com"> support@oxygen.com</a></li>
                     <li><i class="fa fa-globe"></i> <span> Website:</span> <a href="#">www.sitename.com</a></li>
                   </ul>
-                </div>                            
+                </div> -->
               </div>
             </div>
           </div>
@@ -856,7 +924,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="content-img">
-                        <img src="img/servicios/marketing-promo.jpg" alt="Imac, pantalla y diseño" class="img-modal-serv">
+                        <img src="img/servicios/marketing-promo.jpg" alt="Imac, pantalla y diseño" class="img-responsive">
                     </div>
                     <p>A través de la introducción de nuevos productos, crear barreras con la competencia y obtener resultados a corto plazo, es que nace el marketing promocional, una estrategia que cautiva a los clientes y atrae a los no clientes, a través de actividades promocionales, activaciones y BTL.</p>
                 </div>
@@ -878,4 +946,4 @@
     <script src="js/dev/main.js"></script>
 
   </body>
-  </html>
+</html>

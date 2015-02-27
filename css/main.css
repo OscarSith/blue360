@@ -1247,3 +1247,9 @@ ul.social-buttons li a{
 .mt20 {
 	margin-top: 20px
 }
+#services a:hover .center-block, #services a:hover .title-produts{
+  color: #BD1D4F;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  -o-transition: 500ms;
+}
