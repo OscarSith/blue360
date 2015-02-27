@@ -109,7 +109,7 @@
               <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="index.html">
-              <h1><img class="img-responsive" src="img/logo.png" alt="logo"></h1>
+              <h1><img class="img-responsive" src="img/logo.png" alt="logo" style="height: 63px;"></h1>
             </a>
           </div>
           <div class="collapse navbar-collapse">
@@ -701,7 +701,7 @@
         <div class="container">
           <div class="row">
             <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-              <h2>CONTACTENOS</h2>
+              <h2>CONTÁCTENOS</h2>
             </div>
           </div>
           <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
@@ -806,7 +806,7 @@
                         <p><span class="copyright">COPYRIGHT &copy; <?php echo date('Y') ?></span></p>
                     </div>
                     <div class="col-sm-6">
-                        <p class="pull-right">Designed by <a href="http://www.themeum.com/">Themeum</a></p>
+                        <p class="pull-right">SIEMPRE A TU ALREDEDOR</p>
                     </div>
                 </div>
             </div>
