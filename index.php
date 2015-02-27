@@ -21,10 +21,10 @@
     
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png"> -->
   </head><!--/head-->
 
   <body>
@@ -34,37 +34,35 @@
     <!--/.preloader-->
 
     <header id="home">
-      <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="item active" style="background-image: url(img/skippr/home_010.jpg)">
-            <div class="caption">
-              <h1 class="animated fadeInLeftBig color-blue">ESTRATEGIA <span class="color-blue2">OCÉANO AZUL</span></h1>
-              <p class="animated fadeInRightBig">OCÉANO AZUL CREA NUEVOS ESPACIOS E INEXISTENCIAS DE<br>COMPETIDORES,DIFERENCIA Y LIDERA UN MERCADO LLENO DE OPORTUNIDADES</p>
-              <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Start now</a>
+        <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active" style="background-image: url(img/skippr/home_030.jpg)">
+                    <div class="caption" id="caption-video">
+                        <p class="animated fadeInRightBig">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/TYgkCZMptaw?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen id="home-video"></iframe>
+                        </p>
+                        <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Start now</a>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(img/skippr/home_010.jpg)">
+                    <div class="caption">
+                        <h1 class="animated fadeInLeftBig color-blue">ESTRATEGIA <span class="color-blue2">OCÉANO AZUL</span></h1>
+                        <p class="animated fadeInRightBig">OCÉANO AZUL CREA NUEVOS ESPACIOS E INEXISTENCIAS DE<br>COMPETIDORES,DIFERENCIA Y LIDERA UN MERCADO LLENO DE OPORTUNIDADES</p>
+                        <a data-scroll class="btn btn-start animated fadeInUpBig" href="#about-us">NOSOTROS</a>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(img/skippr/home_020.jpg)">
+                    <div class="caption">
+                        <p class="animated fadeInRightBig">REDES SOCIALES</p>
+                        <a data-scroll class="btn btn-start animated fadeInUpBig" href="#contact">CONTACTO</a>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="item" style="background-image: url(img/skippr/home_020.jpg)">
-            <div class="caption">
-              <h1 class="animated fadeInLeftBig">Say Hello to <span>Oxygen</span></h1>
-              <p class="animated fadeInRightBig">Bootstrap - Responsive Design - Retina Ready - Parallax</p>
-              <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Start now</a>
-            </div>
-          </div>
-          <div class="item" style="background-image: url(img/skippr/home_030.jpg)">
-            <div class="caption">
-              <h1 class="animated fadeInLeftBig">We are <span>Creative</span></h1>
-              <p class="animated fadeInRightBig">Bootstrap - Responsive Design - Retina Ready - Parallax</p>
-              <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Start now</a>
-            </div>
-          </div>
-        </div>
-        <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-        <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
-
-        <a id="tohash" href="#services"><i class="fa fa-angle-down"></i></a>
-
-      </div><!--/#home-slider-->
-      <div class="navbar navbar-default" role="navigation">
+            <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+            <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
+            <a id="tohash" href="#services"><i class="fa fa-angle-down"></i></a>
+        </div><!--/#home-slider-->
+        <div class="navbar navbar-default" role="navigation">
         <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -163,6 +161,7 @@
 
     <section id="meters" class="parallax">
         <div class="container">
+            <h2 class="text-center">Experiencia</h2>
             <div class="r1 row text-center" data-wow-duration="1000ms" data-wow-delay="300ms">
                 <div class="col-sm-1"></div>
                 <div class="c1 col-sm-6 col-md-2 animateblock size speed-1 wow fadeInUp">
@@ -636,33 +635,32 @@
           <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
             <div class="row">
               <div class="col-sm-6">
-                <form id="main-contact-form" name="contact-form" method="post" action="#">
+                <form id="main-contact-form" name="contact-form" method="post" action="send.php">
                   <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="col-sm-6">
                       <div class="form-group">
-                        <input type="text" name="name" class="form-control" placeholder="Name" required="required">
+                        <input type="text" name="name" class="form-control" placeholder="Nombre" required="required">
                       </div>
                     </div>
                     <div class="col-sm-6">
                       <div class="form-group">
-                        <input type="email" name="email" class="form-control" placeholder="Email Address" required="required">
+                        <input type="email" name="email" class="form-control" placeholder="Correo" required="required">
                       </div>
                     </div>
                   </div>
                   <div class="form-group">
-                    <input type="text" name="subject" class="form-control" placeholder="Subject" required="required">
+                    <input type="text" name="phone" class="form-control" placeholder="Teléfono" required="required">
                   </div>
                   <div class="form-group">
-                    <textarea name="message" id="message" class="form-control" rows="4" placeholder="Enter your message" required="required"></textarea>
-                  </div>                        
+                    <textarea name="message" id="message" class="form-control" rows="4" placeholder="Escriba su mensaje..." required="required"></textarea>
+                  </div>
                   <div class="form-group">
-                    <button type="submit" class="btn btn-primary btn-lg btn-block">Send Now</button>
+                    <button type="submit" class="btn btn-primary btn-lg btn-block">Enviar</button>
                   </div>
                 </form>   
               </div>
               <div class="col-sm-6">
                 <div class="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
                   <ul class="address">
                     <li><i class="fa fa-map-marker"></i> <span> Address:</span> 2400 South Avenue A </li>
                     <li><i class="fa fa-phone"></i> <span> Phone:</span> +928 336 2000  </li>
@@ -741,6 +739,131 @@
         </div>
     </footer>
 
+    <div class="modal fade text-center" id="id-corp">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title">IDENTIDAD CORPORATIVA</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="540" height="300" src="https://www.youtube.com/embed/iLUnFVHwbsA?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="row mt20">
+                        <div class="col-sm-6">
+                            <p class="text-justify">La identidad corporativa muestra a tu empresa, persona o producto, a través del medio escrito y diseño de forma especial, además tiene como objetivo explicar y precisar los atributos de tu empresa o producto, con el único fin de garantizar el buen uso de esta</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="img/servicios/identidad_corporativa.jpg" alt="Identidad corporativa" class="img-modal-serv img-responsive">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade text-center" id="marketing-digital">
+        <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title">MARKETING DIGITAL</h4>
+              </div>
+              <div class="modal-body">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/l31Qcz7WcaQ?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="row mt20">
+                    <div class="col-sm-6 text-justify">
+                        <p>Producto dirigido a todo tipo de empresas gracias a que se logra llegar al público que usted desea, el mensaje se difunde de  manera acelerada y podrá seguir y analizar en tiempo real la campaña que se realiza.</p>
+                        <p>Con el marketing digital se desea  promover y posicionar negocios de todo tamaño, teniendo como objetivo fidelizar a los clientes y así facilitar la venta de productos y/o servicios.</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="img/servicios/marketing_digital_Imagen.jpg" alt="Planeta tierra" class="img-modal-serv img-responsive">
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade text-center" id="creacion-web">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title">CREACIÓN WEB</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/55dCCmcQtI8?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="row mt20">
+                        <div class="col-sm-6">
+                            <p class="text-justify">De todos los medios de comunicación, internet ha superado a todas y cambio la forma de hacer negocios en todo el mundo. Si usted tiene un sitio web, tiene un local trabajando para usted las 24 horas del día y esto generará alcance mundial, competir con los más grandes y una imagen profesional.</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="img/servicios/creacion_web.jpg" alt="Imac, pantalla y diseño" class="img-modal-serv img-responsive">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade text-center" id="marketing-audiovisual">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title">MARKETING AUDIOVISUAL</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/FqsGsnhycNo?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="row mt20">
+                        <div class="col-sm-6">
+                            <p class="text-justify">Una de las últimas tendencias que se está valorando con mayor fuerza  gracias a su rápido resultado son los formatos en video que se caracterizan por generar mayor difusión, impacto y reconocimiento masivo con el fin de posicionarse e impulsar las ventas, y es que el contenido audiovisual  genera actitud positiva hacia la marca, disfrute de la información y mayor notoriedad debido al crecimiento del consumo de videos online.</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="img/servicios/markt.jpg" alt="Imac, pantalla y diseño" class="img-modal-serv img-responsive">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade text-center" id="marketing-promo">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title">MARKETING PROMOCIONAL</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="content-img">
+                        <img src="img/servicios/marketing-promo.jpg" alt="Imac, pantalla y diseño" class="img-modal-serv">
+                    </div>
+                    <p>A través de la introducción de nuevos productos, crear barreras con la competencia y obtener resultados a corto plazo, es que nace el marketing promocional, una estrategia que cautiva a los clientes y atrae a los no clientes, a través de actividades promocionales, activaciones y BTL.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="js/lib/bootstrap.min.js"></script>
     <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
@@ -750,7 +873,7 @@
     <script src="js/lib/smoothscroll.js"></script>
     <script src="js/lib/jquery.countTo.js"></script>
     <script src="js/lib/lightbox.min.js"></script>
-    <script src="bower_components/jquery.BlackAndWhite/src/jquery.BlackAndWhite"></script>
+    <script src="bower_components/jquery.BlackAndWhite/src/jquery.BlackAndWhite.js"></script>
     <script src="js/lib/circles.min.js"></script>
     <script src="js/dev/main.js"></script>
 
