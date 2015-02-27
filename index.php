@@ -213,7 +213,7 @@
                     <div class="center-block">
                         <span class="fa-stack fa-4x">
                             <i class="fa fa-circle-thin fa-stack-2x"></i>
-                            <i class="fa fa-legal fa-stack-1x" style="top: 6px"></i>
+                            <i class="fa fa-legal fa-stack-1x"></i>
                         </span>
                     </div>
                     <span>
@@ -840,7 +840,7 @@
         </div>
     </div>
     <div class="modal fade text-center" id="marketing-digital" tabindex="-1" role="dialog" aria-labelledby="marketingDigital" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">
@@ -893,7 +893,7 @@
         </div>
     </div>
     <div class="modal fade text-center" id="marketing-audiovisual" tabindex="-1" role="dialog" aria-labelledby="marketingAudiovisual" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">
@@ -929,10 +929,17 @@
                     <h4 class="modal-title" id="marketingPromo">MARKETING PROMOCIONAL</h4>
                 </div>
                 <div class="modal-body">
-                    <div class="content-img">
-                        <img src="img/servicios/marketing-promo.jpg" alt="Imac, pantalla y diseño" class="img-responsive">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/0aU4IOwB_B0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
                     </div>
-                    <p>A través de la introducción de nuevos productos, crear barreras con la competencia y obtener resultados a corto plazo, es que nace el marketing promocional, una estrategia que cautiva a los clientes y atrae a los no clientes, a través de actividades promocionales, activaciones y BTL.</p>
+                    <div class="row mt20">
+                        <div class="col-sm-6">
+                            <p class="text-justify">A través de la introducción de nuevos productos, crear barreras con la competencia y obtener resultados a corto plazo, es que nace el marketing promocional, una estrategia que cautiva a los clientes y atrae a los no clientes, a través de actividades promocionales, activaciones y BTL.</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="img/servicios/marketing-promo.jpg" alt="Imac, pantalla y diseño" class="img-responsive">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
