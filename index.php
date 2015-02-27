@@ -333,7 +333,11 @@
                                     <span class="folio-link">
                                         <a class="folio-read-more" href="#" data-single_url="portafolios_html/ara_content.html" ><i class="fa fa-link"></i></a>
                                     </span>
-                                    <span class="folio-expand"><a href="http://blue360.com.pe/ara/img/proyectos/Proyecto_1.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                                    <span class="folio-expand">
+                                        <a href="#modal-ara" data-toggle="modal">
+                                            <i class="fa fa-search-plus"></i>
+                                        </a>
+                                    </span>
                                 </div>
                             </div>
                         </div>
@@ -342,151 +346,151 @@
             </div>
             <div class="hidden-xs col-sm-4"></div>
           <!-- <div class="col-sm-3">
-            <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
-              <div class="folio-image">
-                <img class="img-responsive" src="images/portfolio/2.jpg" alt="">
-              </div>
-              <div class="overlay">
-                <div class="overlay-content">
-                  <div class="overlay-text">
-                    <div class="folio-info">
-                      <h3>Time Hours</h3>
-                      <p>Design, Photography</p>
-                    </div>
-                    <div class="folio-overview">
-                      <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
-                      <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
+                  <div class="folio-image">
+                    <img class="img-responsive" src="images/portfolio/2.jpg" alt="">
+                  </div>
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="overlay-text">
+                        <div class="folio-info">
+                          <h3>Time Hours</h3>
+                          <p>Design, Photography</p>
+                        </div>
+                        <div class="folio-overview">
+                          <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
+                          <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="500ms">
-              <div class="folio-image">
-                <img class="img-responsive" src="images/portfolio/3.jpg" alt="">
-              </div>
-              <div class="overlay">
-                <div class="overlay-content">
-                  <div class="overlay-text">
-                    <div class="folio-info">
-                      <h3>Time Hours</h3>
-                      <p>Design, Photography</p>
-                    </div>
-                    <div class="folio-overview">
-                      <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
-                      <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+              <div class="col-sm-3">
+                <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="500ms">
+                  <div class="folio-image">
+                    <img class="img-responsive" src="images/portfolio/3.jpg" alt="">
+                  </div>
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="overlay-text">
+                        <div class="folio-info">
+                          <h3>Time Hours</h3>
+                          <p>Design, Photography</p>
+                        </div>
+                        <div class="folio-overview">
+                          <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
+                          <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="600ms">
-              <div class="folio-image">
-                <img class="img-responsive" src="images/portfolio/4.jpg" alt="">
-              </div>
-              <div class="overlay">
-                <div class="overlay-content">
-                  <div class="overlay-text">
-                    <div class="folio-info">
-                      <h3>Time Hours</h3>
-                      <p>Design, Photography</p>
-                    </div>
-                    <div class="folio-overview">
-                      <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
-                      <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+              <div class="col-sm-3">
+                <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="600ms">
+                  <div class="folio-image">
+                    <img class="img-responsive" src="images/portfolio/4.jpg" alt="">
+                  </div>
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="overlay-text">
+                        <div class="folio-info">
+                          <h3>Time Hours</h3>
+                          <p>Design, Photography</p>
+                        </div>
+                        <div class="folio-overview">
+                          <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
+                          <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
-              <div class="folio-image">
-                <img class="img-responsive" src="images/portfolio/5.jpg" alt="">
-              </div>
-              <div class="overlay">
-                <div class="overlay-content">
-                  <div class="overlay-text">
-                    <div class="folio-info">
-                      <h3>Time Hours</h3>
-                      <p>Design, Photography</p>
-                    </div>
-                    <div class="folio-overview">
-                      <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
-                      <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+              <div class="col-sm-3">
+                <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
+                  <div class="folio-image">
+                    <img class="img-responsive" src="images/portfolio/5.jpg" alt="">
+                  </div>
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="overlay-text">
+                        <div class="folio-info">
+                          <h3>Time Hours</h3>
+                          <p>Design, Photography</p>
+                        </div>
+                        <div class="folio-overview">
+                          <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
+                          <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="800ms">
-              <div class="folio-image">
-                <img class="img-responsive" src="images/portfolio/6.jpg" alt="">
-              </div>
-              <div class="overlay">
-                <div class="overlay-content">
-                  <div class="overlay-text">
-                    <div class="folio-info">
-                      <h3>Time Hours</h3>
-                      <p>Design, Photography</p>
-                    </div>
-                    <div class="folio-overview">
-                      <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
-                      <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+              <div class="col-sm-3">
+                <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="800ms">
+                  <div class="folio-image">
+                    <img class="img-responsive" src="images/portfolio/6.jpg" alt="">
+                  </div>
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="overlay-text">
+                        <div class="folio-info">
+                          <h3>Time Hours</h3>
+                          <p>Design, Photography</p>
+                        </div>
+                        <div class="folio-overview">
+                          <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
+                          <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="900ms">
-              <div class="folio-image">
-                <img class="img-responsive" src="images/portfolio/7.jpg" alt="">
-              </div>
-              <div class="overlay">
-                <div class="overlay-content">
-                  <div class="overlay-text">
-                    <div class="folio-info">
-                      <h3>Time Hours</h3>
-                      <p>Design, Photography</p>
-                    </div>
-                    <div class="folio-overview">
-                      <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
-                      <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+              <div class="col-sm-3">
+                <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="900ms">
+                  <div class="folio-image">
+                    <img class="img-responsive" src="images/portfolio/7.jpg" alt="">
+                  </div>
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="overlay-text">
+                        <div class="folio-info">
+                          <h3>Time Hours</h3>
+                          <p>Design, Photography</p>
+                        </div>
+                        <div class="folio-overview">
+                          <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
+                          <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="1000ms">
-              <div class="folio-image">
-                <img class="img-responsive" src="images/portfolio/8.jpg" alt="">
-              </div>
-              <div class="overlay">
-                <div class="overlay-content">
-                  <div class="overlay-text">
-                    <div class="folio-info">
-                      <h3>Time Hours</h3>
-                      <p>Design, Photography</p>
-                    </div>
-                    <div class="folio-overview">
-                      <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
-                      <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+              <div class="col-sm-3">
+                <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="1000ms">
+                  <div class="folio-image">
+                    <img class="img-responsive" src="images/portfolio/8.jpg" alt="">
+                  </div>
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="overlay-text">
+                        <div class="folio-info">
+                          <h3>Time Hours</h3>
+                          <p>Design, Photography</p>
+                        </div>
+                        <div class="folio-overview">
+                          <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
+                          <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
           </div> -->
         </div>
       </div>
@@ -807,7 +811,7 @@
         </div>
     </footer>
 
-    <div class="modal fade text-center" id="id-corp">
+    <div class="modal fade text-center" id="id-corp" tabindex="-1" role="dialog" aria-labelledby="idCorp" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -815,7 +819,7 @@
                         <span aria-hidden="true">&times;</span>
                         <span class="sr-only">Close</span>
                     </button>
-                    <h4 class="modal-title">IDENTIDAD CORPORATIVA</h4>
+                    <h4 class="modal-title" id="idCorp">IDENTIDAD CORPORATIVA</h4>
                 </div>
                 <div class="modal-body">
                     <div class="embed-responsive embed-responsive-16by9">
@@ -833,7 +837,7 @@
             </div>
         </div>
     </div>
-    <div class="modal fade text-center" id="marketing-digital">
+    <div class="modal fade text-center" id="marketing-digital" tabindex="-1" role="dialog" aria-labelledby="marketingDigital" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
@@ -841,7 +845,7 @@
                     <span aria-hidden="true">&times;</span>
                     <span class="sr-only">Close</span>
                 </button>
-                <h4 class="modal-title">MARKETING DIGITAL</h4>
+                <h4 class="modal-title" id="etingDigital">MARKETING DIGITAL</h4>
               </div>
               <div class="modal-body">
                 <div class="embed-responsive embed-responsive-16by9">
@@ -860,7 +864,7 @@
             </div>
         </div>
     </div>
-    <div class="modal fade text-center" id="creacion-web">
+    <div class="modal fade text-center" id="creacion-web" tabindex="-1" role="dialog" aria-labelledby="creacionWeb" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -868,7 +872,7 @@
                         <span aria-hidden="true">&times;</span>
                         <span class="sr-only">Close</span>
                     </button>
-                    <h4 class="modal-title">CREACIÓN WEB</h4>
+                    <h4 class="modal-title" id="creacionWeb">CREACIÓN WEB</h4>
                 </div>
                 <div class="modal-body">
                     <div class="embed-responsive embed-responsive-16by9">
@@ -886,7 +890,7 @@
             </div>
         </div>
     </div>
-    <div class="modal fade text-center" id="marketing-audiovisual">
+    <div class="modal fade text-center" id="marketing-audiovisual" tabindex="-1" role="dialog" aria-labelledby="marketingAudiovisual" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -894,7 +898,7 @@
                         <span aria-hidden="true">&times;</span>
                         <span class="sr-only">Close</span>
                     </button>
-                    <h4 class="modal-title">MARKETING AUDIOVISUAL</h4>
+                    <h4 class="modal-title" id="marketingAudiovisual">MARKETING AUDIOVISUAL</h4>
                 </div>
                 <div class="modal-body">
                     <div class="embed-responsive embed-responsive-16by9">
@@ -912,7 +916,7 @@
             </div>
         </div>
     </div>
-    <div class="modal fade text-center" id="marketing-promo">
+    <div class="modal fade text-center" id="marketing-promo" tabindex="-1" role="dialog" aria-labelledby="marketingPromo" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -920,7 +924,7 @@
                         <span aria-hidden="true">&times;</span>
                         <span class="sr-only">Close</span>
                     </button>
-                    <h4 class="modal-title">MARKETING PROMOCIONAL</h4>
+                    <h4 class="modal-title" id="marketingPromo">MARKETING PROMOCIONAL</h4>
                 </div>
                 <div class="modal-body">
                     <div class="content-img">
@@ -931,8 +935,24 @@
             </div>
         </div>
     </div>
+    <div class="modal fade" id="modal-ara" tabindex="-1" role="dialog" aria-labelledby="modalAra" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="modalAra">ARA INGENIEROS</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="http://blue360.com.pe/ara/img/proyectos/Proyecto_1.jpg" alt="Proyecto Ara" class="img-responsive">
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="js/lib/jquery.min.js"></script>
     <script src="js/lib/bootstrap.min.js"></script>
     <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
     <script src="js/lib/jquery.inview.min.js"></script>
@@ -940,8 +960,7 @@
     <script src="js/lib/mousescroll.js"></script>
     <script src="js/lib/smoothscroll.js"></script>
     <script src="js/lib/jquery.countTo.js"></script>
-    <script src="js/lib/lightbox.min.js"></script>
-    <script src="bower_components/jquery.BlackAndWhite/src/jquery.BlackAndWhite.js"></script>
+    <script src="js/lib/jquery.BlackAndWhite.min.js"></script>
     <script src="js/lib/circles.min.js"></script>
     <script src="js/dev/main.js"></script>
 
