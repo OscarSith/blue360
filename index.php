@@ -98,33 +98,33 @@
             <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
             <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
             <a id="tohash" href="#services"><i class="fa fa-angle-down"></i></a>
-        </div><!--/#home-slider-->
-        <div class="navbar navbar-default" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">
-              <h1><img class="img-responsive" src="img/logo.png" alt="logo" style="height: 63px;"></h1>
-            </a>
-          </div>
-          <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-right">
-              <li class="scroll active"><a href="#home">Home</a></li>
-              <li class="scroll"><a href="#services">Productos</a></li> 
-              <li class="scroll"><a href="#about-us">Nosotros</a></li>
-              <li class="scroll"><a href="#portfolio">Portafolio</a></li>
-              <li class="scroll"><a href="#team">Equipo</a></li>
-              <li class="scroll"><a href="#contact">Contacto</a></li>
-            </ul>
-          </div>
         </div>
-      </div><!--/.navbar-->
-    </header><!--/#home-->
+        <div class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                      <h1><img class="img-responsive" src="img/logo.png" alt="logo" style="height: 63px;"></h1>
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                      <li class="scroll active"><a href="#home">Home</a></li>
+                      <li class="scroll"><a href="#services">Productos</a></li> 
+                      <li class="scroll"><a href="#about-us">Nosotros</a></li>
+                      <li class="scroll"><a href="#portfolio">Portafolio</a></li>
+                      <li class="scroll"><a href="#team">Equipo</a></li>
+                      <li class="scroll"><a href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
     
     <section id="services">
       <div class="container">
@@ -258,10 +258,10 @@
     </section>
 
     <section id="about-us">
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img src="img/about-bg.jpg" alt="...">
+        <div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active" style="background-image: url(img/about-bg.jpg)">
+                    <!-- <img src="" alt="..."> -->
                     <div class="carousel-caption color-blue" id="banner_1">
                         <h2 class="color-blue2 text-left">CREAR + INNOVAR = BLUE360</h2>
                         <p class="text-justify">Blue360 tuvo inicio a finales del año 2014, cuando un grupo de jóvenes profesionales se  unieron para desarrollar productos acorde a la necesidad de futuros clientes con el fin de lograr valor y beneficios de sus marcas.</p>
@@ -272,8 +272,8 @@
                         </p>
                     </div>
                 </div>
-                <div class="item">
-                    <img src="img/about-bg2.jpg" alt="">
+                <div class="item" style="background-image: url(img/about-bg2.jpg)">
+                    <!-- <img src="" alt=""> -->
                     <div class="carousel-caption color-blue" id="banner_2">
                         <div class="col-sm-4">
                             En Blue 360 entendemos que, en el mercado existe una constante lucha por ser el mejor; sin embargo nuestro objetivo es seguir la estrategia del Océano Azul que se basa en crear nuevos espacios y 
@@ -544,9 +544,9 @@
                                 <p>General Manager</p>
                                 <div class="social-icons text-center">
                                     <ul>
-                                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a class="facebook" target="_blank" href="https://www.facebook.com/davidvarasalvarez"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a class="twitter" target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -558,9 +558,9 @@
                                 <p>Comunication Manager</p>
                                 <div class="social-icons text-center">
                                     <ul>
-                                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a class="facebook" target="_blank" href="https://www.facebook.com/Fernando.SuarezDelAguila"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a class="twitter" target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -572,9 +572,9 @@
                                 <p>Senior Designer</p>
                                 <div class="social-icons text-center">
                                     <ul>
-                                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a class="facebook" target="_blank" href="https://www.facebook.com/SebasSM"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a class="twitter" target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -696,7 +696,7 @@
     </section> -->
 
     <section id="contact">
-      <div id="google-map" style="height:350px" class="wow fadeIn" data-latitude="52.365629" data-longitude="4.871331" data-wow-duration="1000ms" data-wow-delay="400ms"></div>
+      <div id="google-map" style="height:350px" class="wow fadeIn" data-latitude="-12.072827" data-longitude="-77.051158" data-wow-duration="1000ms" data-wow-delay="400ms"></div>
       <div id="contact-us" class="parallax">
         <div class="container">
           <div class="row">
@@ -732,16 +732,15 @@
                         </div>
                     </form>
                 </div>
-                <!-- <div class="col-sm-6">
-                    <div class="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <div class="hidden">
+                    <div class="contact-info wow fadeInUp">
                       <ul class="address">
-                        <li><i class="fa fa-map-marker"></i> <span> Address:</span> 2400 South Avenue A </li>
-                        <li><i class="fa fa-phone"></i> <span> Phone:</span> +928 336 2000  </li>
-                        <li><i class="fa fa-envelope"></i> <span> Email:</span><a href="mailto:someone@yoursite.com"> support@oxygen.com</a></li>
-                        <li><i class="fa fa-globe"></i> <span> Website:</span> <a href="#">www.sitename.com</a></li>
+                        <li><i class="fa fa-map-marker"></i> <span> Address:</span> Pje Ayulo - ref: Cdra 1 de Republica Dominicana</li>
+                        <li><i class="fa fa-phone"></i> <span> Phone:</span> 966 840 025</li>
+                        <li><i class="fa fa-envelope"></i> <span> Email:</span><a href="mailto:blue360peru@gmail.com"> blue360peru@gmail.com</a></li>
                       </ul>
                     </div>
-                </div> -->
+                </div>
                 <div class="col-sm-3 hidden-xs"></div>
             </div>
           </div>
@@ -840,7 +839,7 @@
         </div>
     </div>
     <div class="modal fade text-center" id="marketing-digital" tabindex="-1" role="dialog" aria-labelledby="marketingDigital" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
+        <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">
@@ -855,8 +854,7 @@
                 </div>
                 <div class="row mt20">
                     <div class="col-sm-6 text-justify">
-                        <p>Producto dirigido a todo tipo de empresas gracias a que se logra llegar al público que usted desea, el mensaje se difunde de  manera acelerada y podrá seguir y analizar en tiempo real la campaña que se realiza.</p>
-                        <p>Con el marketing digital se desea  promover y posicionar negocios de todo tamaño, teniendo como objetivo fidelizar a los clientes y así facilitar la venta de productos y/o servicios.</p>
+                        <p>Con el marketing digital se desea promover y posicionar negocios de todo tamaño, teniendo como objetivo fidelizar a los clientes y así facilitar la venta de productos y/o servicios.</p>
                     </div>
                     <div class="col-sm-6">
                         <img src="img/servicios/marketing_digital_Imagen.jpg" alt="Planeta tierra" class="img-modal-serv img-responsive">
@@ -893,7 +891,7 @@
         </div>
     </div>
     <div class="modal fade text-center" id="marketing-audiovisual" tabindex="-1" role="dialog" aria-labelledby="marketingAudiovisual" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
+        <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">
@@ -908,7 +906,7 @@
                     </div>
                     <div class="row mt20">
                         <div class="col-sm-6">
-                            <p class="text-justify">Una de las últimas tendencias que se está valorando con mayor fuerza  gracias a su rápido resultado son los formatos en video que se caracterizan por generar mayor difusión, impacto y reconocimiento masivo con el fin de posicionarse e impulsar las ventas, y es que el contenido audiovisual  genera actitud positiva hacia la marca, disfrute de la información y mayor notoriedad debido al crecimiento del consumo de videos online.</p>
+                            <p class="text-justify">Los videos generan mayor difusión, impacto y reconocimiento masivo,  el contenido audiovisual crea actitud positiva hacia la marca y mayor notoriedad gracias al crecimiento del consumo de videos online.</p>
                         </div>
                         <div class="col-sm-6">
                             <img src="img/servicios/markt.jpg" alt="Imac, pantalla y diseño" class="img-modal-serv img-responsive">
@@ -938,6 +936,30 @@
                         </div>
                         <div class="col-sm-6">
                             <img src="img/servicios/marketing-promo.jpg" alt="Imac, pantalla y diseño" class="img-responsive">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade text-center" id="gestion-legal" tabindex="-1" role="dialog" aria-labelledby="mktLegal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="mktLegal">GESTIÓN LEGAL DE MARKETING Y MEDIOS</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="img/servicios/marketing_legal_video.jpg" alt="Video gestion Legal" class="img-responsive">
+                    <div class="row mt20">
+                        <div class="col-sm-6">
+                            <p class="text-justify" style="line-height:1.4em">Tenemos en cuenta los factores que existen en el mercado para consolidar las acciones y hacerlas efectivas, tal como el tiempo y el presupuesto disponible.  Por tal motivo se crea el producto de Gestion legal de Mkt & Medios,  que tiene el objetivo de realizar trámites que resuelvan asuntos o se concreten proyectos de nuestros clientes.</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="img/servicios/marketing_legal.jpg" alt="Marketing Legal" class="img-responsive">
                         </div>
                     </div>
                 </div>

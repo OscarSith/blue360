@@ -102,11 +102,12 @@ jQuery(function($) {
 	});
 
 	//#main-slider
-	var slideHeight = $(window).height();
-	$('#home-slider .item').css('height',slideHeight);
+	var slideHeight = $(window).height(),
+		$bg = $('#home-slider .item, #about-us .item');
 
+	$bg.css('height',slideHeight);
 	$(window).resize(function(){'use strict',
-		$('#home-slider .item').css('height',slideHeight);
+		$bg.css('height',slideHeight);
 	});
 	
 	//Scroll Menu
@@ -234,12 +235,13 @@ jQuery(function($) {
 	});
 
 	//Google Map
-	var latitude = $('#google-map').data('latitude')
-	var longitude = $('#google-map').data('longitude')
+	var $map = $('#google-map');
+	var latitude = $map.data('latitude')
+	var longitude = $map.data('longitude')
 	function initialize_map() {
 		var myLatlng = new google.maps.LatLng(latitude,longitude);
 		var mapOptions = {
-			zoom: 14,
+			zoom: 16,
 			scrollwheel: false,
 			center: myLatlng
 		};
