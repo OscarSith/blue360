@@ -1253,3 +1253,12 @@ ul.social-buttons li a{
   -moz-transition: 500ms;
   -o-transition: 500ms;
 }
+.blanco {
+  color: #fff
+}
+.pb0 {
+  padding-bottom: 0 !important
+}
+.bor-double {
+  border: 4px double #CCC;
+}

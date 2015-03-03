@@ -9,10 +9,9 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/animate.min.css" rel="stylesheet"> 
   <link href="css/font-awesome.css" rel="stylesheet">
-  <link href="css/lightbox.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
   <link id="css-preset" href="css/preset1.css" rel="stylesheet">
   <link href="css/responsive.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
 
   <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
@@ -92,6 +91,12 @@
                         </div>
                         </div>
                         <a data-scroll class="btn btn-start animated fadeInUpBig" href="#contact">CONTACTO</a>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(img/skippr/home_040.jpg)">
+                    <div class="caption">
+                        <h1 class="animated fadeInLeftBig blanco">NUESTROS <span class="color-products">PRODUCTOS</span></h1>
+                        <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Empezar</a>
                     </div>
                 </div>
             </div>
@@ -261,7 +266,6 @@
         <div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="item active" style="background-image: url(img/about-bg.jpg)">
-                    <!-- <img src="" alt="..."> -->
                     <div class="carousel-caption color-blue" id="banner_1">
                         <h2 class="color-blue2 text-left">CREAR + INNOVAR = BLUE360</h2>
                         <p class="text-justify">Blue360 tuvo inicio a finales del año 2014, cuando un grupo de jóvenes profesionales se  unieron para desarrollar productos acorde a la necesidad de futuros clientes con el fin de lograr valor y beneficios de sus marcas.</p>
@@ -273,16 +277,21 @@
                     </div>
                 </div>
                 <div class="item" style="background-image: url(img/about-bg2.jpg)">
-                    <!-- <img src="" alt=""> -->
-                    <div class="carousel-caption color-blue" id="banner_2">
-                        <div class="col-sm-4">
-                            En Blue 360 entendemos que, en el mercado existe una constante lucha por ser el mejor; sin embargo nuestro objetivo es seguir la estrategia del Océano Azul que se basa en crear nuevos espacios y 
+                    <div class="carousel-caption color-blue">
+                        <div class="col-sm-4 text-justify">
+                            <p>
+                                En Blue 360 entendemos que, en el mercado existe una constante lucha por ser el mejor; sin embargo nuestro objetivo es seguir la estrategia del Océano Azul que se basa en crear nuevos espacios y 
+                            </p>
                         </div>
-                        <div class="col-sm-4">
-                            entender que la competencia es irrelevante e inexistente para llegar a nuestras metas. Sabemos lo importante que es diferenciarse de los demás y conseguir economías de gran escala. En 
+                        <div class="col-sm-4 text-justify">
+                            <p>
+                                entender que la competencia es irrelevante e inexistente para llegar a nuestras metas. Sabemos lo importante que es diferenciarse de los demás y conseguir economías de gran escala. En 
+                            </p>
                         </div>
-                        <div class="col-sm-4">
-                            conclusión, a través del Océano Azul nos encargaremos de encontrar nuevos mercados, crear nuevas demandas, y dejar de competir con otros con la finalidad de diferenciarnos y liderar un mercado.
+                        <div class="col-sm-4 text-justify">
+                            <p>
+                                conclusión, a través del Océano Azul nos encargaremos de encontrar nuevos mercados, crear nuevas demandas, y dejar de competir con otros con la finalidad de diferenciarnos y liderar un mercado.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -967,7 +976,7 @@
         </div>
     </div>
     <div class="modal fade" id="modal-ara" tabindex="-1" role="dialog" aria-labelledby="modalAra" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">
@@ -977,7 +986,62 @@
                     <h4 class="modal-title" id="modalAra">ARA INGENIEROS</h4>
                 </div>
                 <div class="modal-body">
-                    <img src="http://blue360.com.pe/ara/img/proyectos/Proyecto_1.jpg" alt="Proyecto Ara" class="img-responsive">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/r_KL2--uSBM?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="col-sm-5">
+                            <div id="carousel-ara" class="carousel slide center-block" data-ride="carousel">
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <img src="img/portafolio/postaraingenieros/bienvenida_2.jpg" alt="bienvenida_2">
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/portafolio/postaraingenieros/Consorcio_Kumbres.jpg" alt="Consorcio_Kumbres">
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/portafolio/postaraingenieros/Dubai.jpg" alt="Dubai">
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/portafolio/postaraingenieros/Frank_Lloyd_Wright.jpg" alt="Frank_Lloyd_Wright">
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/portafolio/postaraingenieros/post_3.jpg" alt="post_3">
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/portafolio/postaraingenieros/Cargas.jpg" alt="Cargas">
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/portafolio/postaraingenieros/Contacto.jpg" alt="Contacto">
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/portafolio/postaraingenieros/Roma_Italia.jpg" alt="Roma_Italia">
+                                    </div>
+                                </div>
+                                <!-- Controls -->
+                                <a class="left carousel-control" href="#carousel-ara" role="button" data-slideshow="prev">
+                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#carousel-ara" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt20">
+                        <div class="col-sm-12">
+                            <img src="img/portafolio/imagen_website_ara.jpg" alt="Imagen del website de Ara Ingenieros" class="img-responsive bor-double center-block">
+                        </div>
+                        <ul class="list-inline text-center">
+                            <li>
+                                <a href="http://www.araisac.pe" target="_blank">Ir al website <i class="fa fa-external-link"></i></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
