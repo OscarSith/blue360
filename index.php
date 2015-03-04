@@ -6,12 +6,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <title>Blue360</title>
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/animate.min.css" rel="stylesheet"> 
-  <link href="css/font-awesome.css" rel="stylesheet">
-  <link id="css-preset" href="css/preset1.css" rel="stylesheet">
-  <link href="css/responsive.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
+  <link href="css/main.min.css" rel="stylesheet">
 
   <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
@@ -43,7 +38,7 @@
                 <div class="item" style="background-image: url(img/skippr/home_040.jpg)">
                     <div class="caption">
                         <h1 class="animated fadeInLeftBig blanco">NUESTROS <span class="color-products">PRODUCTOS</span></h1>
-                        <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Empezar</a>
+                        <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Productos</a>
                     </div>
                 </div>
                 <div class="item" style="background-image: url(img/skippr/home_010.jpg)">
@@ -533,7 +528,7 @@
         </div>
     </section>
 
-    <section id="team">
+    <section id="team" class="pb0">
         <div class="container">
             <div class="row">
                 <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
@@ -631,6 +626,9 @@
                 </div>
             </div>
         </div>
+    </section>
+    <section class="parallax" id="bg_team">
+        <div class="container"></div>
     </section>
 
     <!-- <section id="pricing">

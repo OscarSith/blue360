@@ -18,12 +18,13 @@ module.exports = function(grunt) {
 		cssmin: {
 			combine: {
 				files: {
-					'css/main.css': [
+					'css/main.min.css': [
 						'css/bootstrap.min.css',
+						'css/animate.min.css',
 						'css/font-awesome.css',
-						'bower_components/skippr/css/jquery.skippr.css',
-						'css/plugin.css',
-						'css/agency.css',
+						'css/preset1.css',
+						'css/responsive.css',
+						'css/main.css',
 					]
 				}
 			}

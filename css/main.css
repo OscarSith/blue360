@@ -1262,3 +1262,12 @@ ul.social-buttons li a{
 .bor-double {
   border: 4px double #CCC;
 }
+#banner_1 h2 {
+  margin-top: 50px;
+}
+#bg_team {
+  background-image: url(../img/bg_team_equipo.jpeg);
+}
+#bg_team .container {
+  height: 150px
+}
