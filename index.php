@@ -27,10 +27,7 @@
   </head><!--/head-->
 
   <body>
-
-    <!--.preloader-->
     <div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
-    <!--/.preloader-->
 
     <header id="home">
         <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
@@ -41,6 +38,12 @@
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/TYgkCZMptaw?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen id="home-video"></iframe>
                         </p>
                         <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Start now</a>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(img/skippr/home_040.jpg)">
+                    <div class="caption">
+                        <h1 class="animated fadeInLeftBig blanco">NUESTROS <span class="color-products">PRODUCTOS</span></h1>
+                        <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Empezar</a>
                     </div>
                 </div>
                 <div class="item" style="background-image: url(img/skippr/home_010.jpg)">
@@ -93,12 +96,6 @@
                         <a data-scroll class="btn btn-start animated fadeInUpBig" href="#contact">CONTACTO</a>
                     </div>
                 </div>
-                <div class="item" style="background-image: url(img/skippr/home_040.jpg)">
-                    <div class="caption">
-                        <h1 class="animated fadeInLeftBig blanco">NUESTROS <span class="color-products">PRODUCTOS</span></h1>
-                        <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Empezar</a>
-                    </div>
-                </div>
             </div>
             <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
             <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
@@ -113,7 +110,7 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="#home">
                       <h1><img class="img-responsive" src="img/logo.png" alt="logo" style="height: 63px;"></h1>
                     </a>
                 </div>
@@ -132,104 +129,104 @@
     </header>
     
     <section id="services">
-      <div class="container">
-        <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-          <div class="row">
-            <div class="text-center col-sm-8 col-sm-offset-2" style="visibility: hidden">
-              <h2>Nuestros Servicios</h2>
+        <div class="container">
+            <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <div class="row">
+                <div class="text-center col-sm-8 col-sm-offset-2" style="visibility: hidden">
+                  <h2>Nuestros Servicios</h2>
+                </div>
+              </div> 
             </div>
-          </div> 
+            <div class="text-center our-services">
+              <div class="row">
+                <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                    <a href="#id-corp" data-toggle="modal">
+                        <!-- <i class="icon" id="id-corporative"></i> -->
+                        <div class="center-block">
+                            <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                <i class="fa fa-desktop fa-stack-1x" style="top: 6px"></i>
+                            </span>
+                        </div>
+                        <span>
+                            <span class="title-produts">IDENTIDAD CORPORATIVA</span><br>
+                            <small class="hidden-xs">Identidad - Logotipo - Atributos - papeleria</small>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
+                    <a href="#creacion-web" data-toggle="modal">
+                        <div class="center-block">
+                            <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                <i class="fa fa-wifi fa-stack-1x" style="top: 6px"></i>
+                            </span>
+                        </div>
+                        <span>
+                            <span class="title-produts">CREACIÓN WEB</span><br>
+                            <small class="hidden-xs">Diseño web - Programación web</small>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
+                    <a href="#marketing-digital" data-toggle="modal">
+                        <div class="center-block">
+                            <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                <i class="fa fa-support fa-stack-1x"></i>
+                            </span>
+                        </div>
+                        <span>
+                            <span class="title-produts">MARKETING DIGITAL</span><br>
+                            <small class="hidden-xs">Redes sociales - Estrategias - Posicionamiento web</small>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="650ms">
+                    <a href="#marketing-audiovisual" data-toggle="modal">
+                        <div class="center-block">
+                            <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                <i class="fa fa-video-camera fa-stack-1x"></i>
+                            </span>
+                        </div>
+                        <span>
+                            <span class="title-produts">MARKETING AUDIOVISUAL</span><br>
+                            <small class="hidden-xs">Videos corporativos - Institucionales - Tutoriales</small>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="750ms">
+                    <a href="#marketing-promo" data-toggle="modal">
+                        <div class="center-block">
+                            <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                <i class="fa fa-bar-chart fa-stack-1x"></i>
+                            </span>
+                        </div>
+                        <span>
+                            <span class="title-produts">MARKETING PROMOCIONAL</span><br>
+                            <small class="hidden-xs">Actividades promocionales - Activaciones - Btl</small>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="850ms">
+                    <a href="#gestion-legal" data-toggle="modal">
+                        <div class="center-block">
+                            <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                <i class="fa fa-legal fa-stack-1x"></i>
+                            </span>
+                        </div>
+                        <span>
+                            <span class="title-produts">GESTION LEGAL MKT & MEDIOS</span><br>
+                            <small class="hidden-xs">Seguridad legal - marcas - patentes</small>
+                        </span>
+                    </a>
+                </div>
+              </div>
+            </div>
         </div>
-        <div class="text-center our-services">
-          <div class="row">
-            <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                <a href="#id-corp" data-toggle="modal">
-                    <!-- <i class="icon" id="id-corporative"></i> -->
-                    <div class="center-block">
-                        <span class="fa-stack fa-4x">
-                            <i class="fa fa-circle-thin fa-stack-2x"></i>
-                            <i class="fa fa-desktop fa-stack-1x" style="top: 6px"></i>
-                        </span>
-                    </div>
-                    <span>
-                        <span class="title-produts">IDENTIDAD CORPORATIVA</span><br>
-                        <small class="hidden-xs">Identidad - Logotipo - Atributos - papeleria</small>
-                    </span>
-                </a>
-            </div>
-            <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
-                <a href="#creacion-web" data-toggle="modal">
-                    <div class="center-block">
-                        <span class="fa-stack fa-4x">
-                            <i class="fa fa-circle-thin fa-stack-2x"></i>
-                            <i class="fa fa-wifi fa-stack-1x" style="top: 6px"></i>
-                        </span>
-                    </div>
-                    <span>
-                        <span class="title-produts">CREACIÓN WEB</span><br>
-                        <small class="hidden-xs">Diseño web - Programación web</small>
-                    </span>
-                </a>
-            </div>
-            <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
-                <a href="#marketing-digital" data-toggle="modal">
-                    <div class="center-block">
-                        <span class="fa-stack fa-4x">
-                            <i class="fa fa-circle-thin fa-stack-2x"></i>
-                            <i class="fa fa-support fa-stack-1x"></i>
-                        </span>
-                    </div>
-                    <span>
-                        <span class="title-produts">MARKETING DIGITAL</span><br>
-                        <small class="hidden-xs">Redes sociales - Estrategias - Posicionamiento web</small>
-                    </span>
-                </a>
-            </div>
-            <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="650ms">
-                <a href="#marketing-audiovisual" data-toggle="modal">
-                    <div class="center-block">
-                        <span class="fa-stack fa-4x">
-                            <i class="fa fa-circle-thin fa-stack-2x"></i>
-                            <i class="fa fa-video-camera fa-stack-1x"></i>
-                        </span>
-                    </div>
-                    <span>
-                        <span class="title-produts">MARKETING AUDIOVISUAL</span><br>
-                        <small class="hidden-xs">Videos corporativos - Institucionales - Tutoriales</small>
-                    </span>
-                </a>
-            </div>
-            <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="750ms">
-                <a href="#marketing-promo" data-toggle="modal">
-                    <div class="center-block">
-                        <span class="fa-stack fa-4x">
-                            <i class="fa fa-circle-thin fa-stack-2x"></i>
-                            <i class="fa fa-bar-chart fa-stack-1x"></i>
-                        </span>
-                    </div>
-                    <span>
-                        <span class="title-produts">MARKETING PROMOCIONAL</span><br>
-                        <small class="hidden-xs">Actividades promocionales - Activaciones - Btl</small>
-                    </span>
-                </a>
-            </div>
-            <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="850ms">
-                <a href="#gestion-legal" data-toggle="modal">
-                    <div class="center-block">
-                        <span class="fa-stack fa-4x">
-                            <i class="fa fa-circle-thin fa-stack-2x"></i>
-                            <i class="fa fa-legal fa-stack-1x"></i>
-                        </span>
-                    </div>
-                    <span>
-                        <span class="title-produts">GESTION LEGAL MKT & MEDIOS</span><br>
-                        <small class="hidden-xs">Seguridad legal - marcas - patentes</small>
-                    </span>
-                </a>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
 
     <section id="meters" class="parallax">
@@ -554,8 +551,8 @@
                                 <div class="social-icons text-center">
                                     <ul>
                                         <li><a class="facebook" target="_blank" href="https://www.facebook.com/davidvarasalvarez"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a class="twitter" target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a class="twitter" target="_blank" href="https://twitter.com/davidvaras84"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a class="linkedin" target="_blank" href="http://pe.linkedin.com/pub/david-varas/82/805/223"><i class="fa fa-linkedin"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -568,8 +565,8 @@
                                 <div class="social-icons text-center">
                                     <ul>
                                         <li><a class="facebook" target="_blank" href="https://www.facebook.com/Fernando.SuarezDelAguila"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a class="twitter" target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a class="twitter" target="_blank" href="https://twitter.com/SuarezFernando"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a class="linkedin" target="_blank" href="http://pe.linkedin.com/pub/fernando-su%C3%A1rez-del-aguila/37/76a/629"><i class="fa fa-linkedin"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -582,7 +579,49 @@
                                 <div class="social-icons text-center">
                                     <ul>
                                         <li><a class="facebook" target="_blank" href="https://www.facebook.com/SebasSM"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a class="twitter" target="_blank" href="https://twitter.com/SebastinSantos1"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a class="linkedin" target="_blank" href="https://www.linkedin.com/profile/view?id=402967028&trk=nav_responsive_tab_profile"><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="boxgrid captionfull">
+                            <img src="img/team/team-jonny.jpg"/>
+                            <div class="cover boxcaption">
+                                <h4>Jhonny Castillo</h4>
+                                <p>Chief Accounting Area</p>
+                                <div class="social-icons text-center">
+                                    <ul>
+                                        <li><a class="facebook" target="_blank" href="https://www.facebook.com/jhonny.castillo.526"><i class="fa fa-facebook"></i></a></li>
                                         <li><a class="twitter" target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="boxgrid captionfull">
+                            <img src="img/team/team-oscar.jpg"/>
+                            <div class="cover boxcaption">
+                                <h4>Oscar Larriega</h4>
+                                <p>Software Engineer</p>
+                                <div class="social-icons text-center">
+                                    <ul>
+                                        <li><a class="facebook" target="_blank" href="https://www.facebook.com/OscarSith"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a class="twitter" target="_blank" href="https://twitter.com/OscarLarriega"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a class="linkedin" target="_blank" href="http://pe.linkedin.com/pub/oscar-augusto-larriega-grandez/64/9ba/859"><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="boxgrid captionfull">
+                            <img src="img/team/team-pedrito.jpg"/>
+                            <div class="cover boxcaption">
+                                <h4>Pedro Suarez</h4>
+                                <p>Community Manager</p>
+                                <div class="social-icons text-center">
+                                    <ul>
+                                        <li><a class="facebook" target="_blank" href="https://www.facebook.com/jhonny.castillo.526"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a class="twitter" target="_blank" href="https://twitter.com/pedro_suarez18"><i class="fa fa-twitter"></i></a></li>
                                         <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
                                     </ul>
                                 </div>
@@ -987,11 +1026,13 @@
                 </div>
                 <div class="modal-body">
                     <div class="row">
-                        <div class="col-sm-7">
+                        <div class="col-sm-12">
                             <div class="embed-responsive embed-responsive-16by9">
                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/r_KL2--uSBM?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
                             </div>
                         </div>
+                    </div>
+                    <div class="row mt20">
                         <div class="col-sm-5">
                             <div id="carousel-ara" class="carousel slide center-block" data-ride="carousel">
                                 <div class="carousel-inner" role="listbox">
@@ -1031,16 +1072,14 @@
                                 </a>
                             </div>
                         </div>
-                    </div>
-                    <div class="row mt20">
-                        <div class="col-sm-12">
+                        <div class="col-sm-7">
                             <img src="img/portafolio/imagen_website_ara.jpg" alt="Imagen del website de Ara Ingenieros" class="img-responsive bor-double center-block">
+                            <ul class="list-inline text-center">
+                                <li>
+                                    <a href="http://www.araisac.pe" target="_blank">Ir al website <i class="fa fa-external-link"></i></a>
+                                </li>
+                            </ul>
                         </div>
-                        <ul class="list-inline text-center">
-                            <li>
-                                <a href="http://www.araisac.pe" target="_blank">Ir al website <i class="fa fa-external-link"></i></a>
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </div>
