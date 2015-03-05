@@ -1084,13 +1084,13 @@
         </div>
     </div>
 
+    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
     <script src="js/lib/jquery.min.js"></script>
     <script src="js/lib/bootstrap.min.js"></script>
-    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-    <script src="js/lib/jquery.inview.min.js"></script>
-    <script src="js/lib/wow.min.js"></script>
     <script src="js/lib/mousescroll.js"></script>
     <script src="js/lib/smoothscroll.js"></script>
+    <script src="js/lib/wow.min.js"></script>
+    <script src="js/lib/jquery.inview.min.js"></script>
     <script src="js/lib/jquery.countTo.js"></script>
     <script src="js/lib/jquery.BlackAndWhite.min.js"></script>
     <script src="js/lib/circles.min.js"></script>
