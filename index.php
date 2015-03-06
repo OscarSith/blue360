@@ -14,7 +14,7 @@
     <![endif]-->
     
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico">
     <!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
@@ -30,7 +30,8 @@
                 <div class="item active" style="background-image: url(img/skippr/home_030.jpg)">
                     <div class="caption" id="caption-video">
                         <p class="animated fadeInRightBig">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/TYgkCZMptaw?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen id="home-video"></iframe>
+                            <div style="height:221px" class="visible-xs visible-sm"></div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/TYgkCZMptaw?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen id="home-video" class="hidden-xs hidden-sm"></iframe>
                         </p>
                         <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Start now</a>
                     </div>
@@ -44,7 +45,7 @@
                 <div class="item" style="background-image: url(img/skippr/home_010.jpg)">
                     <div class="caption">
                         <h1 class="animated fadeInLeftBig color-blue">ESTRATEGIA <span class="color-blue2">OCÉANO AZUL</span></h1>
-                        <p class="animated fadeInRightBig">OCÉANO AZUL CREA NUEVOS ESPACIOS E INEXISTENCIAS DE<br>COMPETIDORES,DIFERENCIA Y LIDERA UN MERCADO LLENO DE OPORTUNIDADES</p>
+                        <p class="animated fadeInRightBig color-blue" style="font-weight: 500">OCÉANO AZUL CREA NUEVOS ESPACIOS E INEXISTENCIAS DE<br>COMPETIDORES,DIFERENCIA Y LIDERA UN MERCADO LLENO DE OPORTUNIDADES</p>
                         <a data-scroll class="btn btn-start animated fadeInUpBig" href="#about-us">NOSOTROS</a>
                     </div>
                 </div>
@@ -106,7 +107,7 @@
                       <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="#home">
-                      <h1><img class="img-responsive" src="img/logo.png" alt="logo" style="height: 63px;"></h1>
+                      <h1><img class="img-responsive" src="img/logo.png" alt="logo" id="logo"></h1>
                     </a>
                 </div>
                 <div class="collapse navbar-collapse">
@@ -228,28 +229,28 @@
         <div class="container">
             <h2 class="text-center">Experiencia</h2>
             <div class="r1 row text-center" data-wow-duration="1000ms" data-wow-delay="300ms">
-                <div class="col-sm-1"></div>
-                <div class="c1 col-sm-6 col-md-2 animateblock size speed-1 wow fadeInUp">
+                <div class="col-sm-1 hidden-sm hidden-xs"></div>
+                <div class="c1 col-xs-6 col-sm-6 col-md-2 animateblock size speed-1 wow fadeInUp">
                     <p class="description">IDENTIDAD</p>
                     <div class="animateblock circle wow fadeInUp" id="circle-1"></div>
                 </div>
-                <div class="c2 col-sm-6 col-md-2 animateblock size speed-1 wow fadeInUp">
+                <div class="c2 col-xs-6 col-sm-6 col-md-2 animateblock size speed-1 wow fadeInUp">
                     <p class="description">WEBSITE</p>
                     <div class="animateblock circle wow fadeInUp" id="circle-2"></div>
                 </div>
-                <div class="c3 col-sm-6 col-md-2 animateblock size speed-1 wow fadeInUp">
+                <div class="c3 col-xs-6 col-sm-6 col-md-2 animateblock size speed-1 wow fadeInUp">
                     <p class="description">MKT DIGITAL</p>
                     <div class="animateblock circle wow fadeInUp" id="circle-3"></div>
                 </div>
-                <div class="c4 col-sm-6 col-md-2 animateblock size speed-1 wow fadeInUp">
+                <div class="c4 col-xs-6 col-sm-6 col-md-2 animateblock size speed-1 wow fadeInUp">
                     <p class="description">MKT PROMOCIONAL</p>
                     <div class="animateblock circle wow fadeInUp" id="circle-4"></div>
                 </div>
-                <div class="c4 col-sm-6 col-md-2 animateblock size speed-1 wow fadeInUp">
+                <div class="c4 col-xs-6 col-sm-6 col-md-2 col-xs-offset-3 col-md-offset-0 animateblock size speed-1 wow fadeInUp">
                     <p class="description">MKT AUDIOVISUAL</p>
                     <div class="animateblock circle wow fadeInUp" id="circle-5"></div>
                 </div>
-                <div class="col-sm-1"></div>
+                <div class="col-sm-1 hidden-sm hidden-xs"></div>
             </div>
         </div>
     </section>

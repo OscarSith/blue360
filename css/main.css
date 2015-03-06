@@ -72,6 +72,9 @@ a:hover {
   text-decoration: none;
   outline: none
 }
+#logo {
+  height: 63px
+}
 
 section {
   padding: 90px 0;
@@ -383,8 +386,8 @@ section {
 }
 
 #banner_1 {
-	left: 49% !important;
-	right: 15% !important;
+	left: 49%;
+	right: 15%;
 	top: 16% !important;
 }
 #banner_2 {

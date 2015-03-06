@@ -23,8 +23,8 @@ module.exports = function(grunt) {
 						'css/animate.min.css',
 						'css/font-awesome.css',
 						'css/preset1.css',
-						'css/responsive.css',
 						'css/main.css',
+						'css/responsive.css',
 					]
 				}
 			}

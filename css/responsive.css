@@ -180,4 +180,15 @@
 	.footer-bottom p.pull-right {
 		float: none !important;
 	}
+	#banner_1 {
+		left: 5% !important;
+		right: 5% !important;
+	}
+	#banner_1 h2.color-blue2 {
+		margin-top: -22px
+	}
+	#logo {
+		height: 41px;
+		margin-top: -2px;
+	}
 }

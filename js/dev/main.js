@@ -161,9 +161,13 @@ $('.boxgrid').BlackAndWhite({
 });
 
 function optionsCircle (id, val) {
+	var radius = 18;
+	if ($('body').width() < 768) {
+		radius = 9;
+	}
 	return {
 		id:           id,
-		radius:       window.innerWidth / 18,
+		radius:       window.innerWidth / radius,
 		value:        val,
 		maxValue:     100,
 		width:        14,
