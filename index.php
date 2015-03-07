@@ -29,14 +29,20 @@
             <div class="carousel-inner">
                 <div class="item active" style="background-image: url(img/skippr/home_030.jpg)">
                     <div class="caption" id="caption-video">
-                        <p class="animated fadeInRightBig">
-                            <div style="height:221px" class="visible-xs visible-sm"></div>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/TYgkCZMptaw?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen id="home-video" class="hidden-xs hidden-sm"></iframe>
-                        </p>
+                        <div class="animated fadeInRightBig">
+                            <div style="height:221px" class="visible-xs"></div>
+                            <div class="row">
+                                <div class="col-sm-5 col-sm-offset-6">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/TYgkCZMptaw?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen id="home-video" class="hidden-xs"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Start now</a>
                     </div>
                 </div>
-                <div class="item" style="background-image: url(img/skippr/home_040.jpg)">
+                <!-- <div class="item" style="background-image: url(img/skippr/home_040.jpg)">
                     <div class="caption">
                         <h1 class="animated fadeInLeftBig blanco">NUESTROS <span class="color-products">PRODUCTOS</span></h1>
                         <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Productos</a>
@@ -90,7 +96,7 @@
                         </div>
                         </div>
                         <a data-scroll class="btn btn-start animated fadeInUpBig" href="#contact">CONTACTO</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
