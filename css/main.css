@@ -122,7 +122,7 @@ section {
   position: relative;
 }
 #home-video .caption {
-  top: 35%;
+  top: 35% !important;
 }
 #home-slider .caption {
   position: absolute;
