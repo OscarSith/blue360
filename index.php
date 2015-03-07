@@ -275,7 +275,7 @@
                         </p>
                     </div>
                 </div>
-                <!-- <div class="item" style="background-image: url(img/about-bg2.jpg)">
+                <div class="item" style="background-image: url(img/about-bg2.jpg)">
                     <div class="carousel-caption color-blue">
                         <div class="col-sm-4 text-justify">
                             <p>
@@ -293,7 +293,7 @@
                             </p>
                         </div>
                     </div>
-                </div> -->
+                </div>
             </div>
             <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -513,22 +513,22 @@
             <div class="row count">
                 <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <i class="fa fa-user"></i>
-                    <h3 class="timer">4000</h3>
+                    <h3 class="timer">3</h3>
                     <p>Happy Clients</p>
                 </div>
                 <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
                     <i class="fa fa-desktop"></i>
-                    <h3 class="timer">200</h3>
+                    <h3 class="timer">3</h3>
                     <p>Modern Websites</p>
                 </div> 
                 <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
                     <i class="fa fa-trophy"></i>
-                    <h3 class="timer">10</h3>
+                    <h3 class="timer">0</h3>
                     <p>WINNING AWARDS</p>
                 </div> 
                 <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="900ms">
                     <i class="fa fa-comment-o"></i>
-                    <h3>24/7</h3>
+                    <h3>8/5</h3>
                     <p>Fast Support</p>
                 </div>
             </div>
