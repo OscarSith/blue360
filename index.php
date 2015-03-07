@@ -27,14 +27,14 @@
     <header id="home">
         <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner">
-                <div class="item active" style="background-image: url(img/skippr/home_030.jpg)">
+                <div class="item active" style="background-image: url(img/skippr/home_030.jpg)" id="home-video">
                     <div class="caption" id="caption-video">
                         <div class="animated fadeInRightBig">
                             <div style="height:221px" class="visible-xs"></div>
-                            <div class="row">
+                            <div class="row hidden-xs">
                                 <div class="col-sm-5 col-sm-offset-6">
                                     <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/TYgkCZMptaw?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen id="home-video" class="hidden-xs"></iframe>
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/TYgkCZMptaw?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen id="home-video"></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -42,7 +42,7 @@
                         <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Start now</a>
                     </div>
                 </div>
-                <!-- <div class="item" style="background-image: url(img/skippr/home_040.jpg)">
+                <div class="item" style="background-image: url(img/skippr/home_040.jpg)">
                     <div class="caption">
                         <h1 class="animated fadeInLeftBig blanco">NUESTROS <span class="color-products">PRODUCTOS</span></h1>
                         <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Productos</a>
@@ -96,7 +96,7 @@
                         </div>
                         </div>
                         <a data-scroll class="btn btn-start animated fadeInUpBig" href="#contact">CONTACTO</a>
-                    </div> -->
+                    </div>
                 </div>
             </div>
             <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
@@ -264,7 +264,7 @@
     <section id="about-us">
         <div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner">
-                <div class="item active" style="background-image: url(img/about-bg.jpg)">
+                <div class="item active" style="background-image: url(img/about-bg.jpg)" id="us-01">
                     <div class="carousel-caption color-blue" id="banner_1">
                         <h2 class="color-blue2 text-left">CREAR + INNOVAR = BLUE360</h2>
                         <p class="text-justify">Blue360 tuvo inicio a finales del año 2014, cuando un grupo de jóvenes profesionales se  unieron para desarrollar productos acorde a la necesidad de futuros clientes con el fin de lograr valor y beneficios de sus marcas.</p>
@@ -275,7 +275,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="item" style="background-image: url(img/about-bg2.jpg)">
+                <!-- <div class="item" style="background-image: url(img/about-bg2.jpg)">
                     <div class="carousel-caption color-blue">
                         <div class="col-sm-4 text-justify">
                             <p>
@@ -293,7 +293,7 @@
                             </p>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>

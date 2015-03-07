@@ -192,3 +192,16 @@
 		margin-top: -2px;
 	}
 }
+@media (max-width: 419px) {
+	#home-video {
+		background-position: 9% 0px
+	}
+}
+@media (max-width: 450px) {
+	#home-video {
+		background-position: 7% 0px
+	}
+}
+#us-01 {
+	background-position: 100% 0;
+}

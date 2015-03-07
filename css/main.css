@@ -387,7 +387,7 @@ section {
 
 #banner_1 {
 	left: 49%;
-	right: 15%;
+	right: 12%;
 	top: 16% !important;
 }
 #banner_2 {
@@ -1238,15 +1238,7 @@ ul.social-buttons li a{
 .color-products {
 	color: #BD1D4F !important
 }
-#caption-video {
-	top: 39% !important;
-}
-#caption-video p {
-	text-align: right;
-}
-#home-video {
-	margin-right: 7%
-}
+
 .mt20 {
 	margin-top: 20px
 }
