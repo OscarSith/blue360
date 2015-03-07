@@ -121,10 +121,12 @@ section {
   overflow: hidden;
   position: relative;
 }
-
+#home-video .caption {
+  top: 35%;
+}
 #home-slider .caption {
   position: absolute;
-  top: 35%;
+  top: 50%;
   margin-top: -104px;
   left: 0;
   right: 0;
