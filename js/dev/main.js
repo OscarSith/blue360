@@ -1,4 +1,8 @@
 var preloader = $('.preloader');
+$('.navbar-collapse ul li a').click(function() {
+    $('.navbar-toggle:visible').click();
+});
+
 $(window).load(function(){
 	preloader.remove();
 	//Meters

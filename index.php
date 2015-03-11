@@ -87,7 +87,7 @@
                                         <a href="https://vimeo.com/blue360peru" target="_blank" id="vim"><i class="fa fa-vimeo-square"></i></a>
                                     </li>
                                     <li>
-                                        <a href="http://www.dailymotion.com/blue360peru" target="_blank">
+                                        <a href="http://www.dailymotion.com/blue360peru" target="_blank" class="dym">
                                             <img src="img/daily_motion.png" alt="Logo daily Motion">
                                         </a>
                                     </li>
@@ -265,18 +265,20 @@
         <div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="item active" style="background-image: url(img/about-bg.jpg)" id="us-01">
-                    <div class="carousel-caption color-blue" id="banner_1">
-                        <h2 class="color-blue2 text-left">CREAR + INNOVAR = BLUE360</h2>
-                        <p class="text-justify">Blue360 tuvo inicio a finales del año 2014, cuando un grupo de jóvenes profesionales se  unieron para desarrollar productos acorde a la necesidad de futuros clientes con el fin de lograr valor y beneficios de sus marcas.</p>
-                        <p class="text-justify">Asimismo la creación de dichos productos debía abrir la barrera de lo intangible a lo tangible a través de nuestra estrategia Océano azul que se basa en desintoxicar a la empresa que se encuentra sumergida en conceptos tradicionales.</p>
-                        <p class="text-justify">Por ello Blue360 se encuentra abocada a generar nuevas estrategias que brindarán a nuestros futuros clientes una gama de posibilidades para crecer y desarrollarse en un mundo de competencia constante y cambiante.</p>
-                        <p class="text-justify">
-                            <i>“La filosofía de Blue 360 es sacar lo mejor de ti o tu empresa, cuando aún no te has dado cuenta de lo poderoso que eres”</i>
-                        </p>
+                    <div class="color-blue" id="banner_1">
+                        <div class="col-xs-12 col-sm-offset-5 col-md-offset-6 col-sm-6 col-md-5">
+                            <h2 class="color-blue2 text-left">CREAR + INNOVAR = BLUE360</h2>
+                            <p class="text-justify">Blue360 tuvo inicio a finales del año 2014, cuando un grupo de jóvenes profesionales se  unieron para desarrollar productos acorde a la necesidad de futuros clientes con el fin de lograr valor y beneficios de sus marcas.</p>
+                            <p class="text-justify">Asimismo la creación de dichos productos debía abrir la barrera de lo intangible a lo tangible a través de nuestra estrategia Océano azul que se basa en desintoxicar a la empresa que se encuentra sumergida en conceptos tradicionales.</p>
+                            <p class="text-justify">Por ello Blue360 se encuentra abocada a generar nuevas estrategias que brindarán a nuestros futuros clientes una gama de posibilidades para crecer y desarrollarse en un mundo de competencia constante y cambiante.</p>
+                            <p class="text-justify">
+                                <i>“La filosofía de Blue 360 es sacar lo mejor de ti o tu empresa, cuando aún no te has dado cuenta de lo poderoso que eres”</i>
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div class="item" style="background-image: url(img/about-bg2.jpg)">
-                    <div class="carousel-caption color-blue">
+                    <div class="carousel-caption color-blue" id="home-2">
                         <div class="col-sm-4 text-justify">
                             <p>
                                 En Blue 360 entendemos que, en el mercado existe una constante lucha por ser el mejor; sin embargo nuestro objetivo es seguir la estrategia del Océano Azul que se basa en crear nuevos espacios y 
@@ -839,7 +841,7 @@
                                         <a href="https://vimeo.com/blue360peru" target="_blank" id="vim"><i class="fa fa-vimeo-square"></i></a>
                                     </li>
                                     <li>
-                                        <a href="http://www.dailymotion.com/blue360peru" target="_blank">
+                                        <a href="http://www.dailymotion.com/blue360peru" target="_blank" class="dym">
                                             <img src="img/daily_motion.png" alt="Logo daily Motion">
                                         </a>
                                     </li>

@@ -8,6 +8,26 @@
 
 }
 
+@media (min-width: 1170px) {
+	#banner_1 h2 {
+		margin-top: 178px
+	}
+}
+@media (min-width: 1030px) {
+	#banner_1 h2 {
+		margin-top: 150px
+	}
+}
+@media (max-height: 667px) {
+	.carousel-inner .item {
+		height: 667px !important
+	}
+	#home-2 {
+		right: 7%;
+		left: 7%;
+	}
+}
+
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
  	.social-icons ul li {
@@ -180,13 +200,7 @@
 	.footer-bottom p.pull-right {
 		float: none !important;
 	}
-	#banner_1 {
-		left: 5% !important;
-		right: 5% !important;
-	}
-	#banner_1 h2.color-blue2 {
-		margin-top: -22px
-	}
+	
 	#logo {
 		height: 41px;
 		margin-top: -2px;
