@@ -18,8 +18,8 @@
 		margin-top: 150px
 	}
 }
-@media (max-height: 667px) {
-	.carousel-inner .item {
+@media (max-width: 374px) {
+	#about-us .carousel-inner .item {
 		height: 667px !important
 	}
 	#home-2 {

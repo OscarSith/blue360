@@ -41,7 +41,7 @@ $(window).scroll(function(event) {
 	Scroll();
 });
 
-$('.navbar-collapse ul li a, .navbar-brand').on('click', function() {  
+$('.navbar-collapse ul li a, .navbar-brand, .footer-logo a').on('click', function() {  
 	$('html, body').animate({scrollTop: $(this.hash).offset().top - 5}, 1000);
 	return false;
 });
@@ -212,3 +212,22 @@ google.maps.event.addDomListener(window, 'load', initialize_map);
 smoothScroll.init();
 //Initiat WOW JS
 new WOW().init();
+
+var $contentsTweets = $('#twitter-carousel');
+$contentsTweets.find('.carousel-inner').html('<i class="fa fa-spin fa-gear fa-2x"></i>');
+$.getJSON('get-timelimes', function(rec) {
+	var html = '',
+		indicators = '',
+		i = 0,
+		size = rec.length,
+		active = '';
+
+	for (i; i < size; i++) {
+		active = (i === 0 ? 'active' : '');
+
+		indicators += '<li data-target="#twitter-carousel" data-slide-to="'+i+'" class="'+active+'"></li> '
+		html += '<div class="item '+active+'"><p>'+rec[i].text+'</p></div>';
+	}
+	$contentsTweets.find('.carousel-indicators').html(indicators);
+	$contentsTweets.find('.carousel-inner').html(html);
+});

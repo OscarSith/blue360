@@ -1,0 +1,3 @@
+RewriteEngine on
+
+RewriteRule ^get-timelimes/?$ class/ShowTweets.php [L]
