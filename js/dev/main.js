@@ -1,10 +1,9 @@
-var preloader = $('.preloader');
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
-$(window).load(function(){
-	preloader.remove();
+$(function(){
+	$('#preloader').remove();
 	//Meters
 	$('#meters').bind('inview', function(e, visible) {
 		if (visible) {
@@ -23,7 +22,8 @@ var slideHeight = $(window).height(),
 	$bg = $('#home-slider .item, #about-us .item');
 
 $bg.css('height',slideHeight);
-$(window).resize(function(){'use strict',
+$(window).resize(function(){
+	'use strict';
 	$bg.css('height',slideHeight);
 });
 
@@ -56,15 +56,15 @@ function Scroll() {
 	$('.navbar-collapse').find('.scroll a').each(function(){
 		contentTop.push( $( $(this).attr('href') ).offset().top);
 		contentBottom.push( $( $(this).attr('href') ).offset().top + $( $(this).attr('href') ).height() );
-	})
+	});
 	$.each( contentTop, function(i){
 		if ( winTop > contentTop[i] - rangeTop ){
 			$('.navbar-collapse li.scroll')
 			.removeClass('active')
 			.eq(i).addClass('active');
 		}
-	})
-};
+	});
+}
 
 $('#tohash').on('click', function(){
 	$('html, body').animate({scrollTop: $(this.hash).offset().top - 5}, 1000);
@@ -185,8 +185,8 @@ function optionsCircle (id, val) {
 	};
 }
 var $map = $('#google-map');
-var latitude = $map.data('latitude')
-var longitude = $map.data('longitude')
+var latitude = $map.data('latitude');
+var longitude = $map.data('longitude');
 function initialize_map() {
     var myLatlng = new google.maps.LatLng(latitude,longitude);
     var mapOptions = {
@@ -225,7 +225,7 @@ $.getJSON('get-timelimes', function(rec) {
 	for (i; i < size; i++) {
 		active = (i === 0 ? 'active' : '');
 
-		indicators += '<li data-target="#twitter-carousel" data-slide-to="'+i+'" class="'+active+'"></li> '
+		indicators += '<li data-target="#twitter-carousel" data-slide-to="'+i+'" class="'+active+'"></li> ';
 		html += '<div class="item '+active+'"><p>'+rec[i].text+'</p></div>';
 	}
 	$contentsTweets.find('.carousel-indicators').html(indicators);

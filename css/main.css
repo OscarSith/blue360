@@ -607,7 +607,7 @@ section {
 **************************/
 #features {
   text-align: center;
-  background-image: url(../img/features-bg.jpg);
+  background-image: url(../img/bg_team_equipo.jpeg);
 }
 
 #features i {
@@ -1262,10 +1262,4 @@ ul.social-buttons li a{
 #banner_1 h2 {
   margin-top: 50px;
   font-size: 24px
-}
-#bg_team {
-  background-image: url(../img/bg_team_equipo.jpeg);
-}
-#bg_team .container {
-  height: 150px
 }
