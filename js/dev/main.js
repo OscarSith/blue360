@@ -109,9 +109,7 @@ $('#portfolio').on('click','.folio-read-more',function(event){
 
 	$('html, body').animate({scrollTop:target_top}, 600);
 	$('#portfolio-single').slideUp(500, function(){
-		$(this).load(link,function(){
-			$(this).slideDown(500);
-		});
+		$(this).fadeIn(500);
 	});
 });
 

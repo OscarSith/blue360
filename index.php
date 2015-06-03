@@ -341,13 +341,13 @@
                                 </div>
                                 <div class="folio-overview">
                                     <span class="folio-link">
-                                        <a class="folio-read-more" href="#" data-single_url="portafolios_html/ara_content.html" ><i class="fa fa-link"></i></a>
+                                        <a class="folio-read-more" href="#"><i class="fa fa-link"></i></a>
                                     </span>
-                                    <span class="folio-expand">
+                                    <!-- <span class="folio-expand">
                                         <a href="#modal-ara" data-toggle="modal">
                                             <i class="fa fa-search-plus"></i>
                                         </a>
-                                    </span>
+                                    </span> -->
                                 </div>
                             </div>
                         </div>
@@ -355,157 +355,65 @@
                 </div>
             </div>
             <div class="hidden-xs col-sm-4"></div>
-          <!-- <div class="col-sm-3">
-                <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
-                  <div class="folio-image">
-                    <img class="img-responsive" src="images/portfolio/2.jpg" alt="">
-                  </div>
-                  <div class="overlay">
-                    <div class="overlay-content">
-                      <div class="overlay-text">
-                        <div class="folio-info">
-                          <h3>Time Hours</h3>
-                          <p>Design, Photography</p>
-                        </div>
-                        <div class="folio-overview">
-                          <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
-                          <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-3">
-                <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="500ms">
-                  <div class="folio-image">
-                    <img class="img-responsive" src="images/portfolio/3.jpg" alt="">
-                  </div>
-                  <div class="overlay">
-                    <div class="overlay-content">
-                      <div class="overlay-text">
-                        <div class="folio-info">
-                          <h3>Time Hours</h3>
-                          <p>Design, Photography</p>
-                        </div>
-                        <div class="folio-overview">
-                          <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
-                          <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-3">
-                <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="600ms">
-                  <div class="folio-image">
-                    <img class="img-responsive" src="images/portfolio/4.jpg" alt="">
-                  </div>
-                  <div class="overlay">
-                    <div class="overlay-content">
-                      <div class="overlay-text">
-                        <div class="folio-info">
-                          <h3>Time Hours</h3>
-                          <p>Design, Photography</p>
-                        </div>
-                        <div class="folio-overview">
-                          <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
-                          <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-3">
-                <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
-                  <div class="folio-image">
-                    <img class="img-responsive" src="images/portfolio/5.jpg" alt="">
-                  </div>
-                  <div class="overlay">
-                    <div class="overlay-content">
-                      <div class="overlay-text">
-                        <div class="folio-info">
-                          <h3>Time Hours</h3>
-                          <p>Design, Photography</p>
-                        </div>
-                        <div class="folio-overview">
-                          <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
-                          <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-3">
-                <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="800ms">
-                  <div class="folio-image">
-                    <img class="img-responsive" src="images/portfolio/6.jpg" alt="">
-                  </div>
-                  <div class="overlay">
-                    <div class="overlay-content">
-                      <div class="overlay-text">
-                        <div class="folio-info">
-                          <h3>Time Hours</h3>
-                          <p>Design, Photography</p>
-                        </div>
-                        <div class="folio-overview">
-                          <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
-                          <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-3">
-                <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="900ms">
-                  <div class="folio-image">
-                    <img class="img-responsive" src="images/portfolio/7.jpg" alt="">
-                  </div>
-                  <div class="overlay">
-                    <div class="overlay-content">
-                      <div class="overlay-text">
-                        <div class="folio-info">
-                          <h3>Time Hours</h3>
-                          <p>Design, Photography</p>
-                        </div>
-                        <div class="folio-overview">
-                          <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
-                          <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-3">
-                <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="1000ms">
-                  <div class="folio-image">
-                    <img class="img-responsive" src="images/portfolio/8.jpg" alt="">
-                  </div>
-                  <div class="overlay">
-                    <div class="overlay-content">
-                      <div class="overlay-text">
-                        <div class="folio-info">
-                          <h3>Time Hours</h3>
-                          <p>Design, Photography</p>
-                        </div>
-                        <div class="folio-overview">
-                          <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
-                          <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-          </div> -->
         </div>
       </div>
       <div id="portfolio-single-wrap">
-        <div id="portfolio-single">
+        <div id="portfolio-single" style="display:none">
+            <div id="single-portfolio">
+                <div id="portfolio-details" class="container">
+                    <a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
+                    <div class="row">
+                        <div class="col-sm-2"></div>
+                        <div class="col-sm-8">
+                            <div id="carousel-ara" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carousel-ara" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel-ara" data-slide-to="1"></li>
+                                    <li data-target="#carousel-ara" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <img src="img/portafolio/postaraingenieros/pagina_web.jpg" alt="pagina_web">
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/portafolio/postaraingenieros/Redes_sociales.jpg" alt="Redes_sociales">
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/portafolio/postaraingenieros/Video_informativo.jpg" alt="Video_informativo">
+                                    </div>
+                                </div>
+                                <a class="left carousel-control" href="#carousel-ara" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#carousel-ara" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <div class="project-info">
+                                        <h3 class="color-products">PROYECTO ARA INGENIEROS S.A.C.</h3>
+                                        <p>Empresa especializada y dedicada a la Construcción, Consultoría, Supervisión y Servicios relacionados, constituida el año 2008 en la ciudad de Lima – Perú.</p>
+
+                                        <p>Cuenta con personal calificado, equipos propios y respaldo financiero que permiten agregar valor a su propuesta de servicios por medio de eficiencia y confianza.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="project-details">
+                                        <h3 class="color-products">DETALLES DEL PROYECTO</h3>
+                                        <p><span>Client: </span>Ara Ingenieros S.A.C.</p>
+                                        <p><span>Fecha:</span> 15/12/14</p>
+                                        <p><span>Tag:</span> Social Media, Diseño,Video  y  Web.</p>
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2"></div>
+                    </div>
+                </div>
+            </div>
         </div>
       </div>
     </section>
@@ -921,77 +829,6 @@
                         </div>
                         <div class="col-sm-6">
                             <img src="img/servicios/marketing_legal.jpg" alt="Marketing Legal" class="img-responsive">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="modal-ara" tabindex="-1" role="dialog" aria-labelledby="modalAra" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">
-                        <span aria-hidden="true">&times;</span>
-                        <span class="sr-only">Close</span>
-                    </button>
-                    <h4 class="modal-title" id="modalAra">ARA INGENIEROS</h4>
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/r_KL2--uSBM?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row mt20">
-                        <div class="col-sm-5">
-                            <div id="carousel-ara" class="carousel slide center-block" data-ride="carousel">
-                                <div class="carousel-inner" role="listbox">
-                                    <div class="item active">
-                                        <img src="img/portafolio/postaraingenieros/bienvenida_2.jpg" alt="bienvenida_2">
-                                    </div>
-                                    <div class="item">
-                                        <img src="img/portafolio/postaraingenieros/Consorcio_Kumbres.jpg" alt="Consorcio_Kumbres">
-                                    </div>
-                                    <div class="item">
-                                        <img src="img/portafolio/postaraingenieros/Dubai.jpg" alt="Dubai">
-                                    </div>
-                                    <div class="item">
-                                        <img src="img/portafolio/postaraingenieros/Frank_Lloyd_Wright.jpg" alt="Frank_Lloyd_Wright">
-                                    </div>
-                                    <div class="item">
-                                        <img src="img/portafolio/postaraingenieros/post_3.jpg" alt="post_3">
-                                    </div>
-                                    <div class="item">
-                                        <img src="img/portafolio/postaraingenieros/Cargas.jpg" alt="Cargas">
-                                    </div>
-                                    <div class="item">
-                                        <img src="img/portafolio/postaraingenieros/Contacto.jpg" alt="Contacto">
-                                    </div>
-                                    <div class="item">
-                                        <img src="img/portafolio/postaraingenieros/Roma_Italia.jpg" alt="Roma_Italia">
-                                    </div>
-                                </div>
-                                <!-- Controls -->
-                                <a class="left carousel-control" href="#carousel-ara" role="button" data-slideshow="prev">
-                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="right carousel-control" href="#carousel-ara" role="button" data-slide="next">
-                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-sm-7">
-                            <img src="img/portafolio/imagen_website_ara.jpg" alt="Imagen del website de Ara Ingenieros" class="img-responsive bor-double center-block">
-                            <ul class="list-inline text-center">
-                                <li>
-                                    <a href="http://www.araisac.pe" target="_blank">Ir al website <i class="fa fa-external-link"></i></a>
-                                </li>
-                            </ul>
                         </div>
                     </div>
                 </div>
