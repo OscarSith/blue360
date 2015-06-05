@@ -327,7 +327,7 @@
       </div>
       <div class="container-fluid">
         <div class="row">
-            <div class="hidden-xs col-sm-4"></div>
+            <div class="hidden-xs col-sm-2"></div>
             <div class="col-sm-4">
                 <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="folio-image">
@@ -341,26 +341,41 @@
                                 </div>
                                 <div class="folio-overview">
                                     <span class="folio-link">
-                                        <a class="folio-read-more" href="#"><i class="fa fa-link"></i></a>
+                                        <a class="folio-read-more" href="#portfolio-single-ara"><i class="fa fa-link"></i></a>
                                     </span>
-                                    <!-- <span class="folio-expand">
-                                        <a href="#modal-ara" data-toggle="modal">
-                                            <i class="fa fa-search-plus"></i>
-                                        </a>
-                                    </span> -->
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="hidden-xs col-sm-4"></div>
+            <div class="col-sm-4">
+                <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+                    <div class="folio-image">
+                        <img class="img-responsive" src="img/portafolio/challenger/cuadro-portafolio.jpg" alt="">
+                    </div>
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <div class="overlay-text">
+                                <div class="folio-info">
+                                    <h3>Challenger Eventos</h3>
+                                </div>
+                                <div class="folio-overview">
+                                    <span class="folio-link">
+                                        <a class="folio-read-more" href="#portfolio-single-challenger"><i class="fa fa-link"></i></a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
       </div>
       <div id="portfolio-single-wrap">
-        <div id="portfolio-single" style="display:none">
-            <div id="single-portfolio">
-                <div id="portfolio-details" class="container">
+        <div id="portfolio-single-ara" style="display:none" class="custom-portfolio">
+            <div class="single-portfolio">
+                <div class="portfolio-details" class="container">
                     <a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
                     <div class="row">
                         <div class="col-sm-2"></div>
@@ -408,6 +423,41 @@
                                         <p><span>Tag:</span> Social Media, Diseño,Video  y  Web.</p>
                                     </div>  
                                 </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="portfolio-single-challenger" style="display:none" class="custom-portfolio">
+            <div class="single-portfolio">
+                <div class="portfolio-details" class="container">
+                    <a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
+                    <div class="row">
+                        <div class="col-sm-2"></div>
+                        <div class="col-sm-8">
+                            <div id="carousel-challenger" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carousel-challenger" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel-challenger" data-slide-to="1"></li>
+                                </ol>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <img src="img/portafolio/challenger/sistema-portafolio.jpg" alt="Sistema administrativo de Productos">
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/portafolio/challenger/web-portafolio.jpg" alt="Sistema de catalogo de productos">
+                                    </div>
+                                </div>
+                                <a class="left carousel-control" href="#carousel-challenger" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#carousel-challenger" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
                             </div>
                         </div>
                         <div class="col-sm-2"></div>

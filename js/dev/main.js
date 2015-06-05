@@ -71,16 +71,6 @@ $('#tohash').on('click', function(){
 	return false;
 });
 
-// Progress Bar
-$('#about-us').bind('inview', function(event, visible, visiblePartX, visiblePartY) {
-	if (visible) {
-		$.each($('div.progress-bar'),function(){
-			$(this).css('width', $(this).attr('aria-valuetransitiongoal')+'%');
-		});
-		$(this).unbind('inview');
-	}
-});
-
 //Countdown
 $('#features').bind('inview', function(event, visible, visiblePartX, visiblePartY) {
 	if (visible) {
@@ -101,14 +91,12 @@ $('#features').bind('inview', function(event, visible, visiblePartX, visiblePart
 // Portfolio Single View
 $('#portfolio').on('click','.folio-read-more',function(event){
 	event.preventDefault();
-	var link = $(this).data('single_url');
-	var full_url = '#portfolio-single-wrap',
-	parts = full_url.split("#"),
-	trgt = parts[1],
-	target_top = $("#"+trgt).offset().top;
+	var content = $(this).attr('href'),
+	target_top = $("#portfolio-single-wrap").offset().top;
 
+	$(".custom-portfolio").slideUp(100);
 	$('html, body').animate({scrollTop:target_top}, 600);
-	$('#portfolio-single').slideUp(500, function(){
+	$(content).slideUp(500, function(){
 		$(this).fadeIn(500);
 	});
 });
@@ -116,13 +104,10 @@ $('#portfolio').on('click','.folio-read-more',function(event){
 // Close Portfolio Single View
 $('#portfolio-single-wrap').on('click', '.close-folio-item',function(event) {
 	event.preventDefault();
-	var full_url = '#portfolio',
-	parts = full_url.split("#"),
-	trgt = parts[1],
-	target_offset = $("#"+trgt).offset(),
-	target_top = target_offset.top;
-	$('html, body').animate({scrollTop:target_top}, 600);
-	$("#portfolio-single").slideUp(500);
+	var content = $(this).attr('href'),
+		target_offset = $("#portfolio").offset();
+	$('html, body').animate({scrollTop: target_offset.top}, 600);
+	$(".custom-portfolio").slideUp(500);
 });
 
 // Contact form

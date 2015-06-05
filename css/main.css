@@ -499,18 +499,18 @@ section {
 }
 
 
-#single-portfolio {
+.single-portfolio {
   padding: 90px 0;
   background: #f5f5f5;
   position: relative;
 }
 
-#single-portfolio img {
+.single-portfolio img {
   width: 100%;
   margin-bottom: 10px;
 }
 
-#single-portfolio .close-folio-item {
+.single-portfolio .close-folio-item {
   position: absolute;
   top: 30px;
   font-size: 34px;
