@@ -378,8 +378,8 @@
                 <div class="portfolio-details" class="container">
                     <a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
                     <div class="row">
-                        <div class="col-sm-2"></div>
-                        <div class="col-sm-8">
+                        <div class="col-sm-3"></div>
+                        <div class="col-sm-6">
                             <div id="carousel-ara" class="carousel slide" data-ride="carousel">
                                 <ol class="carousel-indicators">
                                     <li data-target="#carousel-ara" data-slide-to="0" class="active"></li>
@@ -435,8 +435,7 @@
                 <div class="portfolio-details" class="container">
                     <a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
                     <div class="row">
-                        <div class="col-sm-2"></div>
-                        <div class="col-sm-8">
+                        <div class="col-sm-6 col-sm-offset-3">
                             <div id="carousel-challenger" class="carousel slide" data-ride="carousel">
                                 <ol class="carousel-indicators">
                                     <li data-target="#carousel-challenger" data-slide-to="0" class="active"></li>
