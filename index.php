@@ -330,7 +330,7 @@
             <div class="hidden-xs col-sm-2"></div>
             <div class="col-sm-4">
                 <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
-                    <div class="folio-image">
+                    <div class="folio-image" id="front-ara">
                         <img class="img-responsive" src="img/portafolio/ARA_LOGO.jpg" alt="">
                     </div>
                     <div class="overlay">
@@ -457,6 +457,24 @@
                                     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                                     <span class="sr-only">Next</span>
                                 </a>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="project-info">
+                                        <h3 class="color-products">PROYECTO CHALLENGER EVENTOS</h3>
+                                        <p>Empresa realizadora de espectáculos de fuegos artificiales y efectos especiales diurnos y nocturnos a nivel nacional.</p>
+                                        <p>Challenger eventos S.A.C, autorizadas por la Superintendencia de control de servicios de seguridad, armas, municiones y explosivos de uso civil SUCAMEC ha organizado las más importantes Ferias de fuegos artificiales del Perú en los últimos 5 años.</p>
+                                    </div>
+                                    <hr>
+                                    <div class="text-center">
+                                        <address>
+                                            <br>
+                                            Cliente: Challenger eventos S.A.C<br>
+                                            Fecha: 02/03/15<br>
+                                            Tag: Website y Sistema<br>
+                                        </address>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-sm-2"></div>
