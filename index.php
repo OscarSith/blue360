@@ -425,7 +425,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-2"></div>
                     </div>
                 </div>
             </div>
@@ -459,21 +458,20 @@
                                 </a>
                             </div>
                             <div class="row">
-                                <div class="col-sm-12">
+                                <div class="col-sm-8">
                                     <div class="project-info">
                                         <h3 class="color-products">PROYECTO CHALLENGER EVENTOS</h3>
                                         <p>Empresa realizadora de espectáculos de fuegos artificiales y efectos especiales diurnos y nocturnos a nivel nacional.</p>
                                         <p>Challenger eventos S.A.C, autorizadas por la Superintendencia de control de servicios de seguridad, armas, municiones y explosivos de uso civil SUCAMEC ha organizado las más importantes Ferias de fuegos artificiales del Perú en los últimos 5 años.</p>
                                     </div>
-                                    <hr>
-                                    <div class="text-center">
-                                        <address>
-                                            <br>
-                                            Cliente: Challenger eventos S.A.C<br>
-                                            Fecha: 02/03/15<br>
-                                            Tag: Website y Sistema<br>
-                                        </address>
-                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="project-details">
+                                        <h3 class="color-products">DETALLES DEL PROYECTO</h3>
+                                        <p><span>Client: </span>Challenger eventos S.A.C</p>
+                                        <p><span>Fecha:</span> 02/03/15</p>
+                                        <p><span>Tag:</span> Website y Sistema</p>
+                                    </div>  
                                 </div>
                             </div>
                         </div>
