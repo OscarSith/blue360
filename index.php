@@ -1,3 +1,20 @@
+<?php
+$arr = explode(',', $_SERVER['HTTP_ACCEPT_LANGUAGE']);
+include 'languaje.php';
+
+if (isset($_GET['lang']) && ($_GET['lang'] == 'es' || $_GET['lang'] == 'en')) {
+    $arr[0] = $_GET['lang'];
+
+    setcookie('lang', $arr[0], strtotime( '+30 days' ));
+    header('location: ' . $_SERVER['HTTP_REFERER']);
+    exit();
+}
+
+if (isset($_COOKIE['lang'])) {
+    $arr[0] = $_COOKIE['lang'];
+}
+$text = $lang[ $arr[0] ];
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -44,15 +61,15 @@
                 </div>
                 <div class="item" style="background-image: url(img/skippr/home_040.jpg)">
                     <div class="caption">
-                        <h1 class="animated fadeInLeftBig blanco">NUESTROS <span class="color-products">PRODUCTOS</span></h1>
-                        <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Productos</a>
+                        <h1 class="animated fadeInLeftBig blanco"><?php echo $text['ours'] ?> <span class="color-products"><?php echo $text['products'] ?></span></h1>
+                        <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services"><?php echo $text['products'] ?></a>
                     </div>
                 </div>
                 <div class="item" style="background-image: url(img/skippr/home_010.jpg)">
                     <div class="caption">
-                        <h1 class="animated fadeInLeftBig color-blue">ESTRATEGIA <span class="color-blue2">OCÉANO AZUL</span></h1>
+                        <h1 class="animated fadeInLeftBig color-blue"><?php echo $text['strategy'] ?> <span class="color-blue2"><?php echo $text['blue_ocean'] ?></span></h1>
                         <p class="animated fadeInRightBig color-blue" style="font-weight: 500">OCÉANO AZUL CREA NUEVOS ESPACIOS E INEXISTENCIAS DE<br>COMPETIDORES,DIFERENCIA Y LIDERA UN MERCADO LLENO DE OPORTUNIDADES</p>
-                        <a data-scroll class="btn btn-start animated fadeInUpBig" href="#about-us">NOSOTROS</a>
+                        <a data-scroll class="btn btn-start animated fadeInUpBig" href="#about-us"><?php echo $text['us'] ?></a>
                     </div>
                 </div>
                 <div class="item" style="background-image: url(img/skippr/home_020.jpg)">
@@ -95,7 +112,7 @@
                             </div>
                         </div>
                         </div>
-                        <a data-scroll class="btn btn-start animated fadeInUpBig" href="#contact">CONTACTO</a>
+                        <a data-scroll class="btn btn-start animated fadeInUpBig" href="#contact"><?php echo strtoupper($text['contact']) ?></a>
                     </div>
                 </div>
             </div>
@@ -118,12 +135,19 @@
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                      <li class="scroll active"><a href="#home">Home</a></li>
-                      <li class="scroll"><a href="#services">Productos</a></li> 
-                      <li class="scroll"><a href="#about-us">Nosotros</a></li>
-                      <li class="scroll"><a href="#portfolio">Portafolio</a></li>
-                      <li class="scroll"><a href="#team">Equipo</a></li>
-                      <li class="scroll"><a href="#contact">Contacto</a></li>
+                      <li class="scroll active"><a href="#home"><?php echo $text['home'] ?></a></li>
+                      <li class="scroll"><a href="#services"><?php echo $text['products'] ?></a></li> 
+                      <li class="scroll"><a href="#about-us"><?php echo $text['us'] ?></a></li>
+                      <li class="scroll"><a href="#portfolio"><?php echo $text['portfolio'] ?></a></li>
+                      <li class="scroll"><a href="#team"><?php echo $text['team'] ?></a></li>
+                      <li class="scroll"><a href="#contact"><?php echo $text['contact'] ?></a></li>
+                      <li>
+                        <?php if ($arr[0] == 'es'): ?>
+                            <li><a href="?lang=en"><i class="fa fa-language fa-lg"></i> Inglés</a></li>
+                        <?php else: ?>
+                            <li><a href="?lang=es"><i class="fa fa-language fa-lg"></i> <?php echo $text['lang_es'] ?></a></li>
+                        <?php endif ?>
+                    </li>
                     </ul>
                 </div>
             </div>
@@ -135,7 +159,7 @@
             <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
               <div class="row">
                 <div class="text-center col-sm-8 col-sm-offset-2" style="visibility: hidden">
-                  <h2>Nuestros Servicios</h2>
+                  <h2><?php echo $text['our_services'] ?></h2>
                 </div>
               </div> 
             </div>
@@ -151,7 +175,7 @@
                             </span>
                         </div>
                         <span>
-                            <span class="title-produts">IDENTIDAD CORPORATIVA</span><br>
+                            <span class="title-produts"><?php echo $text['identity'] ?></span><br>
                             <small class="hidden-xs">Identidad - Logotipo - Atributos - papeleria</small>
                         </span>
                     </a>
@@ -165,7 +189,7 @@
                             </span>
                         </div>
                         <span>
-                            <span class="title-produts">CREACIÓN WEB</span><br>
+                            <span class="title-produts"><?php echo $text['web'] ?></span><br>
                             <small class="hidden-xs">Diseño web - Programación web</small>
                         </span>
                     </a>
@@ -179,7 +203,7 @@
                             </span>
                         </div>
                         <span>
-                            <span class="title-produts">MARKETING DIGITAL</span><br>
+                            <span class="title-produts"><?php echo $text['d_marketing'] ?></span><br>
                             <small class="hidden-xs">Redes sociales - Estrategias - Posicionamiento web</small>
                         </span>
                     </a>
@@ -193,7 +217,7 @@
                             </span>
                         </div>
                         <span>
-                            <span class="title-produts">MARKETING AUDIOVISUAL</span><br>
+                            <span class="title-produts"><?php echo $text['m_audiovisual'] ?></span><br>
                             <small class="hidden-xs">Videos corporativos - Institucionales - Tutoriales</small>
                         </span>
                     </a>
@@ -207,7 +231,7 @@
                             </span>
                         </div>
                         <span>
-                            <span class="title-produts">MARKETING PROMOCIONAL</span><br>
+                            <span class="title-produts"><?php echo $text['promotional'] ?></span><br>
                             <small class="hidden-xs">Actividades promocionales - Activaciones - Btl</small>
                         </span>
                     </a>
@@ -233,11 +257,11 @@
 
     <section id="meters" class="parallax">
         <div class="container">
-            <h2 class="text-center">Experiencia</h2>
+            <h2 class="text-center"><?php echo $text['exp'] ?></h2>
             <div class="r1 row text-center" data-wow-duration="1000ms" data-wow-delay="300ms">
                 <div class="col-sm-1 hidden-sm hidden-xs"></div>
                 <div class="c1 col-xs-6 col-sm-6 col-md-2 animateblock size speed-1 wow fadeInUp">
-                    <p class="description">IDENTIDAD</p>
+                    <p class="description"><?php echo $text['exp_identity'] ?></p>
                     <div class="animateblock circle wow fadeInUp" id="circle-1"></div>
                 </div>
                 <div class="c2 col-xs-6 col-sm-6 col-md-2 animateblock size speed-1 wow fadeInUp">
@@ -249,7 +273,7 @@
                     <div class="animateblock circle wow fadeInUp" id="circle-3"></div>
                 </div>
                 <div class="c4 col-xs-6 col-sm-6 col-md-2 animateblock size speed-1 wow fadeInUp">
-                    <p class="description">MKT PROMOCIONAL</p>
+                    <p class="description">MKT <?php echo $text['exp_promo'] ?></p>
                     <div class="animateblock circle wow fadeInUp" id="circle-4"></div>
                 </div>
                 <div class="c4 col-xs-6 col-sm-6 col-md-2 col-xs-offset-3 col-md-offset-0 animateblock size speed-1 wow fadeInUp">
@@ -267,32 +291,21 @@
                 <div class="item active" style="background-image: url(img/about-bg.jpg)" id="us-01">
                     <div class="color-blue" id="banner_1">
                         <div class="col-xs-12 col-sm-offset-5 col-md-offset-6 col-sm-6 col-md-5">
-                            <h2 class="color-blue2 text-left">CREAR + INNOVAR = BLUE360</h2>
-                            <p class="text-justify">Blue360 tuvo inicio a finales del año 2014, cuando un grupo de jóvenes profesionales se  unieron para desarrollar productos acorde a la necesidad de futuros clientes con el fin de lograr valor y beneficios de sus marcas.</p>
-                            <p class="text-justify">Asimismo la creación de dichos productos debía abrir la barrera de lo intangible a lo tangible a través de nuestra estrategia Océano azul que se basa en desintoxicar a la empresa que se encuentra sumergida en conceptos tradicionales.</p>
-                            <p class="text-justify">Por ello Blue360 se encuentra abocada a generar nuevas estrategias que brindarán a nuestros futuros clientes una gama de posibilidades para crecer y desarrollarse en un mundo de competencia constante y cambiante.</p>
-                            <p class="text-justify">
-                                <i>“La filosofía de Blue 360 es sacar lo mejor de ti o tu empresa, cuando aún no te has dado cuenta de lo poderoso que eres”</i>
-                            </p>
+                            <h2 class="color-blue2 text-left"><?php echo $text['us_init'] ?></h2>
+                            <?php echo $text['us_info'] ?>
                         </div>
                     </div>
                 </div>
                 <div class="item" style="background-image: url(img/about-bg2.jpg)">
                     <div class="carousel-caption color-blue" id="home-2">
                         <div class="col-sm-4 text-justify">
-                            <p>
-                                En Blue 360 entendemos que, en el mercado existe una constante lucha por ser el mejor; sin embargo nuestro objetivo es seguir la estrategia del Océano Azul que se basa en crear nuevos espacios y 
-                            </p>
+                            <p><?php echo $text['us_info2_01'] ?></p>
                         </div>
                         <div class="col-sm-4 text-justify">
-                            <p>
-                                entender que la competencia es irrelevante e inexistente para llegar a nuestras metas. Sabemos lo importante que es diferenciarse de los demás y conseguir economías de gran escala. En 
-                            </p>
+                            <p><?php echo $text['us_info2_02'] ?></p>
                         </div>
                         <div class="col-sm-4 text-justify">
-                            <p>
-                                conclusión, a través del Océano Azul nos encargaremos de encontrar nuevos mercados, crear nuevas demandas, y dejar de competir con otros con la finalidad de diferenciarnos y liderar un mercado.
-                            </p>
+                            <p><?php echo $text['us_info2_03'] ?></p>
                         </div>
                     </div>
                 </div>
@@ -321,7 +334,7 @@
       <div class="container">
         <div class="row">
           <div class="heading_min text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <h2>PORTAFOLIO</h2>
+            <h2><?php echo strtoupper($text['portfolio']) ?></h2>
           </div>
         </div> 
       </div>
@@ -514,7 +527,7 @@
         <div class="container">
             <div class="row">
                 <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
-                    <h2>NUESTRO EQUIPO</h2>
+                    <h2><?php echo $text['our_team'] ?></h2>
                 </div>
             </div>
             <div class="team-members">
@@ -635,7 +648,7 @@
         <div class="container">
           <div class="row">
             <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-              <h2>CONTÁCTENOS</h2>
+              <h2><?php echo $text['contact_us'] ?></h2>
             </div>
           </div>
           <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
@@ -646,23 +659,23 @@
                         <div class="row wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <input type="text" name="name" class="form-control" placeholder="Nombre" required="required">
+                                    <input type="text" name="name" class="form-control" placeholder="<?php echo $text['name'] ?>" required>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <input type="text" name="phone" class="form-control" placeholder="Teléfono" required="required">
+                                    <input type="text" name="phone" class="form-control" placeholder="<?php echo $text['phone'] ?>" required>
                                 </div>
                             </div>
                         </div>
                         <div class="form-group">
-                            <input type="email" name="email" class="form-control" placeholder="Correo" required="required">
+                            <input type="email" name="email" class="form-control" placeholder="<?php echo $text['mail'] ?>" required>
                         </div>
                         <div class="form-group">
-                            <textarea name="message" id="message" class="form-control" rows="4" placeholder="Escriba su mensaje..." required="required"></textarea>
+                            <textarea name="message" id="message" class="form-control" rows="4" placeholder="<?php echo $text['message'] ?>" required></textarea>
                         </div>
                         <div class="form-group">
-                            <button type="submit" class="btn btn-primary btn-lg btn-block">Enviar</button>
+                            <button type="submit" class="btn btn-primary btn-lg btn-block"><?php echo $text['send'] ?></button>
                         </div>
                     </form>
                 </div>
@@ -754,7 +767,7 @@
                         <span aria-hidden="true">&times;</span>
                         <span class="sr-only">Close</span>
                     </button>
-                    <h4 class="modal-title" id="idCorp">IDENTIDAD CORPORATIVA</h4>
+                    <h4 class="modal-title" id="idCorp"><?php echo strtoupper($text['identity']) ?></h4>
                 </div>
                 <div class="modal-body">
                     <div class="embed-responsive embed-responsive-16by9">
@@ -762,7 +775,7 @@
                     </div>
                     <div class="row mt20">
                         <div class="col-sm-6">
-                            <p class="text-justify">La identidad corporativa muestra a tu empresa, persona o producto, a través del medio escrito y diseño de forma especial, además tiene como objetivo explicar y precisar los atributos de tu empresa o producto, con el único fin de garantizar el buen uso de esta</p>
+                            <p class="text-justify"><?php echo $text['identity_info'] ?></p>
                         </div>
                         <div class="col-sm-6">
                             <img src="img/servicios/identidad_corporativa.jpg" alt="Identidad corporativa" class="img-modal-serv img-responsive">
@@ -780,7 +793,7 @@
                     <span aria-hidden="true">&times;</span>
                     <span class="sr-only">Close</span>
                 </button>
-                <h4 class="modal-title" id="etingDigital">MARKETING DIGITAL</h4>
+                <h4 class="modal-title" id="etingDigital"><?php echo strtoupper($text['d_marketing']) ?></h4>
               </div>
               <div class="modal-body">
                 <div class="embed-responsive embed-responsive-16by9">
@@ -788,7 +801,7 @@
                 </div>
                 <div class="row mt20">
                     <div class="col-sm-6 text-justify">
-                        <p>Con el marketing digital se desea promover y posicionar negocios de todo tamaño, teniendo como objetivo fidelizar a los clientes y así facilitar la venta de productos y/o servicios.</p>
+                        <p><?php echo $text['d_marketing_info'] ?></p>
                     </div>
                     <div class="col-sm-6">
                         <img src="img/servicios/marketing_digital_Imagen.jpg" alt="Planeta tierra" class="img-modal-serv img-responsive">
@@ -806,7 +819,7 @@
                         <span aria-hidden="true">&times;</span>
                         <span class="sr-only">Close</span>
                     </button>
-                    <h4 class="modal-title" id="creacionWeb">CREACIÓN WEB</h4>
+                    <h4 class="modal-title" id="creacionWeb"><?php echo strtoupper($text['web']) ?></h4>
                 </div>
                 <div class="modal-body">
                     <div class="embed-responsive embed-responsive-16by9">
@@ -814,7 +827,7 @@
                     </div>
                     <div class="row mt20">
                         <div class="col-sm-6">
-                            <p class="text-justify">De todos los medios de comunicación, internet ha superado a todas y cambio la forma de hacer negocios en todo el mundo. Si usted tiene un sitio web, tiene un local trabajando para usted las 24 horas del día y esto generará alcance mundial, competir con los más grandes y una imagen profesional.</p>
+                            <p class="text-justify"><?php echo $text['web_info'] ?></p>
                         </div>
                         <div class="col-sm-6">
                             <img src="img/servicios/creacion_web.jpg" alt="Imac, pantalla y diseño" class="img-modal-serv img-responsive">
@@ -832,7 +845,7 @@
                         <span aria-hidden="true">&times;</span>
                         <span class="sr-only">Close</span>
                     </button>
-                    <h4 class="modal-title" id="marketingAudiovisual">MARKETING AUDIOVISUAL</h4>
+                    <h4 class="modal-title" id="marketingAudiovisual"><?php echo strtoupper($text['m_audiovisual']) ?></h4>
                 </div>
                 <div class="modal-body">
                     <div class="embed-responsive embed-responsive-16by9">
@@ -840,7 +853,7 @@
                     </div>
                     <div class="row mt20">
                         <div class="col-sm-6">
-                            <p class="text-justify">Los videos generan mayor difusión, impacto y reconocimiento masivo,  el contenido audiovisual crea actitud positiva hacia la marca y mayor notoriedad gracias al crecimiento del consumo de videos online.</p>
+                            <p class="text-justify"><?php echo $text['m_audiovisual_info'] ?></p>
                         </div>
                         <div class="col-sm-6">
                             <img src="img/servicios/markt.jpg" alt="Imac, pantalla y diseño" class="img-modal-serv img-responsive">
@@ -858,7 +871,7 @@
                         <span aria-hidden="true">&times;</span>
                         <span class="sr-only">Close</span>
                     </button>
-                    <h4 class="modal-title" id="marketingPromo">MARKETING PROMOCIONAL</h4>
+                    <h4 class="modal-title" id="marketingPromo"><?php echo strtoupper($text['promotional']) ?></h4>
                 </div>
                 <div class="modal-body">
                     <div class="embed-responsive embed-responsive-16by9">
@@ -866,7 +879,7 @@
                     </div>
                     <div class="row mt20">
                         <div class="col-sm-6">
-                            <p class="text-justify">A través de la introducción de nuevos productos, crear barreras con la competencia y obtener resultados a corto plazo, es que nace el marketing promocional, una estrategia que cautiva a los clientes y atrae a los no clientes, a través de actividades promocionales, activaciones y BTL.</p>
+                            <p class="text-justify"><?php echo $text['promotional_info'] ?></p>
                         </div>
                         <div class="col-sm-6">
                             <img src="img/servicios/marketing-promo.jpg" alt="Imac, pantalla y diseño" class="img-responsive">
