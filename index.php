@@ -1,5 +1,6 @@
 <?php
 $arr = explode(',', $_SERVER['HTTP_ACCEPT_LANGUAGE']);
+$arr[0] = substr($arr[0], 0, 2);
 include 'languaje.php';
 
 if (isset($_GET['lang']) && ($_GET['lang'] == 'es' || $_GET['lang'] == 'en')) {
