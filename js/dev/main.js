@@ -1,21 +1,25 @@
+
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
-$(function(){
+$(function() {
 	$('#preloader').remove();
 	//Meters
 	$('#meters').bind('inview', function(e, visible) {
 		if (visible) {
-			Circles.create(optionsCircle('circle-1', 50));
-			Circles.create(optionsCircle('circle-2', 70));
-			Circles.create(optionsCircle('circle-3', 85));
-			Circles.create(optionsCircle('circle-4', 30));
-			Circles.create(optionsCircle('circle-5', 60));
+			Circles.create(optionsCircle('circle-1', 75));
+			Circles.create(optionsCircle('circle-2', 80));
+			Circles.create(optionsCircle('circle-3', 90));
+			Circles.create(optionsCircle('circle-4', 45));
+			Circles.create(optionsCircle('circle-5', 70));
 			$(this).unbind('inview');
 		}
 	});
 });
+
+// Inicializa el popover
+$('[data-toggle="popover"]').popover();
 
 //#main-slider
 var slideHeight = $(window).height(),
@@ -41,7 +45,7 @@ $(window).scroll(function(event) {
 	Scroll();
 });
 
-$('.navbar-collapse ul li a, .navbar-brand, .footer-logo a').on('click', function() {  
+$('.navbar-collapse ul li a, .navbar-brand, .footer-logo a').on('click', function() {
 	$('html, body').animate({scrollTop: $(this.hash).offset().top - 5}, 1000);
 	return false;
 });
@@ -120,7 +124,7 @@ form.on('submit', function(e){
 		url: $(this).attr('action'),
 		type: "POST",
 		dataType: 'json',
-		data: data, 
+		data: data,
 		beforeSend: function(){
 			form.prepend( form_status.html('<p><i class="fa fa-spinner fa-spin"></i> Enviando correo...</p>').fadeIn() );
 		}

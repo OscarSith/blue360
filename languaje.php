@@ -23,6 +23,11 @@ $lang['en'] = [
 	'exp_identity' => 'IDENTITY',
 	'exp_promo' => 'PROMOTIONAL',
 
+	// Features
+	'features_1' => 'Happy Clients',
+	'features_2' => 'Modern Websites',
+	'features_3' => 'Fast Support',
+
 	// Servicios
 	'identity' => 'Corporate Identity',
 	'identity_info' => 'Corporate identity show your company, person or product, through the written medium and specially design, also have a goal to explain and clarify the attributes of your company or product, with the only purpose of ensuring the proper use of this.',
@@ -79,6 +84,11 @@ $lang['es'] = [
 
 	'exp_identity' => 'IDENTIDAD',
 	'exp_promo' => 'PROMOCIONAL',
+
+	// Features
+	'features_1' => 'Clientes Satisfechos',
+	'features_2' => 'Modernas Páginas web',
+	'features_3' => 'Servicio de Atención',
 
 	// Servicios
 	'identity' => 'Identidad Corporativa',

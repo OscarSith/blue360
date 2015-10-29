@@ -30,7 +30,7 @@ $text = $lang[ $arr[0] ];
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->
-    
+
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" href="favicon.ico">
     <!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
@@ -137,7 +137,7 @@ $text = $lang[ $arr[0] ];
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
                       <li class="scroll active"><a href="#home"><?php echo $text['home'] ?></a></li>
-                      <li class="scroll"><a href="#services"><?php echo $text['products'] ?></a></li> 
+                      <li class="scroll"><a href="#services"><?php echo $text['products'] ?></a></li>
                       <li class="scroll"><a href="#about-us"><?php echo $text['us'] ?></a></li>
                       <li class="scroll"><a href="#portfolio"><?php echo $text['portfolio'] ?></a></li>
                       <li class="scroll"><a href="#team"><?php echo $text['team'] ?></a></li>
@@ -154,7 +154,7 @@ $text = $lang[ $arr[0] ];
             </div>
         </div>
     </header>
-    
+
     <section id="services">
         <div class="container">
             <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
@@ -162,7 +162,7 @@ $text = $lang[ $arr[0] ];
                 <div class="text-center col-sm-8 col-sm-offset-2" style="visibility: hidden">
                   <h2><?php echo $text['our_services'] ?></h2>
                 </div>
-              </div> 
+              </div>
             </div>
             <div class="text-center our-services">
               <div class="row">
@@ -281,7 +281,6 @@ $text = $lang[ $arr[0] ];
                     <p class="description">MKT AUDIOVISUAL</p>
                     <div class="animateblock circle wow fadeInUp" id="circle-5"></div>
                 </div>
-                <div class="col-sm-1 hidden-sm hidden-xs"></div>
             </div>
         </div>
     </section>
@@ -337,47 +336,69 @@ $text = $lang[ $arr[0] ];
           <div class="heading_min text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
             <h2><?php echo strtoupper($text['portfolio']) ?></h2>
           </div>
-        </div> 
+        </div>
       </div>
       <div class="container-fluid">
         <div class="row">
-            <div class="hidden-xs col-sm-2"></div>
-            <div class="col-sm-4">
-                <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
-                    <div class="folio-image" id="front-ara">
-                        <img class="img-responsive" src="img/portafolio/ARA_LOGO.jpg" alt="">
-                    </div>
-                    <div class="overlay">
-                        <div class="overlay-content">
-                            <div class="overlay-text">
-                                <div class="folio-info">
-                                    <h3>Ara Ingenieros</h3>
-                                </div>
-                                <div class="folio-overview">
-                                    <span class="folio-link">
-                                        <a class="folio-read-more" href="#portfolio-single-ara"><i class="fa fa-link"></i></a>
-                                    </span>
+            <div class="col-sm-12">
+                <div class="col-sm-4">
+                    <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+                        <div class="folio-image" id="front-ara">
+                            <img class="img-responsive" src="img/portafolio/challenger/ARA_LOGO.jpg" alt="">
+                        </div>
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <div class="overlay-text">
+                                    <div class="folio-info">
+                                        <h3>Ara Ingenieros</h3>
+                                    </div>
+                                    <div class="folio-overview">
+                                        <span class="folio-link">
+                                            <a class="folio-read-more" href="#portfolio-single-ara"><i class="fa fa-link"></i></a>
+                                        </span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
-                    <div class="folio-image">
-                        <img class="img-responsive" src="img/portafolio/challenger/cuadro-portafolio.jpg" alt="">
-                    </div>
-                    <div class="overlay">
-                        <div class="overlay-content">
-                            <div class="overlay-text">
-                                <div class="folio-info">
-                                    <h3>Challenger Eventos</h3>
+                <div class="col-sm-4">
+                    <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+                        <div class="folio-image">
+                            <img class="img-responsive" src="img/portafolio/challenger/cuadro-portafolio.jpg" alt="">
+                        </div>
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <div class="overlay-text">
+                                    <div class="folio-info">
+                                        <h3>Challenger Eventos</h3>
+                                    </div>
+                                    <div class="folio-overview">
+                                        <span class="folio-link">
+                                            <a class="folio-read-more" href="#portfolio-single-challenger"><i class="fa fa-link"></i></a>
+                                        </span>
+                                    </div>
                                 </div>
-                                <div class="folio-overview">
-                                    <span class="folio-link">
-                                        <a class="folio-read-more" href="#portfolio-single-challenger"><i class="fa fa-link"></i></a>
-                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+                        <div class="folio-image" id="front-ara">
+                            <img class="img-responsive" src="img/portafolio/artes_graficas/Artes_Graficas_logo.png" alt="">
+                        </div>
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <div class="overlay-text">
+                                    <div class="folio-info">
+                                        <h3>Artes Gráficas</h3>
+                                    </div>
+                                    <div class="folio-overview">
+                                        <span class="folio-link">
+                                            <a class="folio-read-more" href="#portfolio-single-artes"><i class="fa fa-link"></i></a>
+                                        </span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -435,7 +456,7 @@ $text = $lang[ $arr[0] ];
                                         <p><span>Client: </span>Ara Ingenieros S.A.C.</p>
                                         <p><span>Fecha:</span> 15/12/14</p>
                                         <p><span>Tag:</span> Social Media, Diseño,Video  y  Web.</p>
-                                    </div>  
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -485,7 +506,83 @@ $text = $lang[ $arr[0] ];
                                         <p><span>Client: </span>Challenger eventos S.A.C</p>
                                         <p><span>Fecha:</span> 02/03/15</p>
                                         <p><span>Tag:</span> Website y Sistema</p>
-                                    </div>  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="portfolio-single-artes" style="display:none" class="custom-portfolio">
+            <div class="single-portfolio">
+                <div class="portfolio-details" class="container">
+                    <a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-3">
+                            <div id="carousel-artes_graficas" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <img src="img/portafolio/artes_graficas/2.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/portafolio/artes_graficas/3.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/portafolio/artes_graficas/4.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/portafolio/artes_graficas/5.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/portafolio/artes_graficas/6.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/portafolio/artes_graficas/7.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/portafolio/artes_graficas/8.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/portafolio/artes_graficas/1908002_701482843314718_5665897783641948102_n.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/portafolio/artes_graficas/11039908_701482836648052_8633214759870355945_n.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/portafolio/artes_graficas/11083886_684548688341467_9209111137694478800_n.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/portafolio/artes_graficas/tp202plata.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/portafolio/artes_graficas/westin002.jpg" alt="">
+                                    </div>
+                                </div>
+                                <a class="left carousel-control" href="#carousel-artes_graficas" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#carousel-artes_graficas" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <div class="project-info">
+                                        <h3 class="color-products">ARTES GRÁFICAS</h3>
+                                        <p class="text-justify">La reproducción de cualquier pieza gráfica con una calidad impecable es una de las características desde el inicio del proyecto hasta la entrega final del mismo. Nuestro propósito es la satisfacción de nuestros clientes y colaborar en la solución de cualquier necesidad que su empresa requiera.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="project-details">
+                                        <h3 class="color-products">DETALLES DEL PROYECTO</h3>
+                                        <p><span>Client: </span>Artes Gráficas</p>
+                                        <p><span>Fecha:</span> 08/06/15</p>
+                                        <!-- <p><span>Tag:</span> Website y Sistema</p> -->
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -500,25 +597,20 @@ $text = $lang[ $arr[0] ];
     <section id="features" class="parallax">
         <div class="container">
             <div class="row count">
-                <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <div class="col-sm-4 col-xs-4 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <i class="fa fa-user"></i>
-                    <h3 class="timer">3</h3>
-                    <p>Happy Clients</p>
+                    <h3 class="timer">5</h3>
+                    <p><?php echo $text['features_1'] ?></p>
                 </div>
-                <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+                <div class="col-sm-4 col-xs-4 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
                     <i class="fa fa-desktop"></i>
-                    <h3 class="timer">3</h3>
-                    <p>Modern Websites</p>
-                </div> 
-                <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
-                    <i class="fa fa-trophy"></i>
-                    <h3 class="timer">0</h3>
-                    <p>WINNING AWARDS</p>
-                </div> 
-                <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="900ms">
+                    <h3 class="timer">5</h3>
+                    <p><?php echo $text['features_2'] ?></p>
+                </div>
+                <div class="col-sm-4 col-xs-4 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="900ms">
                     <i class="fa fa-comment"></i>
                     <h3>8/5</h3>
-                    <p>Fast Support</p>
+                    <p><?php echo $text['features_3'] ?></p>
                 </div>
             </div>
         </div>
@@ -534,15 +626,15 @@ $text = $lang[ $arr[0] ];
             <div class="team-members">
                 <div class="row">
                     <div class="text-center team-content">
-                        <div class="boxgrid captionfull">
+                        <div class="boxgrid captionfull" data-toggle="popover" data-content="And here's some amazing content. It's very engaging. Right?">
                             <img src="img/team/team-david.jpg"/>
                             <div class="cover boxcaption">
                                 <h4>David Varas</h4>
                                 <p>General Manager</p>
                                 <div class="social-icons text-center">
                                     <ul>
-                                        <li><a class="facebook" target="_blank" href="https://www.facebook.com/davidvarasalvarez"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a class="twitter" target="_blank" href="https://twitter.com/davidvaras84"><i class="fa fa-twitter"></i></a></li>
+                                        <!-- <li><a class="facebook" target="_blank" href="https://www.facebook.com/davidvarasalvarez"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a class="twitter" target="_blank" href="https://twitter.com/davidvaras84"><i class="fa fa-twitter"></i></a></li> -->
                                         <li><a class="linkedin" target="_blank" href="http://pe.linkedin.com/pub/david-varas/82/805/223"><i class="fa fa-linkedin"></i></a></li>
                                     </ul>
                                 </div>
@@ -555,8 +647,8 @@ $text = $lang[ $arr[0] ];
                                 <p>Comunication Manager</p>
                                 <div class="social-icons text-center">
                                     <ul>
-                                        <li><a class="facebook" target="_blank" href="https://www.facebook.com/Fernando.SuarezDelAguila"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a class="twitter" target="_blank" href="https://twitter.com/SuarezFernando"><i class="fa fa-twitter"></i></a></li>
+                                        <!-- <li><a class="facebook" target="_blank" href="https://www.facebook.com/Fernando.SuarezDelAguila"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a class="twitter" target="_blank" href="https://twitter.com/SuarezFernando"><i class="fa fa-twitter"></i></a></li> -->
                                         <li><a class="linkedin" target="_blank" href="http://pe.linkedin.com/pub/fernando-su%C3%A1rez-del-aguila/37/76a/629"><i class="fa fa-linkedin"></i></a></li>
                                     </ul>
                                 </div>
@@ -569,8 +661,8 @@ $text = $lang[ $arr[0] ];
                                 <p>Senior Designer</p>
                                 <div class="social-icons text-center">
                                     <ul>
-                                        <li><a class="facebook" target="_blank" href="https://www.facebook.com/SebasSM"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a class="twitter" target="_blank" href="https://twitter.com/SebastinSantos1"><i class="fa fa-twitter"></i></a></li>
+                                        <!-- <li><a class="facebook" target="_blank" href="https://www.facebook.com/SebasSM"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a class="twitter" target="_blank" href="https://twitter.com/SebastinSantos1"><i class="fa fa-twitter"></i></a></li> -->
                                         <li><a class="linkedin" target="_blank" href="https://www.linkedin.com/profile/view?id=402967028&trk=nav_responsive_tab_profile"><i class="fa fa-linkedin"></i></a></li>
                                     </ul>
                                 </div>
@@ -583,8 +675,8 @@ $text = $lang[ $arr[0] ];
                                 <p>Chief Accounting Area</p>
                                 <div class="social-icons text-center">
                                     <ul>
-                                        <li><a class="facebook" target="_blank" href="https://www.facebook.com/jhonny.castillo.526"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a class="twitter" target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <!-- <li><a class="facebook" target="_blank" href="https://www.facebook.com/jhonny.castillo.526"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a class="twitter" target="_blank" href="#"><i class="fa fa-twitter"></i></a></li> -->
                                         <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
                                     </ul>
                                 </div>
@@ -597,8 +689,8 @@ $text = $lang[ $arr[0] ];
                                 <p>Software Engineer</p>
                                 <div class="social-icons text-center">
                                     <ul>
-                                        <li><a class="facebook" target="_blank" href="https://www.facebook.com/OscarSith"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a class="twitter" target="_blank" href="https://twitter.com/OscarLarriega"><i class="fa fa-twitter"></i></a></li>
+                                        <!-- <li><a class="facebook" target="_blank" href="https://www.facebook.com/OscarSith"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a class="twitter" target="_blank" href="https://twitter.com/OscarLarriega"><i class="fa fa-twitter"></i></a></li> -->
                                         <li><a class="linkedin" target="_blank" href="http://pe.linkedin.com/pub/oscar-augusto-larriega-grandez/64/9ba/859"><i class="fa fa-linkedin"></i></a></li>
                                     </ul>
                                 </div>
@@ -611,8 +703,8 @@ $text = $lang[ $arr[0] ];
                                 <p>Community Manager</p>
                                 <div class="social-icons text-center">
                                     <ul>
-                                        <li><a class="facebook" target="_blank" href="https://www.facebook.com/jhonny.castillo.526"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a class="twitter" target="_blank" href="https://twitter.com/pedro_suarez18"><i class="fa fa-twitter"></i></a></li>
+                                        <!-- <li><a class="facebook" target="_blank" href="https://www.facebook.com/jhonny.castillo.526"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a class="twitter" target="_blank" href="https://twitter.com/pedro_suarez18"><i class="fa fa-twitter"></i></a></li> -->
                                         <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
                                     </ul>
                                 </div>
@@ -775,11 +867,8 @@ $text = $lang[ $arr[0] ];
                         <iframe width="540" height="300" src="https://www.youtube.com/embed/iLUnFVHwbsA?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <div class="row mt20">
-                        <div class="col-sm-6">
+                        <div class="col-sm-12">
                             <p class="text-justify"><?php echo $text['identity_info'] ?></p>
-                        </div>
-                        <div class="col-sm-6">
-                            <img src="img/servicios/identidad_corporativa.jpg" alt="Identidad corporativa" class="img-modal-serv img-responsive">
                         </div>
                     </div>
                 </div>
@@ -801,11 +890,8 @@ $text = $lang[ $arr[0] ];
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/l31Qcz7WcaQ?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
                 </div>
                 <div class="row mt20">
-                    <div class="col-sm-6 text-justify">
+                    <div class="col-sm-12 text-justify">
                         <p><?php echo $text['d_marketing_info'] ?></p>
-                    </div>
-                    <div class="col-sm-6">
-                        <img src="img/servicios/marketing_digital_Imagen.jpg" alt="Planeta tierra" class="img-modal-serv img-responsive">
                     </div>
                 </div>
               </div>
@@ -827,11 +913,8 @@ $text = $lang[ $arr[0] ];
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/55dCCmcQtI8?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <div class="row mt20">
-                        <div class="col-sm-6">
+                        <div class="col-sm-12">
                             <p class="text-justify"><?php echo $text['web_info'] ?></p>
-                        </div>
-                        <div class="col-sm-6">
-                            <img src="img/servicios/creacion_web.jpg" alt="Imac, pantalla y diseño" class="img-modal-serv img-responsive">
                         </div>
                     </div>
                 </div>
@@ -853,11 +936,8 @@ $text = $lang[ $arr[0] ];
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/FqsGsnhycNo?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <div class="row mt20">
-                        <div class="col-sm-6">
+                        <div class="col-sm-12">
                             <p class="text-justify"><?php echo $text['m_audiovisual_info'] ?></p>
-                        </div>
-                        <div class="col-sm-6">
-                            <img src="img/servicios/markt.jpg" alt="Imac, pantalla y diseño" class="img-modal-serv img-responsive">
                         </div>
                     </div>
                 </div>
@@ -879,11 +959,8 @@ $text = $lang[ $arr[0] ];
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/0aU4IOwB_B0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <div class="row mt20">
-                        <div class="col-sm-6">
+                        <div class="col-sm-12">
                             <p class="text-justify"><?php echo $text['promotional_info'] ?></p>
-                        </div>
-                        <div class="col-sm-6">
-                            <img src="img/servicios/marketing-promo.jpg" alt="Imac, pantalla y diseño" class="img-responsive">
                         </div>
                     </div>
                 </div>
@@ -903,11 +980,8 @@ $text = $lang[ $arr[0] ];
                 <div class="modal-body">
                     <img src="img/servicios/marketing_legal_video.jpg" alt="Video gestion Legal" class="img-responsive">
                     <div class="row mt20">
-                        <div class="col-sm-6">
+                        <div class="col-sm-12">
                             <p class="text-justify" style="line-height:1.4em">Tenemos en cuenta los factores que existen en el mercado para consolidar las acciones y hacerlas efectivas, tal como el tiempo y el presupuesto disponible.  Por tal motivo se crea el producto de Gestion legal de Mkt & Medios,  que tiene el objetivo de realizar trámites que resuelvan asuntos o se concreten proyectos de nuestros clientes.</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <img src="img/servicios/marketing_legal.jpg" alt="Marketing Legal" class="img-responsive">
                         </div>
                     </div>
                 </div>
@@ -926,6 +1000,5 @@ $text = $lang[ $arr[0] ];
     <script src="js/lib/jquery.BlackAndWhite.min.js"></script>
     <script src="js/lib/circles.min.js"></script>
     <script src="js/dev/main.js"></script>
-
   </body>
 </html>
