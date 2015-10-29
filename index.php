@@ -251,6 +251,19 @@ $text = $lang[ $arr[0] ];
                         </span>
                     </a>
                 </div>
+                <div class="col-sm-4 col-sm-offset-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="850ms">
+                    <a href="#artes-graficas" data-toggle="modal">
+                        <div class="center-block">
+                            <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                <img id="artes_graficas_icon" src="img/servicios/Artes_Graficas_logo.png">
+                            </span>
+                        </div>
+                        <span>
+                            <span class="title-produts">ARTES GRÁFICAS</span><br>
+                        </span>
+                    </a>
+                </div>
               </div>
             </div>
         </div>
@@ -341,7 +354,7 @@ $text = $lang[ $arr[0] ];
       <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12">
-                <div class="col-sm-4">
+                <div class="col-sm-4 col-sm-offset-2">
                     <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
                         <div class="folio-image" id="front-ara">
                             <img class="img-responsive" src="img/portafolio/challenger/ARA_LOGO.jpg" alt="">
@@ -376,27 +389,6 @@ $text = $lang[ $arr[0] ];
                                     <div class="folio-overview">
                                         <span class="folio-link">
                                             <a class="folio-read-more" href="#portfolio-single-challenger"><i class="fa fa-link"></i></a>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
-                        <div class="folio-image" id="front-ara">
-                            <img class="img-responsive" src="img/portafolio/artes_graficas/Artes_Graficas_logo.png" alt="">
-                        </div>
-                        <div class="overlay">
-                            <div class="overlay-content">
-                                <div class="overlay-text">
-                                    <div class="folio-info">
-                                        <h3>Artes Gráficas</h3>
-                                    </div>
-                                    <div class="folio-overview">
-                                        <span class="folio-link">
-                                            <a class="folio-read-more" href="#portfolio-single-artes"><i class="fa fa-link"></i></a>
                                         </span>
                                     </div>
                                 </div>
@@ -506,82 +498,6 @@ $text = $lang[ $arr[0] ];
                                         <p><span>Client: </span>Challenger eventos S.A.C</p>
                                         <p><span>Fecha:</span> 02/03/15</p>
                                         <p><span>Tag:</span> Website y Sistema</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-2"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="portfolio-single-artes" style="display:none" class="custom-portfolio">
-            <div class="single-portfolio">
-                <div class="portfolio-details" class="container">
-                    <a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
-                    <div class="row">
-                        <div class="col-sm-6 col-sm-offset-3">
-                            <div id="carousel-artes_graficas" class="carousel slide" data-ride="carousel">
-                                <div class="carousel-inner" role="listbox">
-                                    <div class="item active">
-                                        <img src="img/portafolio/artes_graficas/2.jpg" alt="">
-                                    </div>
-                                    <div class="item">
-                                        <img src="img/portafolio/artes_graficas/3.jpg" alt="">
-                                    </div>
-                                    <div class="item">
-                                        <img src="img/portafolio/artes_graficas/4.jpg" alt="">
-                                    </div>
-                                    <div class="item">
-                                        <img src="img/portafolio/artes_graficas/5.jpg" alt="">
-                                    </div>
-                                    <div class="item">
-                                        <img src="img/portafolio/artes_graficas/6.jpg" alt="">
-                                    </div>
-                                    <div class="item">
-                                        <img src="img/portafolio/artes_graficas/7.jpg" alt="">
-                                    </div>
-                                    <div class="item">
-                                        <img src="img/portafolio/artes_graficas/8.jpg" alt="">
-                                    </div>
-                                    <div class="item">
-                                        <img src="img/portafolio/artes_graficas/1908002_701482843314718_5665897783641948102_n.jpg" alt="">
-                                    </div>
-                                    <div class="item">
-                                        <img src="img/portafolio/artes_graficas/11039908_701482836648052_8633214759870355945_n.jpg" alt="">
-                                    </div>
-                                    <div class="item">
-                                        <img src="img/portafolio/artes_graficas/11083886_684548688341467_9209111137694478800_n.jpg" alt="">
-                                    </div>
-                                    <div class="item">
-                                        <img src="img/portafolio/artes_graficas/tp202plata.jpg" alt="">
-                                    </div>
-                                    <div class="item">
-                                        <img src="img/portafolio/artes_graficas/westin002.jpg" alt="">
-                                    </div>
-                                </div>
-                                <a class="left carousel-control" href="#carousel-artes_graficas" role="button" data-slide="prev">
-                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="right carousel-control" href="#carousel-artes_graficas" role="button" data-slide="next">
-                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-8">
-                                    <div class="project-info">
-                                        <h3 class="color-products">ARTES GRÁFICAS</h3>
-                                        <p class="text-justify">La reproducción de cualquier pieza gráfica con una calidad impecable es una de las características desde el inicio del proyecto hasta la entrega final del mismo. Nuestro propósito es la satisfacción de nuestros clientes y colaborar en la solución de cualquier necesidad que su empresa requiera.</p>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="project-details">
-                                        <h3 class="color-products">DETALLES DEL PROYECTO</h3>
-                                        <p><span>Client: </span>Artes Gráficas</p>
-                                        <p><span>Fecha:</span> 08/06/15</p>
-                                        <!-- <p><span>Tag:</span> Website y Sistema</p> -->
                                     </div>
                                 </div>
                             </div>
@@ -982,6 +898,74 @@ $text = $lang[ $arr[0] ];
                     <div class="row mt20">
                         <div class="col-sm-12">
                             <p class="text-justify" style="line-height:1.4em">Tenemos en cuenta los factores que existen en el mercado para consolidar las acciones y hacerlas efectivas, tal como el tiempo y el presupuesto disponible.  Por tal motivo se crea el producto de Gestion legal de Mkt & Medios,  que tiene el objetivo de realizar trámites que resuelvan asuntos o se concreten proyectos de nuestros clientes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade text-center" id="artes-graficas" tabindex="-1" role="dialog" aria-labelledby="artesGraficas" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="artesGraficas">ARTES GRÁFICAS</h4>
+                </div>
+                <div class="modal-body">
+                    <div id="carousel-artes_graficas" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="img/servicios/artes_graficas/2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="img/servicios/artes_graficas/3.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="img/servicios/artes_graficas/4.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="img/servicios/artes_graficas/5.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="img/servicios/artes_graficas/6.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="img/servicios/artes_graficas/7.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="img/servicios/artes_graficas/8.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="img/servicios/artes_graficas/1908002_701482843314718_5665897783641948102_n.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="img/servicios/artes_graficas/11039908_701482836648052_8633214759870355945_n.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="img/servicios/artes_graficas/11083886_684548688341467_9209111137694478800_n.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="img/servicios/artes_graficas/tp202plata.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="img/servicios/artes_graficas/westin002.jpg" alt="">
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#carousel-artes_graficas" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-artes_graficas" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div class="row mt20">
+                        <div class="col-sm-12">
+                            <p class="text-justify" style="line-height:1.4em">La reproducción de cualquier pieza gráfica con una calidad impecable es una de las características desde el inicio del proyecto hasta la entrega final del mismo. Nuestro propósito es la satisfacción de nuestros clientes y colaborar en la solución de cualquier necesidad que su empresa requiera.</p>
                         </div>
                     </div>
                 </div>
