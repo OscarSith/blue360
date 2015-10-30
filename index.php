@@ -261,6 +261,7 @@ $text = $lang[ $arr[0] ];
                         </div>
                         <span>
                             <span class="title-produts">ARTES GRÁFICAS</span><br>
+                            <small class="hidden-xs">Agendas - revistas - calendarios -  bolsas - cuadernos</small>
                         </span>
                     </a>
                 </div>
