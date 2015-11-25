@@ -22,7 +22,7 @@ $text = $lang[ $arr[0] ];
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="author" content="Blue360">
   <title>Blue360</title>
   <link href="css/main.min.css" rel="stylesheet">
 
@@ -37,11 +37,10 @@ $text = $lang[ $arr[0] ];
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png"> -->
-  </head><!--/head-->
+  </head>
 
   <body>
     <div id="preloader" class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
-
     <header id="home">
         <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner">
@@ -50,7 +49,7 @@ $text = $lang[ $arr[0] ];
                         <div class="animated fadeInRightBig">
                             <div style="height:221px" class="visible-xs"></div>
                             <div class="row hidden-xs">
-                                <div class="col-sm-5 col-sm-offset-6">
+                                <div class="col-sm-5 col-sm-offset-1">
                                     <div class="embed-responsive embed-responsive-16by9">
                                         <iframe width="560" height="315" src="https://www.youtube.com/embed/TYgkCZMptaw?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen id="home-video"></iframe>
                                     </div>
@@ -62,7 +61,7 @@ $text = $lang[ $arr[0] ];
                 </div>
                 <div class="item" style="background-image: url(img/skippr/home_040.jpg)">
                     <div class="caption">
-                        <h1 class="animated fadeInLeftBig blanco"><?php echo $text['ours'] ?> <span class="color-products"><?php echo $text['products'] ?></span></h1>
+                        <h1 class="animated fadeInLeftBig blanco"><span class="color-products"><?php echo $text['ours'] ?> <?php echo $text['products'] ?></span></h1>
                         <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services"><?php echo $text['products'] ?></a>
                     </div>
                 </div>
@@ -303,23 +302,17 @@ $text = $lang[ $arr[0] ];
         <div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="item active" style="background-image: url(img/about-bg.jpg)" id="us-01">
-                    <div class="color-blue" id="banner_1">
+                    <div id="banner_1">
                         <div class="col-xs-12 col-sm-offset-5 col-md-offset-6 col-sm-6 col-md-5">
-                            <h2 class="color-blue2 text-left"><?php echo $text['us_init'] ?></h2>
+                            <!-- <h2 class="color-blue2 text-left"><?php echo $text['us_init'] ?></h2> -->
                             <?php echo $text['us_info'] ?>
                         </div>
                     </div>
                 </div>
                 <div class="item" style="background-image: url(img/about-bg2.jpg)">
-                    <div class="carousel-caption color-blue" id="home-2">
-                        <div class="col-sm-4 text-justify">
-                            <p><?php echo $text['us_info2_01'] ?></p>
-                        </div>
-                        <div class="col-sm-4 text-justify">
-                            <p><?php echo $text['us_info2_02'] ?></p>
-                        </div>
-                        <div class="col-sm-4 text-justify">
-                            <p><?php echo $text['us_info2_03'] ?></p>
+                    <div class="carousel-caption" id="home-2">
+                        <div class="col-sm-12 text-left">
+                            <?php echo $text['us_info2_01'] ?>
                         </div>
                     </div>
                 </div>
@@ -333,15 +326,6 @@ $text = $lang[ $arr[0] ];
                 <span class="sr-only">Next</span>
             </a>
         </div>
-        <!-- <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-sm-offset-6">
-                    <div class="about-info wow fadeInUp color-blue" data-wow-duration="1000ms" data-wow-delay="300ms">
-                        <h2>&nbsp;</h2>
-                    </div>
-                </div>
-            </div>
-        </div> -->
     </section>
 
     <section id="portfolio">
@@ -355,10 +339,10 @@ $text = $lang[ $arr[0] ];
       <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12">
-                <div class="col-sm-4 col-sm-offset-2">
+                <div class="col-sm-4">
                     <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
                         <div class="folio-image" id="front-ara">
-                            <img class="img-responsive" src="img/portafolio/challenger/ARA_LOGO.jpg" alt="">
+                            <img class="img-responsive" src="img/portafolio/postaraingenieros/ARA_LOGO.jpg" alt="">
                         </div>
                         <div class="overlay">
                             <div class="overlay-content">
@@ -397,6 +381,27 @@ $text = $lang[ $arr[0] ];
                         </div>
                     </div>
                 </div>
+                <div class="col-sm-4">
+                    <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+                        <div class="folio-image">
+                            <img class="img-responsive" src="img/portafolio/vino/logo-vina.jpg" alt="">
+                        </div>
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <div class="overlay-text">
+                                    <div class="folio-info">
+                                        <h3>Viña d' los campos</h3>
+                                    </div>
+                                    <div class="folio-overview">
+                                        <span class="folio-link">
+                                            <a class="folio-read-more" href="#portfolio-single-vinodeloscampos"><i class="fa fa-link"></i></a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
       </div>
@@ -411,28 +416,12 @@ $text = $lang[ $arr[0] ];
                             <div id="carousel-ara" class="carousel slide" data-ride="carousel">
                                 <ol class="carousel-indicators">
                                     <li data-target="#carousel-ara" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carousel-ara" data-slide-to="1"></li>
-                                    <li data-target="#carousel-ara" data-slide-to="2"></li>
                                 </ol>
                                 <div class="carousel-inner" role="listbox">
                                     <div class="item active">
                                         <img src="img/portafolio/postaraingenieros/pagina_web.jpg" alt="pagina_web">
                                     </div>
-                                    <div class="item">
-                                        <img src="img/portafolio/postaraingenieros/Redes_sociales.jpg" alt="Redes_sociales">
-                                    </div>
-                                    <div class="item">
-                                        <img src="img/portafolio/postaraingenieros/Video_informativo.jpg" alt="Video_informativo">
-                                    </div>
                                 </div>
-                                <a class="left carousel-control" href="#carousel-ara" role="button" data-slide="prev">
-                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="right carousel-control" href="#carousel-ara" role="button" data-slide="next">
-                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
                             </div>
                             <div class="row">
                                 <div class="col-sm-8">
@@ -466,15 +455,14 @@ $text = $lang[ $arr[0] ];
                             <div id="carousel-challenger" class="carousel slide" data-ride="carousel">
                                 <ol class="carousel-indicators">
                                     <li data-target="#carousel-challenger" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carousel-challenger" data-slide-to="1"></li>
                                 </ol>
                                 <div class="carousel-inner" role="listbox">
                                     <div class="item active">
                                         <img src="img/portafolio/challenger/sistema-portafolio.jpg" alt="Sistema administrativo de Productos">
                                     </div>
-                                    <div class="item">
+                                    <!--<div class="item">
                                         <img src="img/portafolio/challenger/web-portafolio.jpg" alt="Sistema de catalogo de productos">
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <a class="left carousel-control" href="#carousel-challenger" role="button" data-slide="prev">
                                     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -502,6 +490,57 @@ $text = $lang[ $arr[0] ];
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div class="col-sm-2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="portfolio-single-vinodeloscampos" style="display:none" class="custom-portfolio">
+            <div class="single-portfolio">
+                <div class="portfolio-details" class="container">
+                    <a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-3">
+                            <div id="carousel-vinos" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carousel-vinos" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel-vinos" data-slide-to="1"></li>
+                                </ol>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <img src="img/portafolio/vino/vina-medios.jpg" alt="Listado de Productos">
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/portafolio/vino/botellas-vina.jpg" alt="Vinos">
+                                    </div>
+                                </div>
+                                <a class="left carousel-control" href="#carousel-vinos" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#carousel-vinos" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                            <!-- <div class="row">
+                                <div class="col-sm-8">
+                                    <div class="project-info">
+                                        <h3 class="color-products">PROYECTO CHALLENGER EVENTOS</h3>
+                                        <p>Empresa realizadora de espectáculos de fuegos artificiales y efectos especiales diurnos y nocturnos a nivel nacional.</p>
+                                        <p>Challenger eventos S.A.C, autorizadas por la Superintendencia de control de servicios de seguridad, armas, municiones y explosivos de uso civil SUCAMEC ha organizado las más importantes Ferias de fuegos artificiales del Perú en los últimos 5 años.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="project-details">
+                                        <h3 class="color-products">DETALLES DEL PROYECTO</h3>
+                                        <p><span>Client: </span>Challenger eventos S.A.C</p>
+                                        <p><span>Fecha:</span> 02/03/15</p>
+                                        <p><span>Tag:</span> Website y Sistema</p>
+                                    </div>
+                                </div>
+                            </div> -->
                         </div>
                         <div class="col-sm-2"></div>
                     </div>
@@ -780,8 +819,8 @@ $text = $lang[ $arr[0] ];
                     <h4 class="modal-title" id="idCorp"><?php echo strtoupper($text['identity']) ?></h4>
                 </div>
                 <div class="modal-body">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="540" height="300" src="https://www.youtube.com/embed/iLUnFVHwbsA?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                    <div class="embed-responsive embed-responsive-16by9" data-yt="https://www.youtube.com/embed/iLUnFVHwbsA?rel=0&amp;controls=0&amp;showinfo=0">
+                        <iframe width="540" height="300" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <div class="row mt20">
                         <div class="col-sm-12">
@@ -803,8 +842,7 @@ $text = $lang[ $arr[0] ];
                 <h4 class="modal-title" id="etingDigital"><?php echo strtoupper($text['d_marketing']) ?></h4>
               </div>
               <div class="modal-body">
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/l31Qcz7WcaQ?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                <div class="embed-responsive embed-responsive-16by9" data-yt="https://www.youtube.com/embed/l31Qcz7WcaQ?rel=0&amp;controls=0&amp;showinfo=0">
                 </div>
                 <div class="row mt20">
                     <div class="col-sm-12 text-justify">
@@ -826,8 +864,7 @@ $text = $lang[ $arr[0] ];
                     <h4 class="modal-title" id="creacionWeb"><?php echo strtoupper($text['web']) ?></h4>
                 </div>
                 <div class="modal-body">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/55dCCmcQtI8?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                    <div class="embed-responsive embed-responsive-16by9" data-yt="https://www.youtube.com/embed/55dCCmcQtI8?rel=0&amp;controls=0&amp;showinfo=0">
                     </div>
                     <div class="row mt20">
                         <div class="col-sm-12">
@@ -849,8 +886,7 @@ $text = $lang[ $arr[0] ];
                     <h4 class="modal-title" id="marketingAudiovisual"><?php echo strtoupper($text['m_audiovisual']) ?></h4>
                 </div>
                 <div class="modal-body">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/FqsGsnhycNo?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                    <div class="embed-responsive embed-responsive-16by9" data-yt="https://www.youtube.com/embed/FqsGsnhycNo?rel=0&amp;controls=0&amp;showinfo=0">
                     </div>
                     <div class="row mt20">
                         <div class="col-sm-12">
@@ -872,8 +908,7 @@ $text = $lang[ $arr[0] ];
                     <h4 class="modal-title" id="marketingPromo"><?php echo strtoupper($text['promotional']) ?></h4>
                 </div>
                 <div class="modal-body">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/0aU4IOwB_B0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                    <div class="embed-responsive embed-responsive-16by9" data-yt="https://www.youtube.com/embed/0aU4IOwB_B0?rel=0&amp;controls=0&amp;showinfo=0">
                     </div>
                     <div class="row mt20">
                         <div class="col-sm-12">

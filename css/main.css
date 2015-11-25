@@ -1,5 +1,12 @@
+@font-face {
+  font-family: 'FuturaStd-Medium';
+  src: url('../fonts/Futura-Medium/FuturaStd-Medium.eot?#iefix') format('embedded-opentype'),  url('../fonts/Futura-Medium/FuturaStd-Medium.otf')  format('opentype'),
+       url('../fonts/Futura-Medium/FuturaStd-Medium.woff') format('woff'), url('../fonts/Futura-Medium/FuturaStd-Medium.ttf')  format('truetype'), url('../fonts/Futura-Medium/FuturaStd-Medium.svg#FuturaStd-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'FuturaStd-Medium', 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 24px;
   color: #666;
@@ -700,6 +707,9 @@ section {
   position: relative;
   z-index: 15
 }
+#twitter-carousel .carousel-inner {
+  color: #333
+}
 
 .twitter-icon {
   position: relative;
@@ -737,7 +747,7 @@ section {
   text-transform: uppercase;
   margin-top: 25px;
   margin-bottom: 25px;
-  color: #fff;
+  color: #333;
 }
 
 #twitter-carousel .carousel-indicators {
@@ -875,7 +885,6 @@ section {
 
 .form-control {
   background-color: transparent;
-  border-color: rgba(255,255,255,.1);
   height: 50px;
   border-radius: 0;
   box-shadow: none;
@@ -1263,6 +1272,12 @@ ul.social-buttons li a{
 .bor-double {
   border: 4px double #CCC;
 }
+#banner_1 {
+  color: #fff;
+  line-height: 1.5em;
+  padding-left: 177px;
+  padding-top: 408px;
+}
 #banner_1 h2 {
   margin-top: 50px;
   font-size: 24px
@@ -1273,4 +1288,8 @@ ul.social-buttons li a{
 #artes_graficas_icon {
   width: 95px;
   margin-top: -15px;
+}
+#home-2 > div{
+  height: 100px;
+  overflow: scroll
 }

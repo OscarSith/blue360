@@ -43,14 +43,12 @@ Digital Marketing desired to position and promotes businesses of all sizes, havi
 
 	// Nosotros
 	'us_init' => 'CREATE + INNOVATE = BLUE360',
-	'us_info' => '<p class="text-justify">Blue 360 started working in late 2014, when a group of young professionals came together to develop products according to the needs of future customers to achieve value and benefits of their brands.</p>
-				<p class="text-justify">Also the creation of such products should open the barrier of the intangible to tangible through our Blue Ocean strategy based on detoxify the company who is immersed in traditional concepts.</p>
-				<p class="text-justify">Therefore Blue360 is doomed to generate new strategies to provide our future customers a range of opportunities to grow and develop in a world of constant and changing competition.</p>
-				<p class="text-justify"><i>"Blue 360 Philosophy’s is to bring out the best of yourself or your company when you haven’t yet realized how powerful you are"</i></p>',
+	'us_info' => '<p>Blue 360 started working in late 2014, when a group of young professionals came together to develop products according to the needs of future customers to achieve value and benefits of their brands.</p>
+				<p>Also the creation of such products should open the barrier of the intangible to tangible through our Blue Ocean strategy based on detoxify the company who is immersed in traditional concepts.</p>
+				<p>Therefore Blue360 is doomed to generate new strategies to provide our future customers a range of opportunities to grow and develop in a world of constant and changing competition.</p>
+				<p><i>"Blue 360 Philosophy’s is to bring out the best of yourself or your company when you haven’t yet realized how powerful you are"</i></p>',
 	'us_team' => 'Team Blue 360',
-	'us_info2_01' => "In Blue360 we understand that the market is in a constant struggle to become the best; however our goal is to follow the Blue Ocean strategy that is based on creating new spaces and understand",
-	'us_info2_02' => "that competition is irrelevant and nonexistent to reach our goals. We know how important it is to differentiate from others and achieve economies of big scale.",
-	'us_info2_03' => "In conclusion, through the Blue Ocean we'll find new markets, create new demands, stop competing with others in order to differentiate and lead an untapped market.",
+	'us_info2_01' => "<p>In Blue360 we understand that the market is in a constant struggle to become the best; however our goal is to follow the Blue Ocean strategy that is based on creating new spaces and understand.</p>",
 
 	// Form
 	'name' => 'Name',
@@ -105,14 +103,12 @@ Con el Marketing Digital se desea promover y posicionar negocios de todo tamaño
 
 	// Nosotros
 	'us_init' => 'CREAR + INNOVAR = BLUE360',
-	'us_info' => '<p class="text-justify">Blue360 tuvo inicio a finales del año 2014, cuando un grupo de jóvenes profesionales se  unieron para desarrollar productos acorde a la necesidad de futuros clientes con el fin de lograr valor y beneficios de sus marcas.</p>
-				<p class="text-justify">Asimismo la creación de dichos productos debía abrir la barrera de lo intangible a lo tangible a través de nuestra estrategia Océano azul que se basa en desintoxicar a la empresa que se encuentra sumergida en conceptos tradicionales.</p>
-				<p class="text-justify">Por ello Blue360 se encuentra abocada a generar nuevas estrategias que brindarán a nuestros futuros clientes una gama de posibilidades para crecer y desarrollarse en un mundo de competencia constante y cambiante.</p>
-				<p class="text-justify"><i>“La filosofía de Blue 360 es sacar lo mejor de ti o tu empresa, cuando aún no te has dado cuenta de lo poderoso que eres”</i></p>',
+	'us_info' => '<p>Blue360 tuvo inicio a finales del año 2014, cuando un grupo de jóvenes profesionales se unieron para desarrollar productos acorde a la necesidad de futuros clientes con el fin de lograr valor y beneficios de sus marcas.</p>
+				<p>Asimismo la creación de dichos productos debía abrir la barrera de lo intangible a lo tangible a través de nuestra estrategia Océano azul que se basa en desintoxicar a la empresa que se encuentra sumergida en conceptos tradicionales.</p>
+				<p>Por ello Blue360 se encuentra abocada a generar nuevas estrategias que brindarán a nuestros futuros clientes una gama de posibilidades para crecer y desarrollarse en un mundo de competencia constante y cambiante.</p>
+				<p><i>“La filosofía de Blue 360 es sacar lo mejor de ti o tu empresa, cuando aún no te has dado cuenta de lo poderoso que eres”</i></p>',
 	'us_team' => 'Team Blue 360',
-	'us_info2_01' => "En Blue 360 entendemos que, en el mercado existe una constante lucha por ser el mejor; sin embargo nuestro objetivo es seguir la estrategia del Océano Azul que se basa en crear nuevos espacios y ",
-	'us_info2_02' => "entender que la competencia es irrelevante e inexistente para llegar a nuestras metas. Sabemos lo importante que es diferenciarse de los demás y conseguir economías de gran escala.",
-	'us_info2_03' => "En conclusión, a través del Océano Azul nos encargaremos de encontrar nuevos mercados, crear nuevas demandas, y dejar de competir con otros con la finalidad de diferenciarnos y liderar un mercado.",
+	'us_info2_01' => "<p>En Blue 360 entendemos que, en el mercado existe una constante lucha por ser el lider entre nosotros, nuestro objetivo es seguir la estrategia del \"Blue Ocean\" que se basa en crear nuevos espacios y entender que la competencia es irrelevante para llegar a nuestras metas.</p><p>Asimismo la creación de nuestros productos fue diseñada para abarcar todos los medios de comunicación y así facilitar un servicio completo. Blue 360 está convencido que nuestros productos son esenciales para el reconocimiento de su marca, y que en conjunto se llegará a liderar un mercado aún por explotar</p>",
 
 	// Form
 	'name' => 'Nombre',

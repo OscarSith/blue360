@@ -218,3 +218,16 @@ $.getJSON('get-timelimes', function(rec) {
 	$contentsTweets.find('.carousel-indicators').html(indicators);
 	$contentsTweets.find('.carousel-inner').html(html);
 });
+
+$('.modal').on('show.bs.modal', function() {
+	var $contentEmbed = $(this).find('div.embed-responsive-16by9');
+	if ($contentEmbed.length) {
+		$contentEmbed.append($('<iframe src="' + $contentEmbed.data('yt') + '" width="560" height="315" frameborder="0" allowfullscreen>'));
+	}
+});
+$('.modal').on('hide.bs.modal', function() {
+	var $contentEmbed = $(this).find('div.embed-responsive-16by9');
+	if ($contentEmbed.length) {
+		$contentEmbed.empty();
+	}
+});
