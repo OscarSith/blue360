@@ -56,20 +56,20 @@ $text = $lang[ $arr[0] ];
                                 </div>
                             </div>
                         </div>
-                        <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Start now</a>
+                        <a data-scroll class="btn btn-start btn-primary animated fadeInUpBig" href="#services">Start now</a>
                     </div>
                 </div>
                 <div class="item" style="background-image: url(img/skippr/home_040.jpg)">
                     <div class="caption">
-                        <h1 class="animated fadeInLeftBig blanco"><span class="color-products"><?php echo $text['ours'] ?> <?php echo $text['products'] ?></span></h1>
-                        <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services"><?php echo $text['products'] ?></a>
+                        <h1 class="animated fadeInLeftBig" style="margin-top:-70px;margin-bottom:150px"><span class="color-products"><?php echo $text['ours'] ?> <?php echo $text['products'] ?></span></h1>
+                        <a data-scroll class="btn btn-start btn-primary animated fadeInUpBig" href="#services"><?php echo $text['products'] ?></a>
                     </div>
                 </div>
                 <div class="item" style="background-image: url(img/skippr/home_010.jpg)">
                     <div class="caption">
                         <h1 class="animated fadeInLeftBig color-blue"><?php echo $text['strategy'] ?> <span class="color-blue2"><?php echo $text['blue_ocean'] ?></span></h1>
                         <p class="animated fadeInRightBig color-blue" style="font-weight: 500">OCÉANO AZUL CREA NUEVOS ESPACIOS E INEXISTENCIAS DE<br>COMPETIDORES,DIFERENCIA Y LIDERA UN MERCADO LLENO DE OPORTUNIDADES</p>
-                        <a data-scroll class="btn btn-start animated fadeInUpBig" href="#about-us"><?php echo $text['us'] ?></a>
+                        <a data-scroll class="btn btn-start btn-primary animated fadeInUpBig" href="#about-us"><?php echo $text['us'] ?></a>
                     </div>
                 </div>
                 <div class="item" style="background-image: url(img/skippr/home_020.jpg)">
@@ -112,7 +112,7 @@ $text = $lang[ $arr[0] ];
                             </div>
                         </div>
                         </div>
-                        <a data-scroll class="btn btn-start animated fadeInUpBig" href="#contact"><?php echo strtoupper($text['contact']) ?></a>
+                        <a data-scroll class="btn btn-start btn-primary animated fadeInUpBig" href="#contact"><?php echo strtoupper($text['contact']) ?></a>
                     </div>
                 </div>
             </div>
@@ -165,7 +165,7 @@ $text = $lang[ $arr[0] ];
             </div>
             <div class="text-center our-services">
               <div class="row">
-                <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <div class="col-sm-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <a href="#id-corp" data-toggle="modal">
                         <!-- <i class="icon" id="id-corporative"></i> -->
                         <div class="center-block">
@@ -180,7 +180,7 @@ $text = $lang[ $arr[0] ];
                         </span>
                     </a>
                 </div>
-                <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
+                <div class="col-sm-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
                     <a href="#creacion-web" data-toggle="modal">
                         <div class="center-block">
                             <span class="fa-stack fa-4x">
@@ -194,7 +194,7 @@ $text = $lang[ $arr[0] ];
                         </span>
                     </a>
                 </div>
-                <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
+                <div class="col-sm-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
                     <a href="#marketing-digital" data-toggle="modal">
                         <div class="center-block">
                             <span class="fa-stack fa-4x">
@@ -208,7 +208,7 @@ $text = $lang[ $arr[0] ];
                         </span>
                     </a>
                 </div>
-                <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="650ms">
+                <div class="col-sm-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="650ms">
                     <a href="#marketing-audiovisual" data-toggle="modal">
                         <div class="center-block">
                             <span class="fa-stack fa-4x">
@@ -222,7 +222,7 @@ $text = $lang[ $arr[0] ];
                         </span>
                     </a>
                 </div>
-                <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="750ms">
+                <div class="col-sm-3 col-sm-offset-1 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="750ms">
                     <a href="#marketing-promo" data-toggle="modal">
                         <div class="center-block">
                             <span class="fa-stack fa-4x">
@@ -236,7 +236,7 @@ $text = $lang[ $arr[0] ];
                         </span>
                     </a>
                 </div>
-                <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="850ms">
+                <div class="col-sm-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="850ms">
                     <a href="#gestion-legal" data-toggle="modal">
                         <div class="center-block">
                             <span class="fa-stack fa-4x">
@@ -250,7 +250,7 @@ $text = $lang[ $arr[0] ];
                         </span>
                     </a>
                 </div>
-                <div class="col-sm-4 col-sm-offset-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="850ms">
+                <div class="col-sm-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="850ms">
                     <a href="#artes-graficas" data-toggle="modal">
                         <div class="center-block">
                             <span class="fa-stack fa-4x">
@@ -265,35 +265,6 @@ $text = $lang[ $arr[0] ];
                     </a>
                 </div>
               </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="meters" class="parallax">
-        <div class="container">
-            <h2 class="text-center"><?php echo $text['exp'] ?></h2>
-            <div class="r1 row text-center" data-wow-duration="1000ms" data-wow-delay="300ms">
-                <div class="col-sm-1 hidden-sm hidden-xs"></div>
-                <div class="c1 col-xs-6 col-sm-6 col-md-2 animateblock size speed-1 wow fadeInUp">
-                    <p class="description"><?php echo $text['exp_identity'] ?></p>
-                    <div class="animateblock circle wow fadeInUp" id="circle-1"></div>
-                </div>
-                <div class="c2 col-xs-6 col-sm-6 col-md-2 animateblock size speed-1 wow fadeInUp">
-                    <p class="description">WEBSITE</p>
-                    <div class="animateblock circle wow fadeInUp" id="circle-2"></div>
-                </div>
-                <div class="c3 col-xs-6 col-sm-6 col-md-2 animateblock size speed-1 wow fadeInUp">
-                    <p class="description">MKT DIGITAL</p>
-                    <div class="animateblock circle wow fadeInUp" id="circle-3"></div>
-                </div>
-                <div class="c4 col-xs-6 col-sm-6 col-md-2 animateblock size speed-1 wow fadeInUp">
-                    <p class="description">MKT <?php echo $text['exp_promo'] ?></p>
-                    <div class="animateblock circle wow fadeInUp" id="circle-4"></div>
-                </div>
-                <div class="c4 col-xs-6 col-sm-6 col-md-2 col-xs-offset-3 col-md-offset-0 animateblock size speed-1 wow fadeInUp">
-                    <p class="description">MKT AUDIOVISUAL</p>
-                    <div class="animateblock circle wow fadeInUp" id="circle-5"></div>
-                </div>
             </div>
         </div>
     </section>
@@ -361,7 +332,7 @@ $text = $lang[ $arr[0] ];
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+                    <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
                         <div class="folio-image">
                             <img class="img-responsive" src="img/portafolio/challenger/cuadro-portafolio.jpg" alt="">
                         </div>
@@ -382,7 +353,7 @@ $text = $lang[ $arr[0] ];
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+                    <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="1100ms">
                         <div class="folio-image">
                             <img class="img-responsive" src="img/portafolio/vino/logo-vina.jpg" alt="">
                         </div>
@@ -724,7 +695,7 @@ $text = $lang[ $arr[0] ];
                             <textarea name="message" id="message" class="form-control" rows="4" placeholder="<?php echo $text['message'] ?>" required></textarea>
                         </div>
                         <div class="form-group">
-                            <button type="submit" class="btn btn-primary btn-lg btn-block"><?php echo $text['send'] ?></button>
+                            <button type="submit" class="btn btn-start btn-primary btn-lg btn-block"><?php echo $text['send'] ?></button>
                         </div>
                     </form>
                 </div>

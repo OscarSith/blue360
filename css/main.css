@@ -62,10 +62,6 @@ h3 {
   border-radius: 0;
 }
 
-.btn.btn-primary:hover {
-  background-color: #017fb5;
-}
-
 a {
   text-decoration: none;
   -webkit-transition: 300ms;
@@ -134,7 +130,7 @@ section {
 #home-slider .caption {
   position: absolute;
   top: 50%;
-  margin-top: -104px;
+  margin-top: -168px;
   left: 0;
   right: 0;
   text-align: center;
@@ -156,14 +152,14 @@ section {
   font-size: 14px;
   font-weight: 600;
   padding:14px 40px;
-  border: 1px solid #6e6d6c;
+  /*border: 1px solid #6e6d6c;*/
   border-radius: 4px;
-  margin-top: 40px;
+  margin-top: 190px;
 }
 
-.caption .btn-start:hover {
+/*.caption .btn-start:hover {
   color: #fff
-}
+}*/
 
 .carousel-fade .carousel-inner .item {
   opacity: 0;
@@ -324,27 +320,27 @@ section {
   background-color: #333;
 }
 
-.our-services .col-sm-4 {
+.our-services .col-sm-3 {
   border-right:1px solid #f2f2f2;
   border-bottom:1px solid #f2f2f2;
   padding-bottom: 50px;
 }
 
-/*.our-services .col-sm-4:nth-child(4),
-.our-services .col-sm-4:nth-child(5),
-.our-services .col-sm-4:nth-child(6),*/
-.our-services .col-sm-4:nth-child(7) {
+/*.our-services .col-sm-3:nth-child(2),*/
+.our-services .col-sm-3:nth-child(5),
+.our-services .col-sm-3:nth-child(6),
+.our-services .col-sm-3:nth-child(7) {
   border-bottom:0;
   padding-top: 60px;
 }
 
-.our-services .col-sm-4:nth-child(3),
-.our-services .col-sm-4:nth-child(6) {
+.our-services .col-sm-3:nth-child(4),
+.our-services .col-sm-3:nth-child(7) {
   border-right:0;
 }
-.our-services .col-sm-4:nth-child(7) {
+/*.our-services .col-sm-3:nth-child(7) {
   border-left: 1px solid #f2f2f2
-}
+}*/
 
 .service-info h3 {
   margin-top: 35px;
@@ -354,7 +350,8 @@ section {
 ********About CSS*******
 **************************/
 #about-us {
-  padding: 0;
+  padding-top: 70px;
+  padding-bottom: 0;
 }
 
 /*#about-us h2 {
@@ -1240,6 +1237,9 @@ ul.social-buttons li a{
         -o-transition: all .7s ease-out;
         transition: all .7s ease-out
     }
+    .col-sm-offset-1 {
+      margin-left: 12.333333%;
+  }
 }
 .carousel-caption {
 	text-shadow: none !important;
@@ -1289,7 +1289,7 @@ ul.social-buttons li a{
   width: 95px;
   margin-top: -15px;
 }
-#home-2 > div{
+#home-2 > div {
   height: 100px;
-  overflow: scroll
+  overflow: auto
 }
