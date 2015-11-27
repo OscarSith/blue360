@@ -1289,6 +1289,9 @@ ul.social-buttons li a{
   width: 95px;
   margin-top: -15px;
 }
+#home-2 {
+  top: 70%;
+}
 #home-2 > div {
   height: 100px;
   overflow: auto
