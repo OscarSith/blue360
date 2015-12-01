@@ -61,8 +61,8 @@ $text = $lang[ $arr[0] ];
                 </div>
                 <div class="item" style="background-image: url(img/skippr/home_040.jpg)">
                     <div class="caption">
-                        <h1 class="animated fadeInLeftBig" style="margin-top:-70px;margin-bottom:150px"><span class="color-products"><?php echo $text['ours'] ?> <?php echo $text['products'] ?></span></h1>
-                        <a data-scroll class="btn btn-start btn-primary animated fadeInUpBig" href="#services"><?php echo $text['products'] ?></a>
+                        <a data-scroll class="btn btn-start btn-primary animated fadeInUpBig" href="#services" style="margin-top: -90px"><?php echo $text['products'] ?></a>
+                        <h1 class="animated fadeInLeftBig" style="margin-top: 382px"><span class="color-products"><?php echo $text['ours'] ?> <?php echo $text['products'] ?></span></h1>
                     </div>
                 </div>
                 <div class="item" style="background-image: url(img/skippr/home_010.jpg)">
@@ -167,7 +167,6 @@ $text = $lang[ $arr[0] ];
               <div class="row">
                 <div class="col-sm-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <a href="#id-corp" data-toggle="modal">
-                        <!-- <i class="icon" id="id-corporative"></i> -->
                         <div class="center-block">
                             <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle-thin fa-stack-2x"></i>
@@ -309,66 +308,114 @@ $text = $lang[ $arr[0] ];
       </div>
       <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-12">
-                <div class="col-sm-4">
-                    <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
-                        <div class="folio-image" id="front-ara">
-                            <img class="img-responsive" src="img/portafolio/postaraingenieros/ARA_LOGO.jpg" alt="">
-                        </div>
-                        <div class="overlay">
-                            <div class="overlay-content">
-                                <div class="overlay-text">
-                                    <div class="folio-info">
-                                        <h3>Ara Ingenieros</h3>
-                                    </div>
-                                    <div class="folio-overview">
-                                        <span class="folio-link">
-                                            <a class="folio-read-more" href="#portfolio-single-ara"><i class="fa fa-link"></i></a>
-                                        </span>
+            <div class="col-sm-8 col-sm-offset-2" id="content-portfolio">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+                            <div>
+                                <img class="img-responsive center-block mt50" src="img/portafolio/l-oreal-paris.png" alt="">
+                            </div>
+                            <!-- <div class="overlay">
+                                <div class="overlay-content">
+                                    <div class="overlay-text">
+                                        <div class="folio-info">
+                                            <h3>Ara Ingenieros</h3>
+                                        </div>
+                                        <div class="folio-overview">
+                                            <span class="folio-link">
+                                                <a class="folio-read-more" href="#portfolio-single-ara"><i class="fa fa-link"></i></a>
+                                            </span>
+                                        </div>
                                     </div>
                                 </div>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+                            <div>
+                                <img class="img-responsive center-block" src="img/portafolio/los_tallanes.png" alt="">
+                            </div>
+                            <!-- <div class="overlay">
+                                <div class="overlay-content">
+                                    <div class="overlay-text">
+                                        <div class="folio-info">
+                                            <h3>Challenger Eventos</h3>
+                                        </div>
+                                        <div class="folio-overview">
+                                            <span class="folio-link">
+                                                <a class="folio-read-more" href="#portfolio-single-challenger"><i class="fa fa-link"></i></a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+                            <div>
+                                <img class="img-responsive center-block" src="img/portafolio/PricewaterhouseCoopers_Logo.png" alt="">
+                            </div>
+                            <!-- <div class="overlay">
+                                <div class="overlay-content">
+                                    <div class="overlay-text">
+                                        <div class="folio-info">
+                                            <h3>Viña d' los campos</h3>
+                                        </div>
+                                        <div class="folio-overview">
+                                            <span class="folio-link">
+                                                <a class="folio-read-more" href="#portfolio-single-vinodeloscampos"><i class="fa fa-link"></i></a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
+                            <div>
+                                <img class="img-responsive center-block mt50" src="img/portafolio/westin.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
+                            <div>
+                                <img class="img-responsive center-block" src="img/portafolio/Alianza_Lima.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
+                            <div>
+                                <img class="img-responsive center-block mt50" src="img/portafolio/Cara_Logo-Recuperado.png" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
-                        <div class="folio-image">
-                            <img class="img-responsive" src="img/portafolio/challenger/cuadro-portafolio.jpg" alt="">
-                        </div>
-                        <div class="overlay">
-                            <div class="overlay-content">
-                                <div class="overlay-text">
-                                    <div class="folio-info">
-                                        <h3>Challenger Eventos</h3>
-                                    </div>
-                                    <div class="folio-overview">
-                                        <span class="folio-link">
-                                            <a class="folio-read-more" href="#portfolio-single-challenger"><i class="fa fa-link"></i></a>
-                                        </span>
-                                    </div>
-                                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="1100ms">
+                            <div>
+                                <img class="img-responsive center-block" src="img/portafolio/ara.png" alt="">
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="1100ms">
-                        <div class="folio-image">
-                            <img class="img-responsive" src="img/portafolio/vino/logo-vina.jpg" alt="">
+                    <div class="col-sm-4">
+                        <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="1100ms">
+                            <div>
+                                <img class="img-responsive center-block" src="img/portafolio/vina.png" alt="">
+                            </div>
                         </div>
-                        <div class="overlay">
-                            <div class="overlay-content">
-                                <div class="overlay-text">
-                                    <div class="folio-info">
-                                        <h3>Viña d' los campos</h3>
-                                    </div>
-                                    <div class="folio-overview">
-                                        <span class="folio-link">
-                                            <a class="folio-read-more" href="#portfolio-single-vinodeloscampos"><i class="fa fa-link"></i></a>
-                                        </span>
-                                    </div>
-                                </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="1100ms">
+                            <div>
+                                <img class="img-responsive center-block" src="img/portafolio/challenger.png" alt="" style="margin-top: 26px">
                             </div>
                         </div>
                     </div>

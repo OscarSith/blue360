@@ -1282,9 +1282,6 @@ ul.social-buttons li a{
   margin-top: 50px;
   font-size: 24px
 }
-#front-ara {
-  border: 1px solid #CCC;
-}
 #artes_graficas_icon {
   width: 95px;
   margin-top: -15px;
@@ -1295,4 +1292,10 @@ ul.social-buttons li a{
 #home-2 > div {
   height: 100px;
   overflow: auto
+}
+#content-portfolio .row {
+  margin-bottom: 50px
+}
+.mt50 {
+  margin-top: 50px
 }

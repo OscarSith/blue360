@@ -8,3 +8,4 @@ img/Popup
 vendor/
 composer.json
 composer.lock
+*.zip
