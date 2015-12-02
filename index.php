@@ -24,23 +24,13 @@ $text = $lang[ $arr[0] ];
   <meta name="description" content="">
   <meta name="author" content="Blue360">
   <title>Blue360</title>
-  <link href="css/main.min.css" rel="stylesheet">
-
-  <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->
-
+    <link href="css/main.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" href="favicon.ico">
-    <!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png"> -->
   </head>
 
   <body>
-    <div id="preloader" class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
+    <div id="preloader" class="preloader"><i class="fa fa-circle-o-notch fa-spin"></i></div>
     <header id="home">
         <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner">
@@ -50,13 +40,13 @@ $text = $lang[ $arr[0] ];
                             <div style="height:221px" class="visible-xs"></div>
                             <div class="row hidden-xs">
                                 <div class="col-sm-5 col-sm-offset-1">
-                                    <div class="embed-responsive embed-responsive-16by9">
+                                    <div class="embed-responsive embed-responsive-16by9" style="margin-top: 90px">
                                         <iframe width="560" height="315" src="https://www.youtube.com/embed/TYgkCZMptaw?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen id="home-video"></iframe>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <a data-scroll class="btn btn-start btn-primary animated fadeInUpBig" href="#services">Start now</a>
+                        <a data-scroll class="btn btn-start btn-primary animated fadeInUpBig" style="margin-top: 150px" href="#services">Start now</a>
                     </div>
                 </div>
                 <div class="item" style="background-image: url(img/skippr/home_040.jpg)">
@@ -244,7 +234,7 @@ $text = $lang[ $arr[0] ];
                             </span>
                         </div>
                         <span>
-                            <span class="title-produts">GESTION LEGAL MKT & MEDIOS</span><br>
+                            <span class="title-produts">Gestion Legal Mkt &amp; Medios</span><br>
                             <small class="hidden-xs">Seguridad legal - marcas - patentes</small>
                         </span>
                     </a>
@@ -258,7 +248,7 @@ $text = $lang[ $arr[0] ];
                             </span>
                         </div>
                         <span>
-                            <span class="title-produts">ARTES GRÁFICAS</span><br>
+                            <span class="title-produts">Artes Gráficas</span><br>
                             <small class="hidden-xs">Agendas - revistas - calendarios -  bolsas - cuadernos</small>
                         </span>
                     </a>
@@ -273,10 +263,7 @@ $text = $lang[ $arr[0] ];
             <div class="carousel-inner">
                 <div class="item active" style="background-image: url(img/about-bg.jpg)" id="us-01">
                     <div id="banner_1">
-                        <div class="col-xs-12 col-sm-offset-5 col-md-offset-6 col-sm-6 col-md-5">
-                            <!-- <h2 class="color-blue2 text-left"><?php echo $text['us_init'] ?></h2> -->
-                            <?php echo $text['us_info'] ?>
-                        </div>
+                        <div class="col-xs-12 col-sm-offset-5 col-md-offset-6 col-sm-6 col-md-5"><?php echo $text['us_info'] ?></div>
                     </div>
                 </div>
                 <div class="item" style="background-image: url(img/about-bg2.jpg)">
@@ -297,7 +284,6 @@ $text = $lang[ $arr[0] ];
             </a>
         </div>
     </section>
-
     <section id="portfolio">
       <div class="container">
         <div class="row">
@@ -315,20 +301,6 @@ $text = $lang[ $arr[0] ];
                             <div>
                                 <img class="img-responsive center-block mt50" src="img/portafolio/l-oreal-paris.png" alt="">
                             </div>
-                            <!-- <div class="overlay">
-                                <div class="overlay-content">
-                                    <div class="overlay-text">
-                                        <div class="folio-info">
-                                            <h3>Ara Ingenieros</h3>
-                                        </div>
-                                        <div class="folio-overview">
-                                            <span class="folio-link">
-                                                <a class="folio-read-more" href="#portfolio-single-ara"><i class="fa fa-link"></i></a>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
                         </div>
                     </div>
                     <div class="col-sm-4">
@@ -336,20 +308,6 @@ $text = $lang[ $arr[0] ];
                             <div>
                                 <img class="img-responsive center-block" src="img/portafolio/los_tallanes.png" alt="">
                             </div>
-                            <!-- <div class="overlay">
-                                <div class="overlay-content">
-                                    <div class="overlay-text">
-                                        <div class="folio-info">
-                                            <h3>Challenger Eventos</h3>
-                                        </div>
-                                        <div class="folio-overview">
-                                            <span class="folio-link">
-                                                <a class="folio-read-more" href="#portfolio-single-challenger"><i class="fa fa-link"></i></a>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
                         </div>
                     </div>
                     <div class="col-sm-4">
@@ -357,20 +315,6 @@ $text = $lang[ $arr[0] ];
                             <div>
                                 <img class="img-responsive center-block" src="img/portafolio/PricewaterhouseCoopers_Logo.png" alt="">
                             </div>
-                            <!-- <div class="overlay">
-                                <div class="overlay-content">
-                                    <div class="overlay-text">
-                                        <div class="folio-info">
-                                            <h3>Viña d' los campos</h3>
-                                        </div>
-                                        <div class="folio-overview">
-                                            <span class="folio-link">
-                                                <a class="folio-read-more" href="#portfolio-single-vinodeloscampos"><i class="fa fa-link"></i></a>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -418,149 +362,6 @@ $text = $lang[ $arr[0] ];
                                 <img class="img-responsive center-block" src="img/portafolio/challenger.png" alt="" style="margin-top: 26px">
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-      </div>
-      <div id="portfolio-single-wrap">
-        <div id="portfolio-single-ara" style="display:none" class="custom-portfolio">
-            <div class="single-portfolio">
-                <div class="portfolio-details" class="container">
-                    <a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
-                    <div class="row">
-                        <div class="col-sm-3"></div>
-                        <div class="col-sm-6">
-                            <div id="carousel-ara" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carousel-ara" data-slide-to="0" class="active"></li>
-                                </ol>
-                                <div class="carousel-inner" role="listbox">
-                                    <div class="item active">
-                                        <img src="img/portafolio/postaraingenieros/pagina_web.jpg" alt="pagina_web">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-8">
-                                    <div class="project-info">
-                                        <h3 class="color-products">PROYECTO ARA INGENIEROS S.A.C.</h3>
-                                        <p>Empresa especializada y dedicada a la Construcción, Consultoría, Supervisión y Servicios relacionados, constituida el año 2008 en la ciudad de Lima – Perú.</p>
-
-                                        <p>Cuenta con personal calificado, equipos propios y respaldo financiero que permiten agregar valor a su propuesta de servicios por medio de eficiencia y confianza.</p>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="project-details">
-                                        <h3 class="color-products">DETALLES DEL PROYECTO</h3>
-                                        <p><span>Client: </span>Ara Ingenieros S.A.C.</p>
-                                        <p><span>Fecha:</span> 15/12/14</p>
-                                        <p><span>Tag:</span> Social Media, Diseño,Video  y  Web.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="portfolio-single-challenger" style="display:none" class="custom-portfolio">
-            <div class="single-portfolio">
-                <div class="portfolio-details" class="container">
-                    <a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
-                    <div class="row">
-                        <div class="col-sm-6 col-sm-offset-3">
-                            <div id="carousel-challenger" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carousel-challenger" data-slide-to="0" class="active"></li>
-                                </ol>
-                                <div class="carousel-inner" role="listbox">
-                                    <div class="item active">
-                                        <img src="img/portafolio/challenger/sistema-portafolio.jpg" alt="Sistema administrativo de Productos">
-                                    </div>
-                                    <!--<div class="item">
-                                        <img src="img/portafolio/challenger/web-portafolio.jpg" alt="Sistema de catalogo de productos">
-                                    </div> -->
-                                </div>
-                                <a class="left carousel-control" href="#carousel-challenger" role="button" data-slide="prev">
-                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="right carousel-control" href="#carousel-challenger" role="button" data-slide="next">
-                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-8">
-                                    <div class="project-info">
-                                        <h3 class="color-products">PROYECTO CHALLENGER EVENTOS</h3>
-                                        <p>Empresa realizadora de espectáculos de fuegos artificiales y efectos especiales diurnos y nocturnos a nivel nacional.</p>
-                                        <p>Challenger eventos S.A.C, autorizadas por la Superintendencia de control de servicios de seguridad, armas, municiones y explosivos de uso civil SUCAMEC ha organizado las más importantes Ferias de fuegos artificiales del Perú en los últimos 5 años.</p>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="project-details">
-                                        <h3 class="color-products">DETALLES DEL PROYECTO</h3>
-                                        <p><span>Client: </span>Challenger eventos S.A.C</p>
-                                        <p><span>Fecha:</span> 02/03/15</p>
-                                        <p><span>Tag:</span> Website y Sistema</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-2"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="portfolio-single-vinodeloscampos" style="display:none" class="custom-portfolio">
-            <div class="single-portfolio">
-                <div class="portfolio-details" class="container">
-                    <a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
-                    <div class="row">
-                        <div class="col-sm-6 col-sm-offset-3">
-                            <div id="carousel-vinos" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carousel-vinos" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carousel-vinos" data-slide-to="1"></li>
-                                </ol>
-                                <div class="carousel-inner" role="listbox">
-                                    <div class="item active">
-                                        <img src="img/portafolio/vino/vina-medios.jpg" alt="Listado de Productos">
-                                    </div>
-                                    <div class="item">
-                                        <img src="img/portafolio/vino/botellas-vina.jpg" alt="Vinos">
-                                    </div>
-                                </div>
-                                <a class="left carousel-control" href="#carousel-vinos" role="button" data-slide="prev">
-                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="right carousel-control" href="#carousel-vinos" role="button" data-slide="next">
-                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </div>
-                            <!-- <div class="row">
-                                <div class="col-sm-8">
-                                    <div class="project-info">
-                                        <h3 class="color-products">PROYECTO CHALLENGER EVENTOS</h3>
-                                        <p>Empresa realizadora de espectáculos de fuegos artificiales y efectos especiales diurnos y nocturnos a nivel nacional.</p>
-                                        <p>Challenger eventos S.A.C, autorizadas por la Superintendencia de control de servicios de seguridad, armas, municiones y explosivos de uso civil SUCAMEC ha organizado las más importantes Ferias de fuegos artificiales del Perú en los últimos 5 años.</p>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="project-details">
-                                        <h3 class="color-products">DETALLES DEL PROYECTO</h3>
-                                        <p><span>Client: </span>Challenger eventos S.A.C</p>
-                                        <p><span>Fecha:</span> 02/03/15</p>
-                                        <p><span>Tag:</span> Website y Sistema</p>
-                                    </div>
-                                </div>
-                            </div> -->
-                        </div>
-                        <div class="col-sm-2"></div>
                     </div>
                 </div>
             </div>
@@ -621,8 +422,6 @@ $text = $lang[ $arr[0] ];
                                 <p>Comunication Manager</p>
                                 <div class="social-icons text-center">
                                     <ul>
-                                        <!-- <li><a class="facebook" target="_blank" href="https://www.facebook.com/Fernando.SuarezDelAguila"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a class="twitter" target="_blank" href="https://twitter.com/SuarezFernando"><i class="fa fa-twitter"></i></a></li> -->
                                         <li><a class="linkedin" target="_blank" href="http://pe.linkedin.com/pub/fernando-su%C3%A1rez-del-aguila/37/76a/629"><i class="fa fa-linkedin"></i></a></li>
                                     </ul>
                                 </div>
@@ -635,8 +434,6 @@ $text = $lang[ $arr[0] ];
                                 <p>Senior Designer</p>
                                 <div class="social-icons text-center">
                                     <ul>
-                                        <!-- <li><a class="facebook" target="_blank" href="https://www.facebook.com/SebasSM"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a class="twitter" target="_blank" href="https://twitter.com/SebastinSantos1"><i class="fa fa-twitter"></i></a></li> -->
                                         <li><a class="linkedin" target="_blank" href="https://www.linkedin.com/profile/view?id=402967028&trk=nav_responsive_tab_profile"><i class="fa fa-linkedin"></i></a></li>
                                     </ul>
                                 </div>
@@ -649,8 +446,6 @@ $text = $lang[ $arr[0] ];
                                 <p>Chief Accounting Area</p>
                                 <div class="social-icons text-center">
                                     <ul>
-                                        <!-- <li><a class="facebook" target="_blank" href="https://www.facebook.com/jhonny.castillo.526"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a class="twitter" target="_blank" href="#"><i class="fa fa-twitter"></i></a></li> -->
                                         <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
                                     </ul>
                                 </div>
@@ -663,8 +458,6 @@ $text = $lang[ $arr[0] ];
                                 <p>Software Engineer</p>
                                 <div class="social-icons text-center">
                                     <ul>
-                                        <!-- <li><a class="facebook" target="_blank" href="https://www.facebook.com/OscarSith"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a class="twitter" target="_blank" href="https://twitter.com/OscarLarriega"><i class="fa fa-twitter"></i></a></li> -->
                                         <li><a class="linkedin" target="_blank" href="http://pe.linkedin.com/pub/oscar-augusto-larriega-grandez/64/9ba/859"><i class="fa fa-linkedin"></i></a></li>
                                     </ul>
                                 </div>
@@ -677,8 +470,6 @@ $text = $lang[ $arr[0] ];
                                 <p>Community Manager</p>
                                 <div class="social-icons text-center">
                                     <ul>
-                                        <!-- <li><a class="facebook" target="_blank" href="https://www.facebook.com/jhonny.castillo.526"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a class="twitter" target="_blank" href="https://twitter.com/pedro_suarez18"><i class="fa fa-twitter"></i></a></li> -->
                                         <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
                                     </ul>
                                 </div>
@@ -766,7 +557,7 @@ $text = $lang[ $arr[0] ];
         <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
             <div class="container text-center">
                 <div class="footer-logo">
-                    <a href="#home"><img class="img-responsive" src="img/logo.png" alt="Logo Blue360"></a>
+                    <a href="#home"><img class="img-responsive" src="img/logo.png" alt="Logo Blue360" style="width:140px"></a>
                 </div>
                 <div class="row">
                     <div class="col-md-3"></div>
