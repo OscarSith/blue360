@@ -19,7 +19,7 @@ $(function() {
 });
 
 // Inicializa el popover
-$('[data-toggle="popover"]').popover();
+// $('[data-toggle="popover"]').popover();
 
 //#main-slider
 var slideHeight = $(window).height(),
@@ -45,9 +45,18 @@ $(window).scroll(function(event) {
 	Scroll();
 });
 
-$('.navbar-collapse ul li a, .navbar-brand, .footer-logo a').on('click', function() {
-	$('html, body').animate({scrollTop: $(this.hash).offset().top - 5}, 1000);
+$('#nav-about-us').on('click', function() {
+	$('html, body').animate({scrollTop: $(this.hash).offset().top - 5}, 1000, function() {
+		$('.scroll:eq(2) a').click();
+	});
 	return false;
+});
+$('.navbar-brand, .navbar-collapse ul .scroll:not(:eq(1)) a').on('click', function(event) {
+	var $anchor = $(this);
+	$('html, body').stop().animate({
+		scrollTop: $($anchor.attr('href')).offset().top
+	}, 1000);
+	event.preventDefault();
 });
 
 // User define function
@@ -70,9 +79,9 @@ function Scroll() {
 	});
 }
 
-$('#tohash').on('click', function(){
-	$('html, body').animate({scrollTop: $(this.hash).offset().top - 5}, 1000);
-	return false;
+$('#tohash, .navbar-right .scroll:eq(1) a').on('click', function(e) {
+	$('html, body').animate({scrollTop: $(this.hash).offset().top + 5}, 1000);
+	e.preventDefault()
 });
 
 //Countdown

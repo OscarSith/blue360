@@ -59,7 +59,7 @@ $text = $lang[ $arr[0] ];
                     <div class="caption">
                         <h1 class="animated fadeInLeftBig color-blue"><?php echo $text['strategy'] ?> <span class="color-blue2"><?php echo $text['blue_ocean'] ?></span></h1>
                         <p class="animated fadeInRightBig color-blue" style="font-weight: 500">OCÉANO AZUL CREA NUEVOS ESPACIOS E INEXISTENCIAS DE<br>COMPETIDORES,DIFERENCIA Y LIDERA UN MERCADO LLENO DE OPORTUNIDADES</p>
-                        <a data-scroll class="btn btn-start btn-primary animated fadeInUpBig" href="#about-us"><?php echo $text['us'] ?></a>
+                        <a class="btn btn-start btn-primary animated fadeInUpBig" href="#services" id="nav-about-us"><?php echo $text['us'] ?></a>
                     </div>
                 </div>
                 <div class="item" style="background-image: url(img/skippr/home_020.jpg)">
@@ -131,19 +131,11 @@ $text = $lang[ $arr[0] ];
                       <li class="scroll"><a href="#portfolio"><?php echo $text['portfolio'] ?></a></li>
                       <li class="scroll"><a href="#team"><?php echo $text['team'] ?></a></li>
                       <li class="scroll"><a href="#contact"><?php echo $text['contact'] ?></a></li>
-                      <li>
-                        <?php if ($arr[0] == 'es'): ?>
-                            <li><a href="?lang=en"><i class="fa fa-language fa-lg"></i> Inglés</a></li>
-                        <?php else: ?>
-                            <li><a href="?lang=es"><i class="fa fa-language fa-lg"></i> <?php echo $text['lang_es'] ?></a></li>
-                        <?php endif ?>
-                    </li>
                     </ul>
                 </div>
             </div>
         </div>
     </header>
-
     <section id="services">
         <div class="container">
             <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
@@ -391,7 +383,7 @@ $text = $lang[ $arr[0] ];
         </div>
     </section>
 
-    <section id="team" class="pb0">
+    <section id="team" class="pb0" style="padding-top: 100px">
         <div class="container">
             <div class="row">
                 <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
