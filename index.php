@@ -19,15 +19,15 @@ $text = $lang[ $arr[0] ];
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <meta name="author" content="Blue360">
-  <title>Blue360</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Blue360">
+    <title>Blue360</title>
     <link href="css/main.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" href="favicon.ico">
-  </head>
+    </head>
 
   <body>
     <div id="preloader" class="preloader"><i class="fa fa-circle-o-notch fa-spin"></i></div>
@@ -258,22 +258,22 @@ $text = $lang[ $arr[0] ];
                         <div class="col-xs-12 col-sm-offset-5 col-md-offset-6 col-sm-6 col-md-5"><?php echo $text['us_info'] ?></div>
                     </div>
                 </div>
-                <div class="item" style="background-image: url(img/about-bg2.jpg)">
+                <!-- <div class="item" style="background-image: url(img/about-bg2.jpg)">
                     <div class="carousel-caption" id="home-2">
                         <div class="col-sm-12 text-left">
                             <?php echo $text['us_info2_01'] ?>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
-            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <!-- <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
             <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
-            </a>
+            </a> -->
         </div>
     </section>
     <section id="portfolio">
