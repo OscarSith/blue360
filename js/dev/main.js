@@ -145,9 +145,9 @@ form.on('submit', function(e){
 });
 
 $('.boxgrid.captionfull').hover(function(){
-	$(".cover", this).stop().animate({top:'144px'},{queue:false,duration:160});
-}, function() {
 	$(".cover", this).stop().animate({top:'240px'},{queue:false,duration:160});
+}, function() {
+	$(".cover", this).stop().animate({top:'334px'},{queue:false,duration:160});
 });
 
 $('.boxgrid').BlackAndWhite({

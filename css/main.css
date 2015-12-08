@@ -1120,8 +1120,8 @@ ul.address {
 }
 #img-about-us{width:100%;background-color:#0E1F5C}
 .boxgrid {
-	width: 325px;
-	height: 236px;
+	width: 330px;
+	height: 334px;
 	margin: 4px;
 	display: inline-block;
 	background-color: #FFF;
@@ -1141,7 +1141,7 @@ ul.address {
 	margin-bottom: 4px
 }
 .captionfull .boxcaption{
-	top:240px;
+	top:334px;
 	left:0
 }
 ul.social-buttons li{text-align:center}

@@ -397,7 +397,7 @@ $text = $lang[ $arr[0] ];
                             <img src="img/team/team-david.jpg"/>
                             <div class="cover boxcaption">
                                 <h4>David Varas</h4>
-                                <p>General Manager</p>
+                                <p>Gerente General</p>
                                 <div class="social-icons text-center">
                                     <ul>
                                         <!-- <li><a class="facebook" target="_blank" href="https://www.facebook.com/davidvarasalvarez"><i class="fa fa-facebook"></i></a></li>
@@ -411,7 +411,7 @@ $text = $lang[ $arr[0] ];
                             <img src="img/team/team-fernando.jpg"/>
                             <div class="cover boxcaption">
                                 <h4>Fernando Suarez</h4>
-                                <p>Comunication Manager</p>
+                                <p>Gerente de Comunicaciones</p>
                                 <div class="social-icons text-center">
                                     <ul>
                                         <li><a class="linkedin" target="_blank" href="http://pe.linkedin.com/pub/fernando-su%C3%A1rez-del-aguila/37/76a/629"><i class="fa fa-linkedin"></i></a></li>
@@ -420,13 +420,13 @@ $text = $lang[ $arr[0] ];
                             </div>
                         </div>
                         <div class="boxgrid captionfull">
-                            <img src="img/team/team-sebastian.jpg"/>
+                            <img src="img/team/team-Jaione-Herran.jpg" />
                             <div class="cover boxcaption">
-                                <h4>Sebastián Santos</h4>
-                                <p>Senior Designer</p>
+                                <h4>Jaione Herran</h4>
+                                <p>Jefa de Branding</p>
                                 <div class="social-icons text-center">
                                     <ul>
-                                        <li><a class="linkedin" target="_blank" href="https://www.linkedin.com/profile/view?id=402967028&trk=nav_responsive_tab_profile"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -435,7 +435,7 @@ $text = $lang[ $arr[0] ];
                             <img src="img/team/team-jonny.jpg"/>
                             <div class="cover boxcaption">
                                 <h4>Jhonny Castillo</h4>
-                                <p>Chief Accounting Area</p>
+                                <p>Jefe Contable</p>
                                 <div class="social-icons text-center">
                                     <ul>
                                         <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
@@ -447,7 +447,7 @@ $text = $lang[ $arr[0] ];
                             <img src="img/team/team-oscar.jpg"/>
                             <div class="cover boxcaption">
                                 <h4>Oscar Larriega</h4>
-                                <p>Software Engineer</p>
+                                <p>Ingeniero de Sistemas</p>
                                 <div class="social-icons text-center">
                                     <ul>
                                         <li><a class="linkedin" target="_blank" href="http://pe.linkedin.com/pub/oscar-augusto-larriega-grandez/64/9ba/859"><i class="fa fa-linkedin"></i></a></li>
@@ -460,6 +460,54 @@ $text = $lang[ $arr[0] ];
                             <div class="cover boxcaption">
                                 <h4>Pedro Suarez</h4>
                                 <p>Community Manager</p>
+                                <div class="social-icons text-center">
+                                    <ul>
+                                        <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="boxgrid captionfull">
+                            <img src="img/team/team-Giancarlo-Perez.jpg" />
+                            <div class="cover boxcaption">
+                                <h4>Giancarlo Perez</h4>
+                                <p>Camarógrafo</p>
+                                <div class="social-icons text-center">
+                                    <ul>
+                                        <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="boxgrid captionfull">
+                            <img src="img/team/team-Michelle-Arriola.jpg" />
+                            <div class="cover boxcaption">
+                                <h4>Michelle Arriola</h4>
+                                <p>Diseñadora Gráfica</p>
+                                <div class="social-icons text-center">
+                                    <ul>
+                                        <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="boxgrid captionfull">
+                            <img src="img/team/team-Lenin-Torres.jpg" />
+                            <div class="cover boxcaption">
+                                <h4>Lenin Torres</h4>
+                                <p>Fotógrafo</p>
+                                <div class="social-icons text-center">
+                                    <ul>
+                                        <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="boxgrid captionfull">
+                            <img src="img/team/team-Jose-Miguel-Bezada.jpg" />
+                            <div class="cover boxcaption">
+                                <h4>Jose Miguel Bezada</h4>
+                                <p>Gerente Comercial</p>
                                 <div class="social-icons text-center">
                                     <ul>
                                         <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
