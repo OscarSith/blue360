@@ -336,29 +336,125 @@ $text = $lang[ $arr[0] ];
                 <div class="row">
                     <div class="col-sm-4">
                         <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="1100ms">
-                            <div>
+                            <a class="folio-read-more" href="#portfolio-single-ara">
                                 <img class="img-responsive center-block" src="img/portafolio/ara.png" alt="">
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="1100ms">
-                            <div>
+                            <a class="folio-read-more" href="#portfolio-single-vino">
                                 <img class="img-responsive center-block" src="img/portafolio/vina.png" alt="">
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="1100ms">
-                            <div>
+                            <a class="folio-read-more" href="#portfolio-single-challenger">
                                 <img class="img-responsive center-block" src="img/portafolio/challenger.png" alt="" style="margin-top: 26px">
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
       </div>
+        <div id="portfolio-single-wrap" class="container">
+            <div id="portfolio-single-ara" style="display:none" class="custom-portfolio">
+                <div class="single-portfolio">
+                    <div class="portfolio-details" class="container">
+                        <a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
+                        <div class="row">
+                            <div class="col-sm-9">
+                                <div id="carousel-ara" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="img/portafolio/postaraingenieros/pagina_web.png" alt="pagina_web">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <img src="img/portafolio/ara.png" class="img-responsive" style="max-width: 200px">
+                                <br><br>
+                                <ul>
+                                    <li>Creación de página web</li>
+                                    <li>Manejo de redes sociales</li>
+                                    <li>Piezas gráficas publicitarias</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="portfolio-single-challenger" style="display:none" class="custom-portfolio">
+                <div class="single-portfolio">
+                    <div class="portfolio-details" class="container">
+                        <a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
+                        <div class="row">
+                            <div class="col-sm-9">
+                                <div id="carousel-challenger" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="img/portafolio/challenger/web-portafolio.png" alt="pagina_web">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <img src="img/portafolio/challenger.png" class="img-responsive" style="max-width: 200px">
+                                <br><br>
+                                <ul>
+                                    <li>Creación de página web</li>
+                                    <li>Creación de sistema de ventas</li>
+                                    <li>Retoque fotográfico</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="portfolio-single-vino" style="display:none" class="custom-portfolio">
+                <div class="single-portfolio">
+                    <div class="portfolio-details" class="container">
+                        <a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
+                        <div class="row">
+                            <div class="col-sm-9">
+                                <div id="carousel-vino" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="img/portafolio/vino/botellas.png" alt="pagina_web">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/portafolio/vino/vina-medios.png" alt="Botella Vinos">
+                                        </div>
+                                    </div>
+                                    <a class="left carousel-control" href="#carousel-vino" role="button" data-slide="prev" style="left: -50px">
+                                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="right carousel-control" href="#carousel-vino" role="button" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <img src="img/portafolio/vina.png" class="img-responsive" style="max-width: 200px">
+                                <br><br>
+                                <ul>
+                                    <li>Manual de marca</li>
+                                    <li>Rediseño de imagen y web</li>
+                                    <li>Creación de etiquetas de productos</li>
+                                    <li>Piezas gráficas publicitarias</li>
+                                    <li>Manejo de redes sociales</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="features" class="parallax">
@@ -393,125 +489,131 @@ $text = $lang[ $arr[0] ];
             <div class="team-members">
                 <div class="row">
                     <div class="text-center team-content">
-                        <div class="boxgrid captionfull" data-toggle="popover" data-content="And here's some amazing content. It's very engaging. Right?">
-                            <img src="img/team/team-david.jpg"/>
-                            <div class="cover boxcaption">
-                                <h4>David Varas</h4>
-                                <p>Gerente General</p>
-                                <div class="social-icons text-center">
-                                    <ul>
-                                        <!-- <li><a class="facebook" target="_blank" href="https://www.facebook.com/davidvarasalvarez"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a class="twitter" target="_blank" href="https://twitter.com/davidvaras84"><i class="fa fa-twitter"></i></a></li> -->
-                                        <li><a class="linkedin" target="_blank" href="http://pe.linkedin.com/pub/david-varas/82/805/223"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
+                        <div class="row">
+                            <div class="boxgrid captionfull" data-toggle="popover" data-content="And here's some amazing content. It's very engaging. Right?">
+                                <img src="img/team/team-david.jpg"  class="img-responsive" />
+                                <div class="cover boxcaption">
+                                    <h4>David Varas</h4>
+                                    <p>Gerente General</p>
+                                    <div class="social-icons text-center">
+                                        <ul>
+                                            <!-- <li><a class="facebook" target="_blank" href="https://www.facebook.com/davidvarasalvarez"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a class="twitter" target="_blank" href="https://twitter.com/davidvaras84"><i class="fa fa-twitter"></i></a></li> -->
+                                            <li><a class="linkedin" target="_blank" href="http://pe.linkedin.com/pub/david-varas/82/805/223"><i class="fa fa-linkedin"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="boxgrid captionfull">
+                                <img src="img/team/team-Jose-Miguel-Bezada.jpg"  class="img-responsive" />
+                                <div class="cover boxcaption">
+                                    <h4>Jose Miguel Bezada</h4>
+                                    <p>Gerente Comercial</p>
+                                    <div class="social-icons text-center">
+                                        <ul>
+                                            <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="boxgrid captionfull">
+                                <img src="img/team/team-fernando.jpg" class="img-responsive" />
+                                <div class="cover boxcaption">
+                                    <h4>Fernando Suarez</h4>
+                                    <p>Gerente de Comunicaciones</p>
+                                    <div class="social-icons text-center">
+                                        <ul>
+                                            <li><a class="linkedin" target="_blank" href="http://pe.linkedin.com/pub/fernando-su%C3%A1rez-del-aguila/37/76a/629"><i class="fa fa-linkedin"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="boxgrid captionfull">
+                                <img src="img/team/team-Jaione-Herran.jpg"  class="img-responsive" />
+                                <div class="cover boxcaption">
+                                    <h4>Jaione Herran</h4>
+                                    <p>Jefa de Branding</p>
+                                    <div class="social-icons text-center">
+                                        <ul>
+                                            <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="boxgrid captionfull">
-                            <img src="img/team/team-fernando.jpg"/>
-                            <div class="cover boxcaption">
-                                <h4>Fernando Suarez</h4>
-                                <p>Gerente de Comunicaciones</p>
-                                <div class="social-icons text-center">
-                                    <ul>
-                                        <li><a class="linkedin" target="_blank" href="http://pe.linkedin.com/pub/fernando-su%C3%A1rez-del-aguila/37/76a/629"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
+                        <div class="row">
+                            <div class="boxgrid captionfull">
+                                <img src="img/team/team-jonny.jpg" class="img-responsive" />
+                                <div class="cover boxcaption">
+                                    <h4>Jhonny Castillo</h4>
+                                    <p>Jefe Contable</p>
+                                    <div class="social-icons text-center">
+                                        <ul>
+                                            <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="boxgrid captionfull">
+                                <img src="img/team/team-oscar.jpg" class="img-responsive" />
+                                <div class="cover boxcaption">
+                                    <h4>Oscar Larriega</h4>
+                                    <p>Ingeniero de Sistemas</p>
+                                    <div class="social-icons text-center">
+                                        <ul>
+                                            <li><a class="linkedin" target="_blank" href="http://pe.linkedin.com/pub/oscar-augusto-larriega-grandez/64/9ba/859"><i class="fa fa-linkedin"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="boxgrid captionfull">
+                                <img src="img/team/team-pedrito.jpg" class="img-responsive" />
+                                <div class="cover boxcaption">
+                                    <h4>Pedro Suarez</h4>
+                                    <p>Community Manager</p>
+                                    <div class="social-icons text-center">
+                                        <ul>
+                                            <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="boxgrid captionfull">
-                            <img src="img/team/team-Jaione-Herran.jpg" />
-                            <div class="cover boxcaption">
-                                <h4>Jaione Herran</h4>
-                                <p>Jefa de Branding</p>
-                                <div class="social-icons text-center">
-                                    <ul>
-                                        <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
+                        <div class="row">
+                            <div class="boxgrid captionfull">
+                                <img src="img/team/team-Giancarlo-Perez.jpg" class="img-responsive" />
+                                <div class="cover boxcaption">
+                                    <h4>Giancarlo Perez</h4>
+                                    <p>Camarógrafo</p>
+                                    <div class="social-icons text-center">
+                                        <ul>
+                                            <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="boxgrid captionfull">
-                            <img src="img/team/team-jonny.jpg"/>
-                            <div class="cover boxcaption">
-                                <h4>Jhonny Castillo</h4>
-                                <p>Jefe Contable</p>
-                                <div class="social-icons text-center">
-                                    <ul>
-                                        <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
+                            <div class="boxgrid captionfull">
+                                <img src="img/team/team-Michelle-Arriola.jpg" class="img-responsive" />
+                                <div class="cover boxcaption">
+                                    <h4>Michelle Arriola</h4>
+                                    <p>Diseñadora Gráfica</p>
+                                    <div class="social-icons text-center">
+                                        <ul>
+                                            <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="boxgrid captionfull">
-                            <img src="img/team/team-oscar.jpg"/>
-                            <div class="cover boxcaption">
-                                <h4>Oscar Larriega</h4>
-                                <p>Ingeniero de Sistemas</p>
-                                <div class="social-icons text-center">
-                                    <ul>
-                                        <li><a class="linkedin" target="_blank" href="http://pe.linkedin.com/pub/oscar-augusto-larriega-grandez/64/9ba/859"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="boxgrid captionfull">
-                            <img src="img/team/team-pedrito.jpg"/>
-                            <div class="cover boxcaption">
-                                <h4>Pedro Suarez</h4>
-                                <p>Community Manager</p>
-                                <div class="social-icons text-center">
-                                    <ul>
-                                        <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="boxgrid captionfull">
-                            <img src="img/team/team-Giancarlo-Perez.jpg" />
-                            <div class="cover boxcaption">
-                                <h4>Giancarlo Perez</h4>
-                                <p>Camarógrafo</p>
-                                <div class="social-icons text-center">
-                                    <ul>
-                                        <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="boxgrid captionfull">
-                            <img src="img/team/team-Michelle-Arriola.jpg" />
-                            <div class="cover boxcaption">
-                                <h4>Michelle Arriola</h4>
-                                <p>Diseñadora Gráfica</p>
-                                <div class="social-icons text-center">
-                                    <ul>
-                                        <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="boxgrid captionfull">
-                            <img src="img/team/team-Lenin-Torres.jpg" />
-                            <div class="cover boxcaption">
-                                <h4>Lenin Torres</h4>
-                                <p>Fotógrafo</p>
-                                <div class="social-icons text-center">
-                                    <ul>
-                                        <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="boxgrid captionfull">
-                            <img src="img/team/team-Jose-Miguel-Bezada.jpg" />
-                            <div class="cover boxcaption">
-                                <h4>Jose Miguel Bezada</h4>
-                                <p>Gerente Comercial</p>
-                                <div class="social-icons text-center">
-                                    <ul>
-                                        <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
+                            <div class="boxgrid captionfull">
+                                <img src="img/team/team-Lenin-Torres.jpg" class="img-responsive" />
+                                <div class="cover boxcaption">
+                                    <h4>Lenin Torres</h4>
+                                    <p>Fotógrafo</p>
+                                    <div class="social-icons text-center">
+                                        <ul>
+                                            <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
