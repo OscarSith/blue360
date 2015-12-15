@@ -81,10 +81,6 @@ $text = $lang[ $arr[0] ];
                     <div class="overlay-slide">
                         <img src="img/skippr/home_040.jpg" class="img-responsive center-block" alt="Slider 2">
                     </div>
-                    <div class="caption">
-                        <a data-scroll class="btn btn-start btn-primary animated fadeInUpBig" href="#services" id="btnMoreProducts"><?php echo $text['products'] ?></a>
-                        <h1 class="animated fadeInLeftBig hidden-xs hidden-sm" style="margin-top: 382px"><span class="color-products"><?php echo $text['ours'] ?> <?php echo $text['products'] ?></span></h1>
-                    </div>
                 </div>
                 <div class="item">
                     <div class="overlay-slide">

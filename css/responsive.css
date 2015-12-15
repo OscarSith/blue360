@@ -128,7 +128,9 @@
 	.navbar-toggle {
 	  border:1px solid #fff;
 	}
-
+	#btnContact {
+		margin-top: 100px
+	}
 	.navbar-toggle .icon-bar {
 	  background-color: #fff;
 	}
@@ -138,7 +140,7 @@
 		padding-bottom: 10px;
 	}
 	#nav-about-us {
-		margin-top: 34px
+		margin-top: 26px
 	}
 	#about-us {
 		padding-top: 50px
@@ -300,7 +302,8 @@
 	}
 	#txt-slider3-p {
 		font-weight: 500;
-		font-size: .8em
+		font-size: .7em;
+		line-height: 1.8;
 	}
 	#home-slider .caption {
 		top: 1%;
@@ -315,11 +318,6 @@
 	}
 	.our-services .col-sm-3 {
 		border: none;
-	}
-}
-@media (max-width: 419px) {
-	#home-video {
-		background-position: 9% 0px
 	}
 }
 @media (max-width: 450px) {

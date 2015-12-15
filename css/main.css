@@ -860,7 +860,7 @@ section {
 **************************/
 
 #contact {
-  padding-top: 45px;
+  padding-top: 0;
   padding-bottom: 0;
 }
 
@@ -1299,7 +1299,7 @@ ul.social-buttons li a{
     width: 100%;
 }
 #btnStartNow {
-  margin-top: 158px
+  margin-top: 190px
 }
 #btnMoreProducts {
   margin-top: 60px
