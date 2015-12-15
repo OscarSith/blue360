@@ -5,17 +5,6 @@ $('.navbar-collapse ul li a').click(function() {
 
 $(function() {
 	$('#preloader').remove();
-	//Meters
-	$('#meters').bind('inview', function(e, visible) {
-		if (visible) {
-			Circles.create(optionsCircle('circle-1', 75));
-			Circles.create(optionsCircle('circle-2', 80));
-			Circles.create(optionsCircle('circle-3', 90));
-			Circles.create(optionsCircle('circle-4', 45));
-			Circles.create(optionsCircle('circle-5', 70));
-			$(this).unbind('inview');
-		}
-	});
 });
 
 // Inicializa el popover
@@ -23,7 +12,7 @@ $(function() {
 
 //#main-slider
 var slideHeight = $(window).height(),
-	$bg = $('#home-slider .item, #about-us .item');
+	$bg = $('#about-us .item');
 
 $bg.css('height',slideHeight);
 $(window).resize(function(){
@@ -160,26 +149,6 @@ $('.boxgrid').BlackAndWhite({
 	}
 });
 
-function optionsCircle (id, val) {
-	var radius = 18;
-	if ($('body').width() < 768) {
-		radius = 9;
-	}
-	return {
-		id:           id,
-		radius:       window.innerWidth / radius,
-		value:        val,
-		maxValue:     100,
-		width:        14,
-		text:         function(value){return value + '%';},
-		colors:       ['#fff', '#BD1D4F'],
-		duration:       2400,
-		wrpClass:     'circles-wrp',
-		textClass:      'circles-text',
-		styleWrapper: true,
-		styleText:    true
-	};
-}
 var $map = $('#google-map');
 var latitude = $map.data('latitude');
 var longitude = $map.data('longitude');

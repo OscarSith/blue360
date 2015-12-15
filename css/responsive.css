@@ -161,6 +161,9 @@
 	#contact {
 		padding-top: 0
 	}
+	#btnMoreProducts {
+		margin-top: 212px
+	}
 
 	/*services*/
 	section {
@@ -296,7 +299,7 @@
 		font-size: .8em
 	}
 	#home-slider .caption {
-		top: 30%;
+		top: 1%;
 	}
 		/*main Slider*/
 	#home-slider {
@@ -305,6 +308,9 @@
 	}
 	.overlay-slide {
 		height: 100%;
+	}
+	.our-services .col-sm-3 {
+		border: none;
 	}
 }
 @media (max-width: 419px) {

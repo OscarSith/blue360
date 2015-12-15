@@ -495,8 +495,8 @@ $text = $lang[ $arr[0] ];
                     <h2><?php echo $text['our_team'] ?></h2>
                 </div>
             </div>
-            <div class="team-members">
-                <div class="row">
+            <div class="row team-members">
+                <div class="col-sm-12">
                     <div class="text-center team-content">
                         <div class="row">
                             <div class="boxgrid captionfull" data-toggle="popover" data-content="And here's some amazing content. It's very engaging. Right?">

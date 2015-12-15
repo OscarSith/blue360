@@ -125,13 +125,10 @@ section {
   width: 100%;
   overflow:hidden;
 }
-#home-video .caption {
-  top: 35% !important;
-}
 #home-slider .caption {
   position: absolute;
-  top: 50%;
-  margin-top: -168px;
+  top: 7%;
+  /*margin-top: -168px;*/
   left: 0;
   right: 0;
   text-align: center;
@@ -1300,8 +1297,8 @@ ul.social-buttons li a{
     width: 100%;
 }
 #btnStartNow {
-  margin-top: 180px
+  margin-top: 158px
 }
 #btnMoreProducts {
-  margin-top: 224px
+  margin-top: 60px
 }
