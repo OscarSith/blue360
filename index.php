@@ -32,85 +32,7 @@ $text = $lang[ $arr[0] ];
   <body>
     <div id="preloader" class="preloader"><i class="fa fa-circle-o-notch fa-spin"></i></div>
     <header id="home">
-        <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="item active" style="background-image: url(img/skippr/home_030.jpg)" id="home-video">
-                    <div class="caption" id="caption-video">
-                        <div class="animated fadeInRightBig">
-                            <div style="height:221px" class="visible-xs"></div>
-                            <div class="row hidden-xs">
-                                <div class="col-sm-5 col-sm-offset-1">
-                                    <div class="embed-responsive embed-responsive-16by9" style="margin-top: 90px">
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/TYgkCZMptaw?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen id="home-video"></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <a data-scroll class="btn btn-start btn-primary animated fadeInUpBig" style="margin-top: 150px" href="#services">Start now</a>
-                    </div>
-                </div>
-                <div class="item" style="background-image: url(img/skippr/home_040.jpg)">
-                    <div class="caption">
-                        <a data-scroll class="btn btn-start btn-primary animated fadeInUpBig" href="#services" style="margin-top: -90px"><?php echo $text['products'] ?></a>
-                        <h1 class="animated fadeInLeftBig" style="margin-top: 382px"><span class="color-products"><?php echo $text['ours'] ?> <?php echo $text['products'] ?></span></h1>
-                    </div>
-                </div>
-                <div class="item" style="background-image: url(img/skippr/home_010.jpg)">
-                    <div class="caption">
-                        <h1 class="animated fadeInLeftBig color-blue"><?php echo $text['strategy'] ?> <span class="color-blue2"><?php echo $text['blue_ocean'] ?></span></h1>
-                        <p class="animated fadeInRightBig color-blue" style="font-weight: 500">OCÉANO AZUL CREA NUEVOS ESPACIOS E INEXISTENCIAS DE<br>COMPETIDORES,DIFERENCIA Y LIDERA UN MERCADO LLENO DE OPORTUNIDADES</p>
-                        <a class="btn btn-start btn-primary animated fadeInUpBig" href="#services" id="nav-about-us"><?php echo $text['us'] ?></a>
-                    </div>
-                </div>
-                <div class="item" style="background-image: url(img/skippr/home_020.jpg)">
-                    <div class="caption">
-                        <div class="animated fadeInRightBig">
-                            <div class="row">
-                            <div class="col-sm-6" id="social-left">
-                                <ul class="list-inline social-buttons">
-                                    <li>
-                                        <a href="https://www.facebook.com/pages/Blue-360/824952017567637" target="_blank" id="fb"><i class="fa fa-facebook"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="https://twitter.com/blue360peru" target="_blank" id="tw"><i class="fa fa-twitter"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.linkedin.com/profile/view?id=388517954&amp;trk=nav_responsive_tab_profile" target="_blank" id="in"><i class="fa fa-linkedin"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.youtube.com/channel/UCQ0l1VibZWhjmk9B83MWxtg" target="_blank" id="yt"><i class="fa fa-youtube-square"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-sm-6" id="social-right">
-                                <ul class="list-inline social-buttons">
-                                    <li>
-                                        <a href="https://plus.google.com/u/0/103514686876234909711/posts" target="_blank" id="gp"><i class="fa fa-google-plus"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="http://instagram.com/blue360peru/" target="_blank" id="ins"><i class="fa fa-instagram"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="https://vimeo.com/blue360peru" target="_blank" id="vim"><i class="fa fa-vimeo-square"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="http://www.dailymotion.com/blue360peru" target="_blank" class="dym">
-                                            <img src="img/daily_motion.png" alt="Logo daily Motion">
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        </div>
-                        <a data-scroll class="btn btn-start btn-primary animated fadeInUpBig" href="#contact"><?php echo strtoupper($text['contact']) ?></a>
-                    </div>
-                </div>
-            </div>
-            <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-            <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
-            <a id="tohash" href="#services"><i class="fa fa-angle-down"></i></a>
-        </div>
-        <div class="navbar navbar-default" role="navigation">
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -135,6 +57,96 @@ $text = $lang[ $arr[0] ];
                 </div>
             </div>
         </div>
+        <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active" id="home-video">
+                    <div class="overlay-slide">
+                        <img src="img/skippr/home_030.jpg" class="img-responsive center-block">
+                    </div>
+                    <div class="caption" id="caption-video">
+                        <div class="animated fadeInRightBig">
+                            <div class="visible-xs"></div>
+                            <div class="row hidden-xs">
+                                <div class="col-sm-5 col-sm-offset-1">
+                                    <div class="embed-responsive embed-responsive-16by9" style="margin-top: 90px">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/TYgkCZMptaw?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen id="home-video"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a data-scroll class="btn btn-start btn-primary animated fadeInUpBig" id="btnStartNow" href="#services">Start now</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="overlay-slide">
+                        <img src="img/skippr/home_040.jpg" class="img-responsive center-block" alt="Slider 2">
+                    </div>
+                    <div class="caption">
+                        <a data-scroll class="btn btn-start btn-primary animated fadeInUpBig" href="#services" id="btnMoreProducts"><?php echo $text['products'] ?></a>
+                        <h1 class="animated fadeInLeftBig hidden-xs hidden-sm" style="margin-top: 382px"><span class="color-products"><?php echo $text['ours'] ?> <?php echo $text['products'] ?></span></h1>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="overlay-slide">
+                        <img src="img/skippr/home_010.jpg" class="img-responsive center-block">
+                    </div>
+                    <div class="caption" id="ocean-blue-caption">
+                        <h1 class="animated fadeInLeftBig color-blue"><?php echo $text['strategy'] ?> <span class="color-blue2"><?php echo $text['blue_ocean'] ?></span></h1>
+                        <p class="animated fadeInRightBig color-blue" id="txt-slider3-p">OCÉANO AZUL CREA NUEVOS ESPACIOS E INEXISTENCIAS DE<br>COMPETIDORES,DIFERENCIA Y LIDERA UN MERCADO LLENO DE OPORTUNIDADES</p>
+                        <a class="btn btn-start btn-primary animated fadeInUpBig" href="#services" id="nav-about-us"><?php echo $text['us'] ?></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="overlay-slide">
+                        <img src="img/skippr/home_020.jpg" alt="" class="img-responsive center-block">
+                    </div>
+                    <div class="caption">
+                        <div class="animated fadeInRightBig">
+                            <div class="row">
+                                <div class="col-sm-6" id="social-left">
+                                    <ul class="list-inline social-buttons">
+                                        <li>
+                                            <a href="https://www.facebook.com/pages/Blue-360/824952017567637" target="_blank" id="fb"><i class="fa fa-facebook"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://twitter.com/blue360peru" target="_blank" id="tw"><i class="fa fa-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/profile/view?id=388517954&amp;trk=nav_responsive_tab_profile" target="_blank" id="in"><i class="fa fa-linkedin"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.youtube.com/channel/UCQ0l1VibZWhjmk9B83MWxtg" target="_blank" id="yt"><i class="fa fa-youtube-square"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-6" id="social-right">
+                                    <ul class="list-inline social-buttons">
+                                        <li>
+                                            <a href="https://plus.google.com/u/0/103514686876234909711/posts" target="_blank" id="gp"><i class="fa fa-google-plus"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="http://instagram.com/blue360peru/" target="_blank" id="ins"><i class="fa fa-instagram"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://vimeo.com/blue360peru" target="_blank" id="vim"><i class="fa fa-vimeo-square"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.dailymotion.com/blue360peru" target="_blank" class="dym">
+                                                <img src="img/daily_motion.png" alt="Logo daily Motion">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <a data-scroll class="btn btn-start btn-primary animated fadeInUpBig" id="btnContact" href="#contact"><?php echo strtoupper($text['contact']) ?></a>
+                    </div>
+                </div>
+            </div>
+            <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+            <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
+            <!-- <a id="tohash" href="#services"><i class="fa fa-angle-down"></i></a> -->
+        </div>
     </header>
     <section id="services">
         <div class="container">
@@ -146,106 +158,106 @@ $text = $lang[ $arr[0] ];
               </div>
             </div>
             <div class="text-center our-services">
-              <div class="row">
-                <div class="col-sm-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                    <a href="#id-corp" data-toggle="modal">
-                        <div class="center-block">
-                            <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle-thin fa-stack-2x"></i>
-                                <i class="fa fa-desktop fa-stack-1x" style="top: 6px"></i>
+                <div class="row">
+                    <div class="col-sm-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                        <a href="#id-corp" data-toggle="modal">
+                            <div class="center-block">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                    <i class="fa fa-desktop fa-stack-1x" style="top: 6px"></i>
+                                </span>
+                            </div>
+                            <span>
+                                <span class="title-produts"><?php echo $text['identity'] ?></span><br>
+                                <small class="hidden-xs">Identidad - Logotipo - Atributos - papeleria</small>
                             </span>
-                        </div>
-                        <span>
-                            <span class="title-produts"><?php echo $text['identity'] ?></span><br>
-                            <small class="hidden-xs">Identidad - Logotipo - Atributos - papeleria</small>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-sm-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
-                    <a href="#creacion-web" data-toggle="modal">
-                        <div class="center-block">
-                            <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle-thin fa-stack-2x"></i>
-                                <i class="fa fa-wifi fa-stack-1x" style="top: 6px"></i>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
+                        <a href="#creacion-web" data-toggle="modal">
+                            <div class="center-block">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                    <i class="fa fa-wifi fa-stack-1x" style="top: 6px"></i>
+                                </span>
+                            </div>
+                            <span>
+                                <span class="title-produts"><?php echo $text['web'] ?></span><br>
+                                <small class="hidden-xs">Diseño web - Programación web</small>
                             </span>
-                        </div>
-                        <span>
-                            <span class="title-produts"><?php echo $text['web'] ?></span><br>
-                            <small class="hidden-xs">Diseño web - Programación web</small>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-sm-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
-                    <a href="#marketing-digital" data-toggle="modal">
-                        <div class="center-block">
-                            <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle-thin fa-stack-2x"></i>
-                                <i class="fa fa-support fa-stack-1x"></i>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
+                        <a href="#marketing-digital" data-toggle="modal">
+                            <div class="center-block">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                    <i class="fa fa-support fa-stack-1x"></i>
+                                </span>
+                            </div>
+                            <span>
+                                <span class="title-produts"><?php echo $text['d_marketing'] ?></span><br>
+                                <small class="hidden-xs">Redes sociales - Estrategias - Posicionamiento web</small>
                             </span>
-                        </div>
-                        <span>
-                            <span class="title-produts"><?php echo $text['d_marketing'] ?></span><br>
-                            <small class="hidden-xs">Redes sociales - Estrategias - Posicionamiento web</small>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-sm-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="650ms">
-                    <a href="#marketing-audiovisual" data-toggle="modal">
-                        <div class="center-block">
-                            <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle-thin fa-stack-2x"></i>
-                                <i class="fa fa-video-camera fa-stack-1x"></i>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="650ms">
+                        <a href="#marketing-audiovisual" data-toggle="modal">
+                            <div class="center-block">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                    <i class="fa fa-video-camera fa-stack-1x"></i>
+                                </span>
+                            </div>
+                            <span>
+                                <span class="title-produts"><?php echo $text['m_audiovisual'] ?></span><br>
+                                <small class="hidden-xs">Videos corporativos - Institucionales - Tutoriales</small>
                             </span>
-                        </div>
-                        <span>
-                            <span class="title-produts"><?php echo $text['m_audiovisual'] ?></span><br>
-                            <small class="hidden-xs">Videos corporativos - Institucionales - Tutoriales</small>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-sm-3 col-sm-offset-1 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="750ms">
-                    <a href="#marketing-promo" data-toggle="modal">
-                        <div class="center-block">
-                            <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle-thin fa-stack-2x"></i>
-                                <i class="fa fa-bar-chart fa-stack-1x"></i>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 col-sm-offset-1 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="750ms">
+                        <a href="#marketing-promo" data-toggle="modal">
+                            <div class="center-block">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                    <i class="fa fa-bar-chart fa-stack-1x"></i>
+                                </span>
+                            </div>
+                            <span>
+                                <span class="title-produts"><?php echo $text['promotional'] ?></span><br>
+                                <small class="hidden-xs">Actividades promocionales - Activaciones - Btl</small>
                             </span>
-                        </div>
-                        <span>
-                            <span class="title-produts"><?php echo $text['promotional'] ?></span><br>
-                            <small class="hidden-xs">Actividades promocionales - Activaciones - Btl</small>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-sm-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="850ms">
-                    <a href="#gestion-legal" data-toggle="modal">
-                        <div class="center-block">
-                            <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle-thin fa-stack-2x"></i>
-                                <i class="fa fa-legal fa-stack-1x"></i>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="850ms">
+                        <a href="#gestion-legal" data-toggle="modal">
+                            <div class="center-block">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                    <i class="fa fa-legal fa-stack-1x"></i>
+                                </span>
+                            </div>
+                            <span>
+                                <span class="title-produts">Gestion Legal Mkt &amp; Medios</span><br>
+                                <small class="hidden-xs">Seguridad legal - marcas - patentes</small>
                             </span>
-                        </div>
-                        <span>
-                            <span class="title-produts">Gestion Legal Mkt &amp; Medios</span><br>
-                            <small class="hidden-xs">Seguridad legal - marcas - patentes</small>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-sm-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="850ms">
-                    <a href="#artes-graficas" data-toggle="modal">
-                        <div class="center-block">
-                            <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle-thin fa-stack-2x"></i>
-                                <img id="artes_graficas_icon" src="img/servicios/Artes_Graficas_logo.png">
+                        </a>
+                    </div>
+                    <div class="col-sm-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="850ms">
+                        <a href="#artes-graficas" data-toggle="modal">
+                            <div class="center-block">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                    <img id="artes_graficas_icon" src="img/servicios/Artes_Graficas_logo.png">
+                                </span>
+                            </div>
+                            <span>
+                                <span class="title-produts">Artes Gráficas</span><br>
+                                <small class="hidden-xs">Agendas - revistas - calendarios -  bolsas - cuadernos</small>
                             </span>
-                        </div>
-                        <span>
-                            <span class="title-produts">Artes Gráficas</span><br>
-                            <small class="hidden-xs">Agendas - revistas - calendarios -  bolsas - cuadernos</small>
-                        </span>
-                    </a>
+                        </a>
+                    </div>
                 </div>
-              </div>
             </div>
         </div>
     </section>
@@ -255,7 +267,7 @@ $text = $lang[ $arr[0] ];
             <div class="carousel-inner">
                 <div class="item active" style="background-image: url(img/about-bg.jpg)" id="us-01">
                     <div id="banner_1">
-                        <div class="col-xs-12 col-sm-offset-5 col-md-offset-6 col-sm-6 col-md-5"><?php echo $text['us_info'] ?></div>
+                        <div class="col-xs-12 col-sm-offset-5 col-sm-6"><?php echo $text['us_info'] ?></div>
                     </div>
                 </div>
                 <!-- <div class="item" style="background-image: url(img/about-bg2.jpg)">
@@ -463,17 +475,14 @@ $text = $lang[ $arr[0] ];
                 <div class="col-sm-4 col-xs-4 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <i class="fa fa-user"></i>
                     <h3 class="timer">5</h3>
-                    <p><?php echo $text['features_1'] ?></p>
                 </div>
                 <div class="col-sm-4 col-xs-4 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
                     <i class="fa fa-desktop"></i>
                     <h3 class="timer">5</h3>
-                    <p><?php echo $text['features_2'] ?></p>
                 </div>
                 <div class="col-sm-4 col-xs-4 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="900ms">
                     <i class="fa fa-comment"></i>
                     <h3>8/5</h3>
-                    <p><?php echo $text['features_3'] ?></p>
                 </div>
             </div>
         </div>

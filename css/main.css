@@ -121,8 +121,9 @@ section {
 	padding: 3px 15px !important;
 }
 #home-slider {
-  overflow: hidden;
-  position: relative;
+  height: 800px;
+  width: 100%;
+  overflow:hidden;
 }
 #home-video .caption {
   top: 35% !important;
@@ -154,7 +155,7 @@ section {
   padding:14px 40px;
   /*border: 1px solid #6e6d6c;*/
   border-radius: 4px;
-  margin-top: 190px;
+  margin-top: 126px;
 }
 
 /*.caption .btn-start:hover {
@@ -1201,19 +1202,6 @@ ul.social-buttons li a{
 		-o-transition:all .7s ease-out;
 		transition:all .7s ease-out
 	}
-/*	.animateblock.speed-2{
-		-webkit-transition:all .9s ease-out;
-		-moz-transition:all .9s ease-out;
-		-ms-transition:all .9s ease-out;
-		-o-transition:all .9s ease-out;
-		transition:all .9s ease-out
-	}
-	.animateblock.speed-3{-webkit-transition:all 1.1s ease-out;
-		-moz-transition:all 1.1s ease-out;
-		-ms-transition:all 1.1s ease-out;
-		-o-transition:all 1.1s ease-out;
-		transition:all 1.1s ease-out
-	}*/
 	.animateblock.size div {
         display: block;
         text-align: center;
@@ -1305,4 +1293,15 @@ ul.social-buttons li a{
 }
 #portfolio-single-vino .carousel-control.right {
   right: -38px;
+}
+.overlay-slide{
+    height: 850px;
+    position: relative;
+    width: 100%;
+}
+#btnStartNow {
+  margin-top: 180px
+}
+#btnMoreProducts {
+  margin-top: 224px
 }

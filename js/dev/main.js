@@ -32,13 +32,13 @@ $(window).resize(function(){
 });
 
 //Scroll Menu
-$(window).on('scroll', function(){
-	if( $(window).scrollTop()>slideHeight ){
-		$('.navbar-default').addClass('navbar-fixed-top');
-	} else {
-		$('.navbar-default').removeClass('navbar-fixed-top');
-	}
-});
+// $(window).on('scroll', function(){
+// 	if( $(window).scrollTop()>slideHeight ){
+// 		$('.navbar-default').addClass('navbar-fixed-top');
+// 	} else {
+// 		$('.navbar-default').removeClass('navbar-fixed-top');
+// 	}
+// });
 
 // Navigation Scroll
 $(window).scroll(function(event) {

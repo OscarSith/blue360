@@ -40,7 +40,61 @@
 	.navbar-default .navbar-nav>li>a {
 		font-size: 12px;
 	}
-
+	#home-slider {
+		height: 560px;
+		margin-top: 70px;
+	}
+	#ocean-blue-caption {
+		padding: 0 86px;
+		top: 34%;
+	}
+	#btnStartNow {
+		margin-top: 114px
+	}
+	#btnMoreProducts {
+		margin-top: 140px
+	}
+	#home-slider .caption {
+		top: 27%;
+	}
+	#btnContact {
+		margin-top: 86px
+	}
+	.carousel-caption {
+		top: 30%;
+	}
+	.carousel-caption h2{
+		font-size: 30px;
+		line-height: 55px;
+		width: 30%;
+		margin-bottom: 40px;
+	}
+	.carousel-caption h2:after{
+		height: 80px;
+	}
+	.carousel-caption h2:before{
+		height: 80px;
+	}
+	.carousel-caption h3 {
+		font-size: 40px;
+		  line-height: 30px;
+	}
+	.carousel-caption p {
+		font-size: 30px;
+		  line-height: 45px;
+	}
+	.overlay-slide {
+		height: 100%;
+	}
+	.carousel-indicators {
+		bottom: 15%;
+	}
+	.carousel-control.right {
+		right: 32px;
+	}
+	#banner_1 {
+		padding-top: 344px
+	}
 }
 
 /* xs */
@@ -49,11 +103,11 @@
 		font-size: 14px;
 	}
 	#home-slider .caption h1 {
-		font-size: 40px;
+		font-size: 1.3em;
 	}
 	#home-slider .caption {
 		font-size: 15px;
-		padding: 0 30px;
+		padding: 0 46px;
 	}
 	.left-control, .right-control {
 		font-size: 20px;
@@ -85,6 +139,27 @@
 		padding-top: 10px;
 		font-size: 12px;
 		padding-bottom: 10px;
+	}
+	#nav-about-us {
+		margin-top: 52px
+	}
+
+	.our-services .col-sm-3:nth-child(5), .our-services .col-sm-3:nth-child(6), .our-services .col-sm-3:nth-child(7){
+		padding-top: 0
+	}
+	#banner_1 {
+		padding-left: 0;
+		font-size: 1.1em;
+		padding-top: 144px;
+	}
+	.mt50 {
+		margin-top: 0
+	}
+	#portfolio .row img {
+		margin-top: 50px
+	}
+	#contact {
+		padding-top: 0
 	}
 
 	/*services*/
@@ -205,6 +280,31 @@
 	#logo {
 		height: 41px;
 		margin-top: -2px;
+	}
+
+	.carousel-caption p {
+		font-size: 35px;
+		line-height: 45px;
+	}
+	.carousel-caption h2{
+		font-size: 16px;
+		line-height: 34px;
+		width: 50%;
+	}
+	#txt-slider3-p {
+		font-weight: 500;
+		font-size: .8em
+	}
+	#home-slider .caption {
+		top: 30%;
+	}
+		/*main Slider*/
+	#home-slider {
+		height: 290px;
+		margin-top: 50px;
+	}
+	.overlay-slide {
+		height: 100%;
 	}
 }
 @media (max-width: 419px) {
