@@ -1260,7 +1260,9 @@ ul.social-buttons li a{
   color: #fff;
   line-height: 1.5em;
   padding-left: 177px;
-  padding-top: 408px;
+  padding-top: 0;
+  position: absolute;
+  top: 50%;
 }
 #banner_1 h2 {
   margin-top: 50px;

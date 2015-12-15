@@ -145,14 +145,13 @@ $text = $lang[ $arr[0] ];
             </div>
             <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
             <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
-            <!-- <a id="tohash" href="#services"><i class="fa fa-angle-down"></i></a> -->
         </div>
     </header>
     <section id="services">
         <div class="container">
             <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
               <div class="row">
-                <div class="text-center col-sm-8 col-sm-offset-2" style="visibility: hidden">
+                <div class="text-center col-sm-8 col-sm-offset-2">
                   <h2><?php echo $text['our_services'] ?></h2>
                 </div>
               </div>
@@ -265,27 +264,13 @@ $text = $lang[ $arr[0] ];
     <section id="about-us">
         <div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner">
-                <div class="item active" style="background-image: url(img/about-bg.jpg)" id="us-01">
+                <div class="item active" id="us-01">
+                    <img src="img/about-bg.jpg" alt="Nosotros" class="img-responsive center-block">
                     <div id="banner_1">
-                        <div class="col-xs-12 col-sm-offset-5 col-sm-6"><?php echo $text['us_info'] ?></div>
+                        <div class="col-xs-12 col-sm-offset-5 col-md-offset-6 col-sm-7 col-md-6"><?php echo $text['us_info'] ?></div>
                     </div>
                 </div>
-                <!-- <div class="item" style="background-image: url(img/about-bg2.jpg)">
-                    <div class="carousel-caption" id="home-2">
-                        <div class="col-sm-12 text-left">
-                            <?php echo $text['us_info2_01'] ?>
-                        </div>
-                    </div>
-                </div> -->
             </div>
-            <!-- <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a> -->
         </div>
     </section>
     <section id="portfolio">

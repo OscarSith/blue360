@@ -10,16 +10,6 @@ $(function() {
 // Inicializa el popover
 // $('[data-toggle="popover"]').popover();
 
-//#main-slider
-var slideHeight = $(window).height(),
-	$bg = $('#about-us .item');
-
-$bg.css('height',slideHeight);
-$(window).resize(function(){
-	'use strict';
-	$bg.css('height',slideHeight);
-});
-
 //Scroll Menu
 // $(window).on('scroll', function(){
 // 	if( $(window).scrollTop()>slideHeight ){
