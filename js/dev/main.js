@@ -5,6 +5,13 @@ $('.navbar-collapse ul li a').click(function() {
 
 $(function() {
 	$('#preloader').remove();
+	if (! sessionStorage.hasOwnProperty("popup")) {
+		$('#init-popup').modal('show');
+	}
+});
+
+$('#btnClosePopupInit').on('click', function() {
+	sessionStorage.popup = 'on';
 });
 
 // Inicializa el popover

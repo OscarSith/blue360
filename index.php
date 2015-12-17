@@ -256,7 +256,6 @@ $text = $lang[ $arr[0] ];
             </div>
         </div>
     </section>
-
     <section id="about-us">
         <div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner">
@@ -449,7 +448,6 @@ $text = $lang[ $arr[0] ];
             </div>
         </div>
     </section>
-
     <section id="features" class="parallax">
         <div class="container">
             <div class="row count">
@@ -468,7 +466,6 @@ $text = $lang[ $arr[0] ];
             </div>
         </div>
     </section>
-
     <section id="team" class="pb0" style="padding-top: 100px">
         <div class="container">
             <div class="row">
@@ -612,7 +609,6 @@ $text = $lang[ $arr[0] ];
             </div>
         </div>
     </section>
-
     <section id="twitter" class="parallax">
         <div class="container">
             <div class="row">
@@ -631,7 +627,6 @@ $text = $lang[ $arr[0] ];
             </div>
         </div>
     </section>
-
     <section id="contact">
       <div id="google-map" style="height:350px" class="wow fadeIn" data-latitude="-12.072827" data-longitude="-77.051158" data-wow-duration="1000ms" data-wow-delay="400ms"></div>
       <div id="contact-us" class="parallax">
@@ -950,6 +945,18 @@ $text = $lang[ $arr[0] ];
         </div>
     </div>
 
+    <div class="modal fade text-center" id="init-popup" tabindex="-1" role="dialog" aria-labelledby="initPopPup" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="img/pop-up-blue.png" class="img-responsive center-block">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal" id="btnClosePopupInit">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
     <script src="js/lib/jquery.min.js"></script>
     <script src="js/lib/bootstrap.min.js"></script>
