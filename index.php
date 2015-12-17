@@ -947,12 +947,12 @@ $text = $lang[ $arr[0] ];
 
     <div class="modal fade text-center" id="init-popup" tabindex="-1" role="dialog" aria-labelledby="initPopPup" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-body">
+            <div class="modal-content" style="background-color: transparent">
+                <div class="modal-body" style="padding: 0">
                     <img src="img/pop-up-blue.png" class="img-responsive center-block">
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal" id="btnClosePopupInit">Cerrar</button>
+                <div class="modal-footer" style="border-top: none;float: right;">
+                    <button type="button" class="btn-link" style="color: white" data-dismiss="modal" id="btnClosePopupInit"><i class="fa fa-times fa-2x"></i></button>
                 </div>
             </div>
         </div>
