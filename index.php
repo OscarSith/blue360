@@ -282,46 +282,46 @@ $text = $lang[ $arr[0] ];
                 <div class="row">
                     <div class="col-sm-4">
                         <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
-                            <div>
+                            <a class="folio-read-more" href="#portfolio-single-loreal">
                                 <img class="img-responsive center-block mt50" src="img/portafolio/l-oreal-paris.png" alt="">
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
-                            <div>
+                            <a class="folio-read-more" href="#portfolio-single-tallanes">
                                 <img class="img-responsive center-block" src="img/portafolio/los_tallanes.png" alt="">
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
-                            <div>
+                            <a class="folio-read-more" href="#portfolio-single-pwc">
                                 <img class="img-responsive center-block" src="img/portafolio/PricewaterhouseCoopers_Logo.png" alt="">
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-4">
                         <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
-                            <div>
+                            <a class="folio-read-more" href="#portfolio-single-westin">
                                 <img class="img-responsive center-block mt50" src="img/portafolio/westin.png" alt="">
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
-                            <div>
+                            <a href="#portfolio-single-alianza" class="folio-read-more">
                                 <img class="img-responsive center-block" src="img/portafolio/Alianza_Lima.png" alt="">
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
-                            <div>
+                            <a class="folio-read-more" href="#portfolio-single-talleres">
                                 <img class="img-responsive center-block mt50" src="img/portafolio/Cara_Logo-Recuperado.png" alt="">
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -354,7 +354,7 @@ $text = $lang[ $arr[0] ];
         <div id="portfolio-single-wrap" class="container">
             <div id="portfolio-single-ara" style="display:none" class="custom-portfolio">
                 <div class="single-portfolio">
-                    <div class="portfolio-details" class="container">
+                    <div class="portfolio-details container">
                         <a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
                         <div class="row">
                             <div class="col-sm-9">
@@ -381,7 +381,7 @@ $text = $lang[ $arr[0] ];
             </div>
             <div id="portfolio-single-challenger" style="display:none" class="custom-portfolio">
                 <div class="single-portfolio">
-                    <div class="portfolio-details" class="container">
+                    <div class="portfolio-details container">
                         <a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
                         <div class="row">
                             <div class="col-sm-9">
@@ -408,7 +408,7 @@ $text = $lang[ $arr[0] ];
             </div>
             <div id="portfolio-single-vino" style="display:none" class="custom-portfolio">
                 <div class="single-portfolio">
-                    <div class="portfolio-details" class="container">
+                    <div class="portfolio-details container">
                         <a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
                         <div class="row">
                             <div class="col-sm-9">
@@ -440,6 +440,213 @@ $text = $lang[ $arr[0] ];
                                     <li>Creación de etiquetas de productos</li>
                                     <li>Piezas gráficas publicitarias</li>
                                     <li>Manejo de redes sociales</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="portfolio-single-alianza" style="display:none" class="custom-portfolio">
+                <div class="single-portfolio">
+                    <div class="portfolio-details container">
+                        <a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
+                        <div class="row">
+                            <div class="col-sm-9">
+                                <div id="carousel-alianza" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="img/portafolio/alianza/alianza.png" alt="Bolsos">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <img src="img/portafolio/Alianza_Lima.png" class="img-responsive" style="max-width: 200px;margin-top: 50px;">
+                                <br><br>
+                                <strong>Bolsas</strong>
+                                <ul>
+                                    <li>Papel bond 120gr.</li>
+                                    <li>Impresión full color</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="portfolio-single-tallanes" style="display:none" class="custom-portfolio">
+                <div class="single-portfolio">
+                    <div class="portfolio-details container">
+                        <a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
+                        <div class="row">
+                            <div class="col-sm-9">
+                                <div id="carousel-tallanes" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="img/portafolio/tallanes/tallanes.png" alt="Catalogo en papel couché">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <img src="img/portafolio/los_tallanes.png" class="img-responsive" style="max-width: 200px;margin-top: 50px;">
+                                <br><br>
+                                <strong>Catálogo</strong>
+                                <ul>
+                                    <li>Papel couché</li>
+                                    <li>Impresión full color</li>
+                                    <li>Engrapado</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="portfolio-single-westin" style="display:none" class="custom-portfolio">
+                <div class="single-portfolio">
+                    <div class="portfolio-details container">
+                        <a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
+                        <div class="row">
+                            <div class="col-sm-9">
+                                <div id="carousel-westin" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="img/portafolio/westin/westin001.png" alt="Carro">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/portafolio/westin/westin002.png" alt="Bolso">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/portafolio/westin/westin003.png" alt="Pasaporte interno">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/portafolio/westin/westin004.png" alt="Acordeon">
+                                        </div>
+                                    </div>
+                                    <a class="left carousel-control" href="#carousel-westin" role="button" data-slide="prev" style="left: -50px">
+                                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="right carousel-control" href="#carousel-westin" role="button" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <img src="img/portafolio/westin.png" class="img-responsive" style="max-width: 200px">
+                                <br><br>
+                                <strong>Vinil aplicado</strong>
+                                <ul>
+                                    <li>Impresión full color</li>
+                                </ul>
+                                <strong>Bolsas</strong>
+                                <ul>
+                                    <li>Papel couché mate plastificado</li>
+                                    <li>Impresión full color</li>
+                                </ul>
+                                <strong>Pasaporte interno</strong>
+                                <ul>
+                                    <li>Papel couché mate plastificado</li>
+                                    <li>Interior: Impresión a un color</li>
+                                </ul>
+                                <strong>Acordeón</strong>
+                                <ul>
+                                    <li>Papel hilo</li>
+                                    <li>Interior: Impresión a un color</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="portfolio-single-loreal" style="display:none" class="custom-portfolio">
+                <div class="single-portfolio">
+                    <div class="portfolio-details container">
+                        <a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
+                        <div class="row">
+                            <div class="col-sm-9">
+                                <div id="carousel-loreal" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="img/portafolio/loreal/loreal.png" alt="Bolsos">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <img src="img/portafolio/l-oreal-paris.png" class="img-responsive" style="max-width: 200px;margin-top: 50px;">
+                                <br><br>
+                                <strong>Bolsas Loreal</strong>
+                                <ul>
+                                    <li>Papel couché</li>
+                                    <li>Plastificado</li>
+                                    <li>High gloss</li>
+                                    <li>Impresión full color</li>
+                                </ul>
+                                <strong>Bolsas Warawa</strong>
+                                <ul>
+                                    <li>Papel Klupac</li>
+                                    <li>Impresión full color</li>
+                                    <li>Azas en soguillas</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="portfolio-single-pwc" style="display:none" class="custom-portfolio">
+                <div class="single-portfolio">
+                    <div class="portfolio-details container">
+                        <a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
+                        <div class="row">
+                            <div class="col-sm-9">
+                                <div id="carousel-pwc" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="img/portafolio/pwc/pwc001.png" alt="Bolsos">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/portafolio/pwc/pwc003.png" alt="Bolso">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/portafolio/pwc/pwc004.png" alt="Pasaporte interno">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/portafolio/pwc/pwc005.png" alt="Acordeon">
+                                        </div>
+                                    </div>
+                                    <a class="left carousel-control" href="#carousel-pwc" role="button" data-slide="prev" style="left: -50px">
+                                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="right carousel-control" href="#carousel-pwc" role="button" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <img src="img/portafolio/PricewaterhouseCoopers_Logo.png" class="img-responsive" style="max-width: 200px">
+                                <br><br>
+                                <strong>Folder</strong>
+                                <ul>
+                                    <li>Papel couché</li>
+                                    <li>Contraplacado</li>
+                                    <li>Troquelado</li>
+                                    <li>Plastificado mate</li>
+                                </ul>
+                                <strong>Encarte</strong>
+                                <ul>
+                                    <li>Papel Couché mate</li>
+                                    <li>Impresión full color</li>
+                                </ul>
+                                <strong>Folder</strong>
+                                <ul>
+                                    <li>CD y porta CD</li>
+                                    <li>Papel Couché</li>
+                                    <li>Contraplacado</li>
+                                    <li>Troquelado</li>
+                                    <li>Impresión full color</li>
                                 </ul>
                             </div>
                         </div>
