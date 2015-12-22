@@ -75,7 +75,7 @@ $lang['es'] = [
 	'lang_es' => 'Español',
 
 	// Titles
-	'our_services' => 'NUESTROS SERVICIOS',
+	'our_services' => 'NUESTROS PRODUCTOS',
 	'exp' => 'EXPERIENCIA',
 	'our_team' => 'NUESTRO EQUIPO',
 	'contact_us' => 'CONTÁCTENOS',

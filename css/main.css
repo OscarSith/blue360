@@ -1293,13 +1293,20 @@ ul.social-buttons li a{
 #portfolio-single-vino .carousel-control.right {
   right: -38px;
 }
+.carousel-control {
+  color: #333;
+  background: none !important
+}
+.carousel-control:hover {
+  color: inherit !important;
+}
 .overlay-slide{
     height: 850px;
     position: relative;
     width: 100%;
 }
 #btnStartNow {
-  margin-top: 190px
+  margin-top: 150px
 }
 #btnMoreProducts {
   margin-top: 60px

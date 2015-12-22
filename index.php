@@ -269,88 +269,97 @@ $text = $lang[ $arr[0] ];
         </div>
     </section>
     <section id="portfolio">
-      <div class="container">
-        <div class="row">
-          <div class="heading_min text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <h2><?php echo strtoupper($text['portfolio']) ?></h2>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-8 col-sm-offset-2" id="content-portfolio">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
-                            <a class="folio-read-more" href="#portfolio-single-loreal">
-                                <img class="img-responsive center-block mt50" src="img/portafolio/l-oreal-paris.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
-                            <a class="folio-read-more" href="#portfolio-single-tallanes">
-                                <img class="img-responsive center-block" src="img/portafolio/los_tallanes.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
-                            <a class="folio-read-more" href="#portfolio-single-pwc">
-                                <img class="img-responsive center-block" src="img/portafolio/PricewaterhouseCoopers_Logo.png" alt="">
-                            </a>
-                        </div>
-                    </div>
+        <div class="container">
+            <div class="row">
+                <div class="heading_min text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                    <h2><?php echo strtoupper($text['portfolio']) ?></h2>
                 </div>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
-                            <a class="folio-read-more" href="#portfolio-single-westin">
-                                <img class="img-responsive center-block mt50" src="img/portafolio/westin.png" alt="">
-                            </a>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2" id="content-portfolio">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+                                <a class="folio-read-more" href="#portfolio-single-loreal">
+                                    <img class="img-responsive center-block mt50" src="img/portafolio/l-oreal-paris.png" alt="">
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
-                            <a href="#portfolio-single-alianza" class="folio-read-more">
-                                <img class="img-responsive center-block" src="img/portafolio/Alianza_Lima.png" alt="">
-                            </a>
+                        <div class="col-sm-4">
+                            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+                                <a class="folio-read-more" href="#portfolio-single-tallanes">
+                                    <img class="img-responsive center-block" src="img/portafolio/los_tallanes.png" alt="">
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
-                            <div>
-                                <img class="img-responsive center-block mt50" src="img/portafolio/Cara_Logo-Recuperado.png" alt="">
+                        <div class="col-sm-4">
+                            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+                                <a class="folio-read-more" href="#portfolio-single-pwc">
+                                    <img class="img-responsive center-block" src="img/portafolio/PricewaterhouseCoopers_Logo.png" alt="" style="width: 160px">
+                                </a>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="1100ms">
-                            <a class="folio-read-more" href="#portfolio-single-ara">
-                                <img class="img-responsive center-block" src="img/portafolio/ara.png" alt="">
-                            </a>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
+                                <a class="folio-read-more" href="#portfolio-single-westin">
+                                    <img class="img-responsive center-block mt50" src="img/portafolio/westin.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
+                                <a href="#portfolio-single-alianza" class="folio-read-more">
+                                    <img class="img-responsive center-block" src="img/portafolio/Alianza_Lima.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
+                                <a class="folio-read-more" href="#portfolio-single-thermos">
+                                    <img class="img-responsive center-block mt50" src="img/portafolio/Cara_Logo-Recuperado.png" alt="">
+                                </a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-sm-4">
-                        <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="1100ms">
-                            <a class="folio-read-more" href="#portfolio-single-vino">
-                                <img class="img-responsive center-block" src="img/portafolio/vina.png" alt="">
-                            </a>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="1100ms">
+                                <a class="folio-read-more" href="#portfolio-single-ara">
+                                    <img class="img-responsive center-block" src="img/portafolio/ara.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="1100ms">
+                                <a class="folio-read-more" href="#portfolio-single-vino">
+                                    <img class="img-responsive center-block" src="img/portafolio/vina.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="1100ms">
+                                <a class="folio-read-more" href="#portfolio-single-challenger">
+                                    <img class="img-responsive center-block" src="img/portafolio/challenger.png" alt="" style="margin-top: 26px">
+                                </a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-sm-4">
-                        <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="1100ms">
-                            <a class="folio-read-more" href="#portfolio-single-challenger">
-                                <img class="img-responsive center-block" src="img/portafolio/challenger.png" alt="" style="margin-top: 26px">
-                            </a>
+                    <div class="row">
+                        <div class="col-sm-4 col-sm-offset-4">
+                            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="1300ms">
+                                <a class="folio-read-more" href="#portfolio-single-minitech">
+                                    <img class="img-responsive center-block mt50" src="img/portafolio/minitech/minintech.png" alt="">
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-      </div>
         <div id="portfolio-single-wrap" class="container">
             <div id="portfolio-single-ara" style="display:none" class="custom-portfolio">
                 <div class="single-portfolio">
@@ -482,7 +491,7 @@ $text = $lang[ $arr[0] ];
                                 <div id="carousel-tallanes" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner" role="listbox">
                                         <div class="item active">
-                                            <img src="img/portafolio/tallanes/tallanes.png" alt="Catalogo en papel couché">
+                                            <img src="img/portafolio/tallanes/tallanes.jpg" alt="Catalogo en papel couché">
                                         </div>
                                     </div>
                                 </div>
@@ -510,7 +519,7 @@ $text = $lang[ $arr[0] ];
                                 <div id="carousel-westin" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner" role="listbox">
                                         <div class="item active">
-                                            <img src="img/portafolio/westin/westin001.png" alt="Carro">
+                                            <img src="img/portafolio/westin/westin001.jpg" alt="Carro">
                                         </div>
                                         <div class="item">
                                             <img src="img/portafolio/westin/westin002.png" alt="Bolso">
@@ -519,7 +528,7 @@ $text = $lang[ $arr[0] ];
                                             <img src="img/portafolio/westin/westin003.png" alt="Pasaporte interno">
                                         </div>
                                         <div class="item">
-                                            <img src="img/portafolio/westin/westin004.png" alt="Acordeon">
+                                            <img src="img/portafolio/westin/westin004.jpg" alt="Acordeon">
                                         </div>
                                     </div>
                                     <a class="left carousel-control" href="#carousel-westin" role="button" data-slide="prev" style="left: -50px">
@@ -568,7 +577,7 @@ $text = $lang[ $arr[0] ];
                                 <div id="carousel-loreal" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner" role="listbox">
                                         <div class="item active">
-                                            <img src="img/portafolio/loreal/loreal.png" alt="Bolsos">
+                                            <img src="img/portafolio/loreal/loreal.jpg" alt="Bolsos">
                                         </div>
                                     </div>
                                 </div>
@@ -647,6 +656,76 @@ $text = $lang[ $arr[0] ];
                                     <li>Contraplacado</li>
                                     <li>Troquelado</li>
                                     <li>Impresión full color</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="portfolio-single-thermos" style="display:none" class="custom-portfolio">
+                <div class="single-portfolio">
+                    <div class="portfolio-details container">
+                        <a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
+                        <div class="row">
+                            <div class="col-sm-9">
+                                <div id="carousel-thermos" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="img/portafolio/thermos/thermos001.png" alt="Afiche">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/portafolio/thermos/thermos003.png" alt="Etiqueta">
+                                        </div>
+                                    </div>
+                                    <a class="left carousel-control" href="#carousel-thermos" role="button" data-slide="prev" style="left: -50px">
+                                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="right carousel-control" href="#carousel-thermos" role="button" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <img src="img/portafolio/Cara_Logo-Recuperado.png" class="img-responsive" style="max-width: 200px">
+                                <br><br>
+                                <strong>Afiche</strong>
+                                <ul>
+                                    <li>Papel couché</li>
+                                    <li>Impresión full color</li>
+                                </ul>
+                                <strong>Etiquetas</strong>
+                                <ul>
+                                    <li>Papel couché mate</li>
+                                    <li>Impresión full color</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="portfolio-single-minitech" style="display:none" class="custom-portfolio">
+                <div class="single-portfolio">
+                    <div class="portfolio-details container">
+                        <a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
+                        <div class="row">
+                            <div class="col-sm-9">
+                                <div id="carousel-minitech" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="img/portafolio/minitech/minin001.png" alt="Bolsos">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <img src="img/portafolio/minitech/minintech.png" class="img-responsive" style="margin-top:50px">
+                                <br><br>
+                                <strong>Mug publicitario</strong>
+                                <ul>
+                                    <li>Termo metalico</li>
+                                    <li>Serigrafía a un color</li>
                                 </ul>
                             </div>
                         </div>
@@ -1097,40 +1176,22 @@ $text = $lang[ $arr[0] ];
                     <div id="carousel-artes_graficas" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner" role="listbox">
                             <div class="item active">
-                                <img src="img/servicios/artes_graficas/2.jpg" alt="">
+                                <img src="img/servicios/artes_graficas/artes_graficas001.jpg" alt="">
                             </div>
                             <div class="item">
-                                <img src="img/servicios/artes_graficas/3.jpg" alt="">
+                                <img src="img/servicios/artes_graficas/artes_graficas002.jpg" alt="">
                             </div>
                             <div class="item">
-                                <img src="img/servicios/artes_graficas/4.jpg" alt="">
+                                <img src="img/servicios/artes_graficas/artes_graficas003.jpg" alt="">
                             </div>
                             <div class="item">
-                                <img src="img/servicios/artes_graficas/5.jpg" alt="">
+                                <img src="img/servicios/artes_graficas/artes_graficas004.jpg" alt="">
                             </div>
                             <div class="item">
-                                <img src="img/servicios/artes_graficas/6.jpg" alt="">
+                                <img src="img/servicios/artes_graficas/artes_graficas005.jpg" alt="">
                             </div>
                             <div class="item">
-                                <img src="img/servicios/artes_graficas/7.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img src="img/servicios/artes_graficas/8.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img src="img/servicios/artes_graficas/1908002_701482843314718_5665897783641948102_n.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img src="img/servicios/artes_graficas/11039908_701482836648052_8633214759870355945_n.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img src="img/servicios/artes_graficas/11083886_684548688341467_9209111137694478800_n.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img src="img/servicios/artes_graficas/tp202plata.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img src="img/servicios/artes_graficas/westin002.jpg" alt="">
+                                <img src="img/servicios/artes_graficas/artes_graficas006.jpg" alt="">
                             </div>
                         </div>
                         <a class="left carousel-control" href="#carousel-artes_graficas" role="button" data-slide="prev">
