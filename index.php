@@ -319,9 +319,9 @@ $text = $lang[ $arr[0] ];
                     </div>
                     <div class="col-sm-4">
                         <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
-                            <a class="folio-read-more" href="#portfolio-single-talleres">
+                            <div>
                                 <img class="img-responsive center-block mt50" src="img/portafolio/Cara_Logo-Recuperado.png" alt="">
-                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>
