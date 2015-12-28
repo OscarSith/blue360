@@ -370,7 +370,7 @@ $text = $lang[ $arr[0] ];
                                 <div id="carousel-ara" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner" role="listbox">
                                         <div class="item active">
-                                            <img src="img/portafolio/postaraingenieros/pagina_web.png" alt="pagina_web">
+                                            <img src="img/portafolio/postaraingenieros/pagina_web.png" alt="pagina_web" class="center-block">
                                         </div>
                                     </div>
                                 </div>
@@ -397,7 +397,7 @@ $text = $lang[ $arr[0] ];
                                 <div id="carousel-challenger" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner" role="listbox">
                                         <div class="item active">
-                                            <img src="img/portafolio/challenger/web-portafolio.png" alt="pagina_web">
+                                            <img src="img/portafolio/challenger/web-portafolio.png" alt="pagina_web" class="center-block">
                                         </div>
                                     </div>
                                 </div>
@@ -424,10 +424,10 @@ $text = $lang[ $arr[0] ];
                                 <div id="carousel-vino" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner" role="listbox">
                                         <div class="item active">
-                                            <img src="img/portafolio/vino/botellas.png" alt="pagina_web">
+                                            <img src="img/portafolio/vino/botellas.png" alt="pagina_web" class="center-block">
                                         </div>
                                         <div class="item">
-                                            <img src="img/portafolio/vino/vina-medios.png" alt="Botella Vinos">
+                                            <img src="img/portafolio/vino/vina-medios.png" alt="Botella Vinos" class="center-block">
                                         </div>
                                     </div>
                                     <a class="left carousel-control" href="#carousel-vino" role="button" data-slide="prev" style="left: -50px">
@@ -464,7 +464,7 @@ $text = $lang[ $arr[0] ];
                                 <div id="carousel-alianza" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner" role="listbox">
                                         <div class="item active">
-                                            <img src="img/portafolio/alianza/alianza.png" alt="Bolsos">
+                                            <img src="img/portafolio/alianza/alianza.png" alt="Bolsos" class="center-block">
                                         </div>
                                     </div>
                                 </div>
@@ -491,7 +491,7 @@ $text = $lang[ $arr[0] ];
                                 <div id="carousel-tallanes" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner" role="listbox">
                                         <div class="item active">
-                                            <img src="img/portafolio/tallanes/tallanes.jpg" alt="Catalogo en papel couché">
+                                            <img src="img/portafolio/tallanes/tallanes.jpg" alt="Catalogo en papel couché" class="center-block">
                                         </div>
                                     </div>
                                 </div>
@@ -519,16 +519,16 @@ $text = $lang[ $arr[0] ];
                                 <div id="carousel-westin" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner" role="listbox">
                                         <div class="item active">
-                                            <img src="img/portafolio/westin/westin001.jpg" alt="Carro">
+                                            <img src="img/portafolio/westin/westin001.jpg" alt="Carro" class="center-block">
                                         </div>
                                         <div class="item">
-                                            <img src="img/portafolio/westin/westin002.png" alt="Bolso">
+                                            <img src="img/portafolio/westin/westin002.png" alt="Bolso" class="center-block">
                                         </div>
                                         <div class="item">
-                                            <img src="img/portafolio/westin/westin003.png" alt="Pasaporte interno">
+                                            <img src="img/portafolio/westin/westin003.png" alt="Pasaporte interno" class="center-block">
                                         </div>
                                         <div class="item">
-                                            <img src="img/portafolio/westin/westin004.jpg" alt="Acordeon">
+                                            <img src="img/portafolio/westin/westin004.jpg" alt="Acordeon" class="center-block">
                                         </div>
                                     </div>
                                     <a class="left carousel-control" href="#carousel-westin" role="button" data-slide="prev" style="left: -50px">
@@ -609,34 +609,36 @@ $text = $lang[ $arr[0] ];
                         <a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
                         <div class="row">
                             <div class="col-sm-9">
-                                <div id="carousel-pwc" class="carousel slide" data-ride="carousel">
-                                    <div class="carousel-inner" role="listbox">
-                                        <div class="item active">
-                                            <img src="img/portafolio/pwc/pwc001.png" alt="Bolsos">
+                                <div class="col-sm-12 pull-left">
+                                    <div id="carousel-pwc" class="carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner" role="listbox">
+                                            <div class="item active">
+                                                <img src="img/portafolio/pwc/pwc001.png" alt="Bolsos" class="center-block">
+                                            </div>
+                                            <div class="item">
+                                                <img src="img/portafolio/pwc/pwc003.png" alt="Bolso" class="center-block">
+                                            </div>
+                                            <div class="item">
+                                                <img src="img/portafolio/pwc/pwc004.png" alt="Pasaporte interno" class="center-block">
+                                            </div>
+                                            <div class="item">
+                                                <img src="img/portafolio/pwc/pwc005.png" alt="Acordeon" class="center-block">
+                                            </div>
                                         </div>
-                                        <div class="item">
-                                            <img src="img/portafolio/pwc/pwc003.png" alt="Bolso">
-                                        </div>
-                                        <div class="item">
-                                            <img src="img/portafolio/pwc/pwc004.png" alt="Pasaporte interno">
-                                        </div>
-                                        <div class="item">
-                                            <img src="img/portafolio/pwc/pwc005.png" alt="Acordeon">
-                                        </div>
+                                        <a class="left carousel-control" href="#carousel-pwc" role="button" data-slide="prev">
+                                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="right carousel-control" href="#carousel-pwc" role="button" data-slide="next">
+                                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
                                     </div>
-                                    <a class="left carousel-control" href="#carousel-pwc" role="button" data-slide="prev" style="left: -50px">
-                                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                                        <span class="sr-only">Previous</span>
-                                    </a>
-                                    <a class="right carousel-control" href="#carousel-pwc" role="button" data-slide="next">
-                                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                                        <span class="sr-only">Next</span>
-                                    </a>
                                 </div>
                             </div>
                             <div class="col-sm-3">
                                 <img src="img/portafolio/PricewaterhouseCoopers_Logo.png" class="img-responsive" style="max-width: 200px">
-                                <br><br>
+                                <br>
                                 <strong>Folder</strong>
                                 <ul>
                                     <li>Papel couché</li>
@@ -671,10 +673,10 @@ $text = $lang[ $arr[0] ];
                                 <div id="carousel-thermos" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner" role="listbox">
                                         <div class="item active">
-                                            <img src="img/portafolio/thermos/thermos001.png" alt="Afiche">
+                                            <img src="img/portafolio/thermos/thermos001.png" alt="Afiche" class="center-block">
                                         </div>
                                         <div class="item">
-                                            <img src="img/portafolio/thermos/thermos003.png" alt="Etiqueta">
+                                            <img src="img/portafolio/thermos/thermos003.png" alt="Etiqueta" class="center-block">
                                         </div>
                                     </div>
                                     <a class="left carousel-control" href="#carousel-thermos" role="button" data-slide="prev" style="left: -50px">
@@ -714,7 +716,7 @@ $text = $lang[ $arr[0] ];
                                 <div id="carousel-minitech" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner" role="listbox">
                                         <div class="item active">
-                                            <img src="img/portafolio/minitech/minin001.png" alt="Bolsos">
+                                            <img src="img/portafolio/minitech/minin001.png" alt="Bolsos" class="center-block">
                                         </div>
                                     </div>
                                 </div>
