@@ -14,17 +14,11 @@ $('#btnClosePopupInit').on('click', function() {
 	sessionStorage.popup = 'on';
 });
 
-// Inicializa el popover
-// $('[data-toggle="popover"]').popover();
-
-//Scroll Menu
-// $(window).on('scroll', function(){
-// 	if( $(window).scrollTop()>slideHeight ){
-// 		$('.navbar-default').addClass('navbar-fixed-top');
-// 	} else {
-// 		$('.navbar-default').removeClass('navbar-fixed-top');
-// 	}
-// });
+$('#icon-artes-graficas').on('mouseover', function() {
+  $(this).find('img').attr('src', 'img/servicios/Artes_Graficas_logo_alter.png');
+}).on('mouseout', function() {
+  $(this).find('img').attr('src', 'img/servicios/Artes_Graficas_logo.png');
+});
 
 // Navigation Scroll
 $(window).scroll(function(event) {

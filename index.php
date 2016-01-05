@@ -240,9 +240,8 @@ $text = $lang[ $arr[0] ];
                     </div>
                     <div class="col-sm-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="850ms">
                         <a href="#artes-graficas" data-toggle="modal">
-                            <div class="center-block">
+                            <div class="center-block" id="icon-artes-graficas">
                                 <span class="fa-stack fa-4x">
-                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
                                     <img id="artes_graficas_icon" src="img/servicios/Artes_Graficas_logo.png">
                                 </span>
                             </div>
