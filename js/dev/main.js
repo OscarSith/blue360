@@ -3,13 +3,6 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
-$(function() {
-	$('#preloader').remove();
-	if (! sessionStorage.hasOwnProperty("popup")) {
-		$('#init-popup').modal('show');
-	}
-});
-
 $('#btnClosePopupInit').on('click', function() {
 	sessionStorage.popup = 'on';
 });
@@ -200,3 +193,5 @@ $('.modal').on('hide.bs.modal', function() {
 		$contentEmbed.empty();
 	}
 });
+
+$('#preloader').remove();

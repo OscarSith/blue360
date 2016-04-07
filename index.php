@@ -24,8 +24,8 @@ $text = $lang[ $arr[0] ];
     <meta name="description" content="">
     <meta name="author" content="Blue360">
     <title>Blue360</title>
+    <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'> -->
     <link href="css/main.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" href="favicon.ico">
     </head>
 
@@ -1209,19 +1209,6 @@ $text = $lang[ $arr[0] ];
                             <p class="text-justify" style="line-height:1.4em">La reproducción de cualquier pieza gráfica con una calidad impecable es una de las características desde el inicio del proyecto hasta la entrega final del mismo. Nuestro propósito es la satisfacción de nuestros clientes y colaborar en la solución de cualquier necesidad que su empresa requiera.</p>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade text-center" id="init-popup" tabindex="-1" role="dialog" aria-labelledby="initPopPup" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content" style="background-color: transparent">
-                <div class="modal-body" style="padding: 0">
-                    <img src="img/pop-up-blue.png" class="img-responsive center-block">
-                </div>
-                <div class="modal-footer" style="border-top: none;float: right;">
-                    <button type="button" class="btn-link" style="color: white" data-dismiss="modal" id="btnClosePopupInit"><i class="fa fa-times fa-2x"></i></button>
                 </div>
             </div>
         </div>
