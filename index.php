@@ -672,10 +672,10 @@ $text = $lang[ $arr[0] ];
                                 <div id="carousel-thermos" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner" role="listbox">
                                         <div class="item active">
-                                            <img src="img/portafolio/thermos/thermos001.png" alt="Afiche" class="center-block">
+                                            <img src="img/portafolio/thermos/thermos001.jpg" alt="Afiche" class="center-block">
                                         </div>
                                         <div class="item">
-                                            <img src="img/portafolio/thermos/thermos003.png" alt="Etiqueta" class="center-block">
+                                            <img src="img/portafolio/thermos/thermos003.jpg" alt="Etiqueta" class="center-block">
                                         </div>
                                     </div>
                                     <a class="left carousel-control" href="#carousel-thermos" role="button" data-slide="prev" style="left: -50px">
