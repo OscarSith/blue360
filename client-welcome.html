@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <title>Client Welcome</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+</head>
+<body>
+<div style="font-size:12px;line-height:14px;font-family:Arial,Helvetica,'sans-serif';width: 90%;margin: 10px auto">
+    <div>
+        <img src="https://s3-us-west-2.amazonaws.com/stark-images/mail_head.jpg" alt="Image" title="Image" style="-ms-interpolation-mode: bicubic;display: block;border: 0;line-height: 100%;margin: 0 auto" width="500">
+        <hr style="width: 480px;margin: 15px auto 10px;border-top: 1px solid #DFDFDF;border-bottom: none;" />
+        <img src="https://s3-us-west-2.amazonaws.com/stark-images/mail_head_cfzexitosa.jpg" alt="Image" title="Image" style="text-decoration: none;-ms-interpolation-mode: bicubic;display: block;border: 0;line-height: 100%;margin: 0 auto" width="500">
+    </div>
+    <div>
+        <div style="color:#555555;">
+            <h1 style="text-align: center;line-height: 33px; color:rgb(243, 111, 46);">Bienvenido a nuestra web de Carta Fianza</h1>
+        </div>
+        <br>
+        <div style="color: #253671; mso-fareast-language: ES-PE">
+            <b>www.cartafianzabcp.com</b>
+            <br><br>
+            <p>De acuerdo a lo solicitado se registraron los siguientes usuarios para la empresa $clientName$.
+                Les estará llegando un correo a cada uno de ellos con una clave temporal para que puedan registrarse en la web y,
+                posteriormente, comenzar a emitir fianzas.<br>
+                Estaremos notificando, una vez por $frequency$, el detalle de todas las fianzas emitidas a través de nuestra web.
+            </p>
+        </div>
+    </div>
+    <div>
+        <h4 style="font-size: 12.0pt;color: #253671; mso-fareast-language: ES-PE">LISTA DE USUARIOS REGISTRADOS</h4>
+    </div>
+    <table width="100%">
+        <tr>
+            <th>Nombre</th>
+            <th>DNI</th>
+            <th>Correo</th>
+            <th>Firmantes</th>
+        </tr>
+        $employees:{Person|
+        <tr style="color: #253671; mso-fareast-language: ES-PE">
+            <td align="center"><span>$Person.name$</span></td>
+            <td align="center"><span>$Person.dni$</span></td>
+            <td align="center"><span>$Person.email$</span></td>
+            <td align="center"><span>$Person.isApprover$</span></td>
+        </tr>
+        }$
+    </table>
+    <div>
+        <p style="font-size: 12.0pt; color: #253671; mso-fareast-language: ES-PE;text-align: center">
+            Para la emisión de la carta fianza se deberá contar con $requiredApprovals$ firma(s). <br>
+            Gracias por su confianza
+        </p>
+    </div>
+    <div style="text-align: center">
+        <hr style="width:540px;margin: 40px auto 30px;border-top: 1px solid #DFDFDF;border-bottom: none;" />
+        <img border="0" src="https://s3-us-west-2.amazonaws.com/stark-images/mailing_agenciav2_19.jpg" alt="Image" title="Image" style="-ms-interpolation-mode: bicubic;display: block;border: 0;height: auto;margin: 0 auto" width="189">
+        <p>
+            <span style="color: rgb(128, 128, 128); font-size: 14px; line-height: 16px;">Llama a nuestra <strong>L&iacute;nea de Consultas</strong>:</span>
+        </p>
+        <p>
+            <span style="font-size: 18px; line-height: 21px; color: rgb(147, 199, 55);">
+                <strong>313 2000</strong>
+                <span>
+                    - anexos: <strong>30406 - 37081</strong>
+                </span>
+            </span>
+        </p>
+        <p style="font-size: 14px;line-height: 17px">
+            <span style="color: rgb(128, 128, 128);">
+                O escr&iacute;benos: Claudia Burga (<span style="color: rgb(0, 0, 255);">claudiaburga@bcp.com.pe</span>) o
+            </span>
+            <br>
+            <span style="color: rgb(128, 128, 128);">
+                a Stefano Ratto (<span style="color: rgb(0, 0, 255);">stefanorattos@bcp.com.pe</span>)
+            </span>
+        </p>
+        <p style="font-size: 14px;line-height: 17px;">
+            <span style="font-size: 11px; line-height: 13px; color: rgb(128, 128, 128);">
+                <strong>Horario de Atenci&oacute;n</strong> Lun - Vie 9:00 am a 6:00 pm
+            </span>
+        </p>
+        <hr style="width:540px;margin: 40px auto 30px;border-top: 1px solid #DFDFDF;border-bottom: none;" />
+    </div>
+</div>
+</body>
+</html>
