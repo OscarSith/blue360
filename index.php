@@ -25,7 +25,7 @@ $text = $lang[ $arr[0] ];
     <meta name="author" content="Blue360">
     <title>Blue360</title>
     <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'> -->
-    <link href="css/main.min.css" rel="stylesheet">
+    <link href="css/main.min.css?l=<?= time()?>" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico">
     </head>
 
@@ -778,7 +778,7 @@ $text = $lang[ $arr[0] ];
                                     </div>
                                 </div>
                             </div>
-                            <div class="boxgrid captionfull">
+                            <!-- <div class="boxgrid captionfull">
                                 <img src="img/team/team-Jose-Miguel-Bezada.jpg"  class="img-responsive" />
                                 <div class="cover boxcaption">
                                     <h4>Jose Miguel Bezada</h4>
@@ -789,7 +789,7 @@ $text = $lang[ $arr[0] ];
                                         </ul>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="boxgrid captionfull">
                                 <img src="img/team/team-fernando.jpg" class="img-responsive" />
                                 <div class="cover boxcaption">
@@ -814,32 +814,6 @@ $text = $lang[ $arr[0] ];
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="boxgrid captionfull">
-                                <img src="img/team/team-jonny.jpg" class="img-responsive" />
-                                <div class="cover boxcaption">
-                                    <h4>Jhonny Castillo</h4>
-                                    <p>Jefe Contable</p>
-                                    <div class="social-icons text-center">
-                                        <ul>
-                                            <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="boxgrid captionfull">
-                                <img src="img/team/team-oscar.jpg" class="img-responsive" />
-                                <div class="cover boxcaption">
-                                    <h4>Oscar Larriega</h4>
-                                    <p>Ingeniero de Sistemas</p>
-                                    <div class="social-icons text-center">
-                                        <ul>
-                                            <li><a class="linkedin" target="_blank" href="http://pe.linkedin.com/pub/oscar-augusto-larriega-grandez/64/9ba/859"><i class="fa fa-linkedin"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
                             <div class="boxgrid captionfull">
                                 <img src="img/team/team-pedrito.jpg" class="img-responsive" />
                                 <div class="cover boxcaption">
@@ -854,6 +828,32 @@ $text = $lang[ $arr[0] ];
                             </div>
                         </div>
                         <div class="row">
+<!--                             <div class="boxgrid captionfull">
+                                <img src="img/team/team-jonny.jpg" class="img-responsive" />
+                                <div class="cover boxcaption">
+                                    <h4>Jhonny Castillo</h4>
+                                    <p>Jefe Contable</p>
+                                    <div class="social-icons text-center">
+                                        <ul>
+                                            <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                        <div class="row">
+                            <div class="boxgrid captionfull">
+                                <img src="img/team/team-oscar.jpg" class="img-responsive" />
+                                <div class="cover boxcaption">
+                                    <h4>Oscar Larriega</h4>
+                                    <p>Ingeniero de Sistemas</p>
+                                    <div class="social-icons text-center">
+                                        <ul>
+                                            <li><a class="linkedin" target="_blank" href="http://pe.linkedin.com/pub/oscar-augusto-larriega-grandez/64/9ba/859"><i class="fa fa-linkedin"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="boxgrid captionfull">
                                 <img src="img/team/team-Giancarlo-Perez.jpg" class="img-responsive" />
                                 <div class="cover boxcaption">
@@ -1213,7 +1213,7 @@ $text = $lang[ $arr[0] ];
             </div>
         </div>
     </div>
-    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script src="http://maps.google.com/maps/api/js?key=AIzaSyBHHCObQCSGcNzC32eQJx1giTH7OLZM0kA&sensor=true"></script>
     <script src="js/lib/jquery.min.js"></script>
     <script src="js/lib/bootstrap.min.js"></script>
     <script src="js/lib/mousescroll.js"></script>

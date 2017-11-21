@@ -878,7 +878,7 @@ section {
 }
 
 .form-control {
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.5);
   height: 50px;
   border-radius: 0;
   box-shadow: none;
