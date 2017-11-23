@@ -33,6 +33,7 @@ $text = $lang[ $arr[0] ];
       "url": "http://www.blue360.pe",
       "author": "David Varas",
       "name": "Blue 360",
+      "logo":"http://www.blue360.pe/img/logo.png",
       "description": "Desarrollar productos acorde a la necesidad de futuros clientes con el fin de lograr valor y beneficios de sus marcas.",
       "image":"http://www.blue360.pe/img/skippr/home_030.jpg",
       "contactPoint": {
