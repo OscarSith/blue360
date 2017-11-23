@@ -21,13 +21,28 @@ $text = $lang[ $arr[0] ];
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="Desarrollar productos acorde a la necesidad de futuros clientes con el fin de lograr valor y beneficios de sus marcas.">
     <meta name="author" content="Blue360">
     <title>Blue360</title>
-    <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'> -->
     <link href="css/main.min.css?l=<?= time()?>" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico">
-    </head>
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org/",
+      "@type": "Web Services and Coach",
+      "url": "http://www.blue360.pe",
+      "author": "David Varas",
+      "name": "Blue 360",
+      "description": "Desarrollar productos acorde a la necesidad de futuros clientes con el fin de lograr valor y beneficios de sus marcas.",
+      "image":"http://www.blue360.pe/img/skippr/home_030.jpg",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+51 920562506",
+        "contactType": "Customer service"
+      }
+    }
+    </script>
+</head>
 
   <body>
     <div id="preloader" class="preloader"><i class="fa fa-circle-o-notch fa-spin"></i></div>
@@ -1213,7 +1228,7 @@ $text = $lang[ $arr[0] ];
             </div>
         </div>
     </div>
-    <script src="http://maps.google.com/maps/api/js?key=AIzaSyBHHCObQCSGcNzC32eQJx1giTH7OLZM0kA&sensor=true"></script>
+    <script src="http://maps.google.com/maps/api/js?key=AIzaSyBHHCObQCSGcNzC32eQJx1giTH7OLZM0kA"></script>
     <script src="js/lib/jquery.min.js"></script>
     <script src="js/lib/bootstrap.min.js"></script>
     <script src="js/lib/mousescroll.js"></script>
