@@ -129,23 +129,8 @@ $text = $lang[ $arr[0] ];
                                         <li>
                                             <a href="https://www.youtube.com/channel/UCQ0l1VibZWhjmk9B83MWxtg" target="_blank" id="yt"><i class="fa fa-youtube-square"></i></a>
                                         </li>
-                                    </ul>
-                                </div>
-                                <div class="col-sm-6" id="social-right">
-                                    <ul class="list-inline social-buttons">
-                                        <li>
-                                            <a href="https://plus.google.com/u/0/103514686876234909711/posts" target="_blank" id="gp"><i class="fa fa-google-plus"></i></a>
-                                        </li>
                                         <li>
                                             <a href="http://instagram.com/blue360peru/" target="_blank" id="ins"><i class="fa fa-instagram"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="https://vimeo.com/blue360peru" target="_blank" id="vim"><i class="fa fa-vimeo-square"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="http://www.dailymotion.com/blue360peru" target="_blank" class="dym">
-                                                <img src="img/daily_motion.png" alt="Logo daily Motion">
-                                            </a>
                                         </li>
                                     </ul>
                                 </div>
@@ -202,8 +187,7 @@ $text = $lang[ $arr[0] ];
                         <a href="#branding" data-toggle="modal">
                             <div class="center-block">
                                 <span class="fa-stack fa-4x">
-                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
-                                    <i class="fa fa-wifi fa-stack-1x" style="top: 6px"></i>
+                                    <img id="branding_icon" src="img/servicios/Icono_branding_ok.png">
                                 </span>
                             </div>
                             <span>
@@ -1405,6 +1389,59 @@ $text = $lang[ $arr[0] ];
             </div>
         </div>
     </div>
+    <div class="modal fade text-center" id="branding" tabindex="-1" role="dialog" aria-labelledby="marketingDigital" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title"><?php echo strtoupper($text['branding']) ?></h4>
+              </div>
+              <div class="modal-body">
+                <div id="carousel-branding" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="img/servicios/informacinparabranding/488.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/servicios/informacinparabranding/IMG_20171206_110519.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/servicios/informacinparabranding/IMG_20171209_105844.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/servicios/informacinparabranding/IMG_20171214_192827.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/servicios/informacinparabranding/IMG_20180414_164416.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/servicios/informacinparabranding/IMG_20180414_164510.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/servicios/informacinparabranding/IMG_20180530_120654.jpg" alt="">
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#carousel-branding" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-branding" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="row mt20">
+                    <div class="col-sm-12 text-justify">
+                        <p><?php echo $text['branding_info'] ?></p>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
     <div class="modal fade text-center" id="marketing-audiovisual" tabindex="-1" role="dialog" aria-labelledby="marketingAudiovisual" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -1478,7 +1515,7 @@ $text = $lang[ $arr[0] ];
                         <span aria-hidden="true">&times;</span>
                         <span class="sr-only">Close</span>
                     </button>
-                    <h4 class="modal-title" id="artesGraficas">ARTES GRÁFICAS</h4>
+                    <h4 class="modal-title" id="artesGraficas">MERCHANDISING</h4>
                 </div>
                 <div class="modal-body">
                     <div id="carousel-artes_graficas" class="carousel slide" data-ride="carousel">

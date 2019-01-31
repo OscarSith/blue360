@@ -1274,6 +1274,10 @@ ul.social-buttons li a{
   width: 95px;
   margin-top: -15px;
 }
+#branding_icon {
+  width: 104px;
+  margin-top: -15px;
+}
 #home-2 {
   top: 70%;
 }
