@@ -34,9 +34,8 @@ $lang['en'] = [
 	'web' => 'Web Creation',
 	'web_info' => 'Of all the media, the internet has passed them all and changed the way we do business around the world. If you have a website, you have a local working for you 24 hours a day and this will generate global reach, competition with the biggest ones and a professional image.',
 	'd_marketing' => 'Digital Marketing',
-	'd_marketing_info' => 'Product adressed to all types of companies whose goal is to reach the audience you want, spreading rapidly the content, therefore you could track and analyze in real time.
-Digital Marketing desired to position and promotes businesses of all sizes, having the goal to build customer loyalty and facilitate the sale of products or services.',
-	'm_audiovisual' => 'Marketing Audiovisual',
+	'd_marketing_info' => 'Product adressed to all types of companies whose goal is to reach the audience you want, spreading rapidly the content, therefore you could track and analyze in real time. Digital Marketing desired to position and promotes businesses of all sizes, having the goal to build customer loyalty and facilitate the sale of products or services.',
+	'm_audiovisual' => 'Producción Audiovisual',
 	'm_audiovisual_info' => 'One of the latest trends being valued strongly for its quickly result are the video formats, that are characterized by generating greater diffusion, impact and massive recognition in order to position, drive sales. Audiovisual Content generates positive attitudes toward the brand; information enjoyment and greater visibility due to increased consumption of online videos.',
 	'promotional' => 'Promotional Marketing',
 	'promotional_info' => 'Through the introduction of new products, create barriers to competition and get results in the short term, promotional marketing born; a strategy that captivates customers and non-customers through promotional activities, activations, BTL and ATL.',
@@ -94,12 +93,14 @@ $lang['es'] = [
 	'web' => 'Creación Web',
 	'web_info' => 'De todos los medios de comunicación, internet ha superado a todas y cambió la forma de hacer negocios en todo el mundo. Si usted tiene un sitio web, tiene un local trabajando para usted las 24 horas del día y esto generará alcance mundial, competencia con los más grandes y una imagen profesional.',
 	'd_marketing' => 'Marketing Digital',
-	'd_marketing_info' => 'Producto dirigido a todo tipo de empresas cuyo objetivo es llegar al público que usted desea, en donde se difunde de manera acelerada el mensaje, el cual podrá seguir y analizar en tiempo real.
-Con el Marketing Digital se desea promover y posicionar negocios de todo tamaño, teniendo como objetivo fidelizar a los clientes y así facilitar la venta de productos y/o servicios.',
-	'm_audiovisual' => 'Marketing Audiovisual',
+	'd_marketing_info' => 'Producto dirigido a todo tipo de empresas cuyo objetivo es llegar al público que usted desea, en donde se difunde de manera acelerada el mensaje, el cual podrá seguir y analizar en tiempo real. Con el Marketing Digital se desea promover y posicionar negocios de todo tamaño, teniendo como objetivo fidelizar a los clientes y así facilitar la venta de productos y/o servicios.',
+	'm_audiovisual' => 'Producción Audiovisual',
 	'm_audiovisual_info' => 'Una de las últimas tendencias que se está valorando con mayor fuerza gracias a su rápido resultado son los formatos en video que se caracterizan por generar mayor difusión, impacto y reconocimiento masivo con el fin de posicionarse e impulsar las ventas. El contenido audiovisual genera actitud positiva hacia la marca, disfrute de la información y mayor notoriedad debido al crecimiento del consumo de videos online.',
 	'promotional' => 'Marketing Promocional',
 	'promotional_info' => 'A través de la introducción de nuevos productos, crear barreras con la competencia y obtener resultados a corto plazo, es que nace el marketing promocional, una estrategia que cautiva a los clientes y atrae a los no clientes, a través de actividades promocionales, activaciones, BTL and ATL.',
+
+	'branding' => 'Branding',
+	'branding_info' => '',
 
 	// Nosotros
 	'us_init' => 'CREAR + INNOVAR = BLUE360',

@@ -104,7 +104,7 @@ $text = $lang[ $arr[0] ];
                     </div>
                     <div class="caption" id="ocean-blue-caption">
                         <h1 class="animated fadeInLeftBig color-blue"><?php echo $text['strategy'] ?> <span class="color-blue2"><?php echo $text['blue_ocean'] ?></span></h1>
-                        <p class="animated fadeInRightBig color-blue" id="txt-slider3-p">OCÉANO AZUL CREA NUEVOS ESPACIOS E INEXISTENCIAS DE<br>COMPETIDORES,DIFERENCIA Y LIDERA UN MERCADO LLENO DE OPORTUNIDADES</p>
+                        <p class="animated fadeInRightBig" id="txt-slider3-p">OCÉANO AZUL CREA NUEVOS ESPACIOS E INEXISTENCIAS DE<br>COMPETIDORES,DIFERENCIA Y LIDERA UN MERCADO LLENO DE OPORTUNIDADES</p>
                         <a class="btn btn-start btn-primary animated fadeInUpBig" href="#services" id="nav-about-us"><?php echo $text['us'] ?></a>
                     </div>
                 </div>
@@ -184,34 +184,6 @@ $text = $lang[ $arr[0] ];
                             </span>
                         </a>
                     </div>
-                    <div class="col-sm-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
-                        <a href="#creacion-web" data-toggle="modal">
-                            <div class="center-block">
-                                <span class="fa-stack fa-4x">
-                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
-                                    <i class="fa fa-wifi fa-stack-1x" style="top: 6px"></i>
-                                </span>
-                            </div>
-                            <span>
-                                <span class="title-produts"><?php echo $text['web'] ?></span><br>
-                                <small class="hidden-xs">Diseño web - Programación web</small>
-                            </span>
-                        </a>
-                    </div>
-                    <div class="col-sm-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
-                        <a href="#marketing-digital" data-toggle="modal">
-                            <div class="center-block">
-                                <span class="fa-stack fa-4x">
-                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
-                                    <i class="fa fa-support fa-stack-1x"></i>
-                                </span>
-                            </div>
-                            <span>
-                                <span class="title-produts"><?php echo $text['d_marketing'] ?></span><br>
-                                <small class="hidden-xs">Redes sociales - Estrategias - Posicionamiento web</small>
-                            </span>
-                        </a>
-                    </div>
                     <div class="col-sm-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="650ms">
                         <a href="#marketing-audiovisual" data-toggle="modal">
                             <div class="center-block">
@@ -226,7 +198,35 @@ $text = $lang[ $arr[0] ];
                             </span>
                         </a>
                     </div>
-                    <div class="col-sm-3 col-sm-offset-1 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="750ms">
+                    <div class="col-sm-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
+                        <a href="#branding" data-toggle="modal">
+                            <div class="center-block">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                    <i class="fa fa-wifi fa-stack-1x" style="top: 6px"></i>
+                                </span>
+                            </div>
+                            <span>
+                                <span class="title-produts"><?php echo $text['branding'] ?></span><br>
+                                <small class="hidden-xs">Comunicación visual <br>Implmentación de espacios corporativos</small>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="550ms">
+                        <a href="#marketing-digital" data-toggle="modal">
+                            <div class="center-block">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                    <i class="fa fa-support fa-stack-1x"></i>
+                                </span>
+                            </div>
+                            <span>
+                                <span class="title-produts"><?php echo $text['d_marketing'] ?></span><br>
+                                <small class="hidden-xs">Redes sociales - Estrategias - Posicionamiento web</small>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="750ms">
                         <a href="#marketing-promo" data-toggle="modal">
                             <div class="center-block">
                                 <span class="fa-stack fa-4x">
@@ -254,6 +254,20 @@ $text = $lang[ $arr[0] ];
                             </span>
                         </a>
                     </div>
+                    <div class="col-sm-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
+                        <a href="#creacion-web" data-toggle="modal">
+                            <div class="center-block">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                    <i class="fa fa-wifi fa-stack-1x" style="top: 6px"></i>
+                                </span>
+                            </div>
+                            <span>
+                                <span class="title-produts"><?php echo $text['web'] ?></span><br>
+                                <small class="hidden-xs">Diseño web - Programación web</small>
+                            </span>
+                        </a>
+                    </div>
                     <div class="col-sm-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="850ms">
                         <a href="#artes-graficas" data-toggle="modal">
                             <div class="center-block" id="icon-artes-graficas">
@@ -262,8 +276,8 @@ $text = $lang[ $arr[0] ];
                                 </span>
                             </div>
                             <span>
-                                <span class="title-produts">Artes Gráficas</span><br>
-                                <small class="hidden-xs">Agendas - revistas - calendarios -  bolsas - cuadernos</small>
+                                <span class="title-produts">Merchandising</span><br>
+                                <small class="hidden-xs">Agendas - revistas - calendarios -  bolsas - cuadernos - tazas - lapiceros</small>
                             </span>
                         </a>
                     </div>
@@ -364,10 +378,56 @@ $text = $lang[ $arr[0] ];
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-4 col-sm-offset-4">
+                        <div class="col-sm-4">
                             <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="1300ms">
                                 <a class="folio-read-more" href="#portfolio-single-minitech">
                                     <img class="img-responsive center-block mt50" src="img/portafolio/minitech/minintech.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="1500ms">
+                                <a class="folio-read-more" href="#portfolio-single-buenaventura">
+                                    <img class="img-responsive center-block mt50" src="img/portafolio/buenaventura/buenaventura.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="1500ms">
+                                <a class="folio-read-more" href="#portfolio-single-pionero">
+                                    <img class="img-responsive center-block mt50" src="img/portafolio/pionero/pionero.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="1300ms">
+                                <a class="folio-read-more" href="#portfolio-single-cushman">
+                                    <img class="img-responsive center-block mt50" src="img/portafolio/cushman/cushman.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="1500ms">
+                                <a class="folio-read-more" href="#portfolio-single-gaia">
+                                    <img class="img-responsive center-block mt50" src="img/portafolio/gaia/gaia.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="1500ms">
+                                <a class="folio-read-more" href="#portfolio-single-strauman">
+                                    <img class="img-responsive center-block mt50" src="img/portafolio/strauman/strauman.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 col-sm-offset-4">
+                            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="1300ms">
+                                <a class="folio-read-more" href="#portfolio-single-mb">
+                                    <img class="img-responsive center-block mt50" src="img/portafolio/mb/mb_aquitectura.png" alt="">
                                 </a>
                             </div>
                         </div>
@@ -749,6 +809,276 @@ $text = $lang[ $arr[0] ];
                     </div>
                 </div>
             </div>
+
+            <div id="portfolio-single-buenaventura" style="display:none" class="custom-portfolio">
+                <div class="single-portfolio">
+                    <div class="portfolio-details container">
+                        <a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
+                        <div class="row">
+                            <div class="col-sm-9">
+                                <div id="carousel-buenaventura" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="img/portafolio/buenaventura/buenaventura_1.jpg" alt="Bolsos" class="center-block">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/portafolio/buenaventura/buenaventura_2.jpg" alt="Bolsos" class="center-block">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/portafolio/buenaventura/buenaventura_3.jpg" alt="Bolsos" class="center-block">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/portafolio/buenaventura/buenaventura_4.jpg" alt="Bolsos" class="center-block">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/portafolio/buenaventura/buenaventura_5.jpg" alt="Bolsos" class="center-block">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/portafolio/buenaventura/buenaventura_6.jpg" alt="Bolsos" class="center-block">
+                                        </div>
+                                    </div>
+                                    <a class="left carousel-control" href="#carousel-buenaventura" role="button" data-slide="prev" style="left: -50px">
+                                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="right carousel-control" href="#carousel-buenaventura" role="button" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <img src="img/portafolio/buenaventura/buenaventura.png" class="img-responsive" style="margin-top:50px">
+                                <br><br>
+                                <ul>
+                                    <li>Producción e instalación de arenados impresos</li>
+                                    <li>Producción e instalación de Viniles whiteboards brillante con marco vinil blanco mate</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="portfolio-single-pionero" style="display:none" class="custom-portfolio">
+                <div class="single-portfolio">
+                    <div class="portfolio-details container">
+                        <a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
+                        <div class="row">
+                            <div class="col-sm-9">
+                                <div id="carousel-pionero" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="img/portafolio/pionero/bolivia_1.jpg" alt="Bolsos" class="center-block">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/portafolio/pionero/bolivia_2.jpg" alt="Bolsos" class="center-block">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/portafolio/pionero/bolivia_3.jpg" alt="Bolsos" class="center-block">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/portafolio/pionero/edificio_aliaga_1.jpg" alt="Bolsos" class="center-block">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/portafolio/pionero/edificio_aliaga_2.jpg" alt="Bolsos" class="center-block">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/portafolio/pionero/edificio_aliaga_3.jpg" alt="Bolsos" class="center-block">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/portafolio/pionero/edificio_aliaga_4.jpg" alt="Bolsos" class="center-block">
+                                        </div>
+                                    </div>
+                                    <a class="left carousel-control" href="#carousel-pionero" role="button" data-slide="prev" style="left: -50px">
+                                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="right carousel-control" href="#carousel-pionero" role="button" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <img src="img/portafolio/pionero/pionero.png" class="img-responsive" style="margin-top:50px">
+                                <br><br>
+                                <ul>
+                                    <li>Produccion e instalación de arenado.</li>
+                                    <li>Instalación de numeración en vinil acerado.</li>
+                                    <li>Numeracion en acero satinado.</li>
+                                    <li>Producción e instalación de vinil impreso en alta resolucion solido negro.</li>
+                                    <li>Producción e instalación de vinil solido rotulado de numero en palomar.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="portfolio-single-cushman" style="display:none" class="custom-portfolio">
+                <div class="single-portfolio">
+                    <div class="portfolio-details container">
+                        <a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
+                        <div class="row">
+                            <div class="col-sm-9">
+                                <div id="carousel-cushman" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="img/portafolio/cushman/Furukawa.jpg" alt="Bolsos" class="center-block">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <img src="img/portafolio/cushman/cushman.png" class="img-responsive" style="margin-top:50px">
+                                <br><br>
+                                <ul>
+                                    <li>Producción e Instalación de Vinil Banner en Altura.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="portfolio-single-gaia" style="display:none" class="custom-portfolio">
+                <div class="single-portfolio">
+                    <div class="portfolio-details container">
+                        <a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
+                        <div class="row">
+                            <div class="col-sm-9">
+                                <div id="carousel-gaia" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="img/portafolio/gaia/gaia_1.jpg" alt="Bolsos" class="center-block">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/portafolio/gaia/schreiber_1.jpg" alt="Bolsos" class="center-block">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/portafolio/gaia/schreiber_2.jpg" alt="Bolsos" class="center-block">
+                                        </div>
+                                    </div>
+                                    <a class="left carousel-control" href="#carousel-gaia" role="button" data-slide="prev" style="left: -50px">
+                                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="right carousel-control" href="#carousel-gaia" role="button" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <img src="img/portafolio/gaia/gaia.png" class="img-responsive" style="margin-top:50px">
+                                <br><br>
+                                <ul>
+                                    <li>Producción e instalación en altura de banner con estructura de madera.</li>
+                                    <li>Producción e instalación en Altura de Banner</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="portfolio-single-strauman" style="display:none" class="custom-portfolio">
+                <div class="single-portfolio">
+                    <div class="portfolio-details container">
+                        <a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
+                        <div class="row">
+                            <div class="col-sm-9">
+                                <div id="carousel-strauman" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="img/portafolio/strauman/straumann_1.jpg" alt="Bolsos" class="center-block">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/portafolio/strauman/straumann_2.jpg" alt="Bolsos" class="center-block">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/portafolio/strauman/straumann_3.jpg" alt="Bolsos" class="center-block">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/portafolio/strauman/straumann_4.jpg" alt="Bolsos" class="center-block">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/portafolio/strauman/straumann_5.jpg" alt="Bolsos" class="center-block">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/portafolio/strauman/straumann_6.jpg" alt="Bolsos" class="center-block">
+                                        </div>
+                                    </div>
+                                    <a class="left carousel-control" href="#carousel-strauman" role="button" data-slide="prev" style="left: -50px">
+                                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="right carousel-control" href="#carousel-strauman" role="button" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <img src="img/portafolio/strauman/strauman.png" class="img-responsive" style="margin-top:50px">
+                                <br><br>
+                                <ul>
+                                    <li>Logo corporativo: MDF 18mm pintado al duco.
+                                    <li>Viniles corporativos producción e instalación</li>
+                                    <li>Arenado rotulado.</li>
+                                    <li>Vinil Whiteboard 3M.</li>
+                                    <li>Vinil sólido rotulado</li>
+                                    <li>Viniles especiales.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="portfolio-single-mb" style="display:none" class="custom-portfolio">
+                <div class="single-portfolio">
+                    <div class="portfolio-details container">
+                        <a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
+                        <div class="row">
+                            <div class="col-sm-9">
+                                <div id="carousel-mb" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="img/portafolio/mb/mb_arquitectos.jpg" alt="Bolsos" class="center-block">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/portafolio/mb/mb_arquitectos_2.jpg" alt="Bolsos" class="center-block">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/portafolio/mb/mb_arquitectos_3.jpg" alt="Bolsos" class="center-block">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/portafolio/mb/mb_arquitectos_4.jpg" alt="Bolsos" class="center-block">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/portafolio/mb/mb_arquitectos_5.jpg" alt="Bolsos" class="center-block">
+                                        </div>
+                                    </div>
+                                    <a class="left carousel-control" href="#carousel-mb" role="button" data-slide="prev" style="left: -50px">
+                                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="right carousel-control" href="#carousel-mb" role="button" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <img src="img/portafolio/mb/mb_aquitectura.png" class="img-responsive" style="margin-top:50px">
+                                <br><br>
+                                <ul>
+                                    <li>Producción e instalación de vinilos en alta resolución</li>
+                                    <li>Producción e instalación de vinil arenado rotulado.</li>
+                                    <li>Producción e instalación de vinil whiteboard con marco de vinil plomo oscuro.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <section id="features" class="parallax">
@@ -756,11 +1086,11 @@ $text = $lang[ $arr[0] ];
             <div class="row count">
                 <div class="col-sm-4 col-xs-4 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <i class="fa fa-user"></i>
-                    <h3 class="timer">5</h3>
+                    <h3 class="timer">22</h3>
                 </div>
                 <div class="col-sm-4 col-xs-4 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
                     <i class="fa fa-desktop"></i>
-                    <h3 class="timer">5</h3>
+                    <h3 class="timer">19</h3>
                 </div>
                 <div class="col-sm-4 col-xs-4 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="900ms">
                     <i class="fa fa-comment"></i>
@@ -830,21 +1160,9 @@ $text = $lang[ $arr[0] ];
                                     </div>
                                 </div>
                             </div>
-                            <div class="boxgrid captionfull">
-                                <img src="img/team/team-pedrito.jpg" class="img-responsive" />
-                                <div class="cover boxcaption">
-                                    <h4>Pedro Suarez</h4>
-                                    <p>Community Manager</p>
-                                    <div class="social-icons text-center">
-                                        <ul>
-                                            <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                         <div class="row">
-<!--                             <div class="boxgrid captionfull">
+                            <!--<div class="boxgrid captionfull">
                                 <img src="img/team/team-jonny.jpg" class="img-responsive" />
                                 <div class="cover boxcaption">
                                     <h4>Jhonny Castillo</h4>
@@ -875,18 +1193,6 @@ $text = $lang[ $arr[0] ];
                                 <div class="cover boxcaption">
                                     <h4>Giancarlo Perez</h4>
                                     <p>Camarógrafo</p>
-                                    <div class="social-icons text-center">
-                                        <ul>
-                                            <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="boxgrid captionfull">
-                                <img src="img/team/team-Michelle-Arriola.jpg" class="img-responsive" />
-                                <div class="cover boxcaption">
-                                    <h4>Michelle Arriola</h4>
-                                    <p>Diseñadora Gráfica</p>
                                     <div class="social-icons text-center">
                                         <ul>
                                             <li><a class="linkedin" target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
@@ -993,7 +1299,7 @@ $text = $lang[ $arr[0] ];
                     <div class="col-md-3"></div>
                     <div class="col-md-6">
                         <div class="row">
-                            <div class="col-sm-6" id="social-left">
+                            <div class="col-sm-6 col-sm-offset-3" id="social-left">
                                 <ul class="list-inline social-buttons">
                                     <li>
                                         <a href="https://www.facebook.com/pages/Blue-360/824952017567637" target="_blank" id="fb"><i class="fa fa-facebook"></i></a>
@@ -1007,23 +1313,8 @@ $text = $lang[ $arr[0] ];
                                     <li>
                                         <a href="https://www.youtube.com/channel/UCQ0l1VibZWhjmk9B83MWxtg" target="_blank" id="yt"><i class="fa fa-youtube-square"></i></a>
                                     </li>
-                                </ul>
-                            </div>
-                            <div class="col-sm-6" id="social-right">
-                                <ul class="list-inline social-buttons">
-                                    <li>
-                                        <a href="https://plus.google.com/u/0/103514686876234909711/posts" target="_blank" id="gp"><i class="fa fa-google-plus"></i></a>
-                                    </li>
                                     <li>
                                         <a href="http://instagram.com/blue360peru/" target="_blank" id="ins"><i class="fa fa-instagram"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="https://vimeo.com/blue360peru" target="_blank" id="vim"><i class="fa fa-vimeo-square"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="http://www.dailymotion.com/blue360peru" target="_blank" class="dym">
-                                            <img src="img/daily_motion.png" alt="Logo daily Motion">
-                                        </a>
                                     </li>
                                 </ul>
                             </div>
