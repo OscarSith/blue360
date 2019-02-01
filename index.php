@@ -115,7 +115,7 @@ $text = $lang[ $arr[0] ];
                     <div class="caption">
                         <div class="animated fadeInRightBig">
                             <div class="row">
-                                <div class="col-sm-6" id="social-left">
+                                <div class="col-sm-6 col-sm-offset-3" id="social-left">
                                     <ul class="list-inline social-buttons">
                                         <li>
                                             <a href="https://www.facebook.com/pages/Blue-360/824952017567637" target="_blank" id="fb"><i class="fa fa-facebook"></i></a>
@@ -192,7 +192,7 @@ $text = $lang[ $arr[0] ];
                             </div>
                             <span>
                                 <span class="title-produts"><?php echo $text['branding'] ?></span><br>
-                                <small class="hidden-xs">Comunicación visual <br>Implmentación de espacios corporativos</small>
+                                <small class="hidden-xs">Comunicación visual <br>Implementación de espacios corporativos</small>
                             </span>
                         </a>
                     </div>
@@ -1403,9 +1403,6 @@ $text = $lang[ $arr[0] ];
                 <div id="carousel-branding" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <img src="img/servicios/informacinparabranding/488.jpg" alt="">
-                        </div>
-                        <div class="item">
                             <img src="img/servicios/informacinparabranding/IMG_20171206_110519.jpg" alt="">
                         </div>
                         <div class="item">

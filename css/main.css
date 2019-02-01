@@ -1176,7 +1176,6 @@ ul.social-buttons li a{
 }
 @media(min-width:768px){
 	#social-left ul{
-		text-align:right;
 		margin-bottom:20px
 	}
 	#social-right ul{text-align:left}
