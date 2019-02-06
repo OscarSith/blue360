@@ -13,6 +13,12 @@ $('#icon-artes-graficas').on('mouseover', function() {
   $(this).find('img').attr('src', 'img/servicios/Artes_Graficas_logo.png');
 });
 
+$('#icon-branding').on('mouseover', function() {
+  $(this).find('img').attr('src', 'img/servicios/Icono_branding_ok_alter.png');
+}).on('mouseout', function() {
+  $(this).find('img').attr('src', 'img/servicios/Icono_branding_ok.png');
+});
+
 // Navigation Scroll
 $(window).scroll(function(event) {
 	Scroll();

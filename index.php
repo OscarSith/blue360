@@ -186,7 +186,7 @@ $text = $lang[ $arr[0] ];
                     <div class="col-sm-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
                         <a href="#branding" data-toggle="modal">
                             <div class="center-block">
-                                <span class="fa-stack fa-4x">
+                                <span class="fa-stack fa-4x" id="icon-branding">
                                     <img id="branding_icon" src="img/servicios/Icono_branding_ok.png">
                                 </span>
                             </div>
