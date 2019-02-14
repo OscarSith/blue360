@@ -90,7 +90,7 @@ $lang['es'] = [
 	// Servicios
 	'identity' => 'Identidad Corporativa',
 	'identity_info' => 'La identidad corporativa muestra a tu empresa, persona o producto, a través del medio escrito  y diseño de forma especial, además tiene como objetivo explicar y precisar los atributos de tu empresa o producto, con el único fin de garantizar el buen uso de esta.',
-	'web' => 'Creación Web',
+	'web' => 'Desarrollo de Apps y Websites',
 	'web_info' => 'De todos los medios de comunicación, internet ha superado a todas y cambió la forma de hacer negocios en todo el mundo. Si usted tiene un sitio web, tiene un local trabajando para usted las 24 horas del día y esto generará alcance mundial, competencia con los más grandes y una imagen profesional.',
 	'd_marketing' => 'Marketing Digital',
 	'd_marketing_info' => 'Producto dirigido a todo tipo de empresas cuyo objetivo es llegar al público que usted desea, en donde se difunde de manera acelerada el mensaje, el cual podrá seguir y analizar en tiempo real. Con el Marketing Digital se desea promover y posicionar negocios de todo tamaño, teniendo como objetivo fidelizar a los clientes y así facilitar la venta de productos y/o servicios.',
