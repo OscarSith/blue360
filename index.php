@@ -1575,5 +1575,13 @@ $text = $lang[ $arr[0] ];
     <script src="js/lib/jquery.BlackAndWhite.min.js"></script>
     <script src="js/lib/circles.min.js"></script>
     <script src="js/dev/main.js"></script>
+
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-5934462928788552",
+        enable_page_level_ads: true
+      });
+    </script>
   </body>
 </html>
